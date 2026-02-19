@@ -1,0 +1,71 @@
+{
+  "name": "stoat-selfbot.js",
+  "version": "0.1.0",
+  "description": "A Stoat selfbot client for Node.js with discord.js-like API. Uses X-Session-Token for authentication. Written in TypeScript.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=21.0.0"
+  },
+  "repository": "https://github.com/ScarysMonsters/stoat-selfbot.js",
+  "keywords": [
+    "revoltjs",
+    "revolt.js",
+    "stoatjs",
+    "stoat.js",
+    "bot",
+    "selfbot",
+    "client",
+    "stoatbot",
+    "stoat",
+    "stoat-selfbot",
+    "typescript"
+  ],
+  "homepage": "https://ScarysMonsters.github.io/stoat-selfbot.js/",
+  "author": "ScarysMonsters",
+  "license": "MIT",
+  "packageManager": "yarn@4.9.1",
+  "devDependencies": {
+    "@mxssfd/typedoc-theme": "^1.1.7",
+    "@types/node": "^22.15.2",
+    "@types/ws": "^8.18.1",
+    "cross-env": "^10.1.0",
+    "eslint": "^10.0.0",
+    "eslint-config-prettier": "^10.1.2",
+    "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.5.1",
+    "typedoc": "^0.28.17",
+    "typedoc-plugin-extras": "^4.0.1",
+    "typedoc-plugin-mdn-links": "^5.1.1",
+    "typedoc-plugin-merge-modules": "^7.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.37.6",
+    "@livekit/rtc-node": "^0.13.22",
+    "axios": "^1.12.2",
+    "form-data": "^4.0.2",
+    "revolt-api": "^0.8.9",
+    "typedoc-plugin-markdown": "^4.10.0",
+    "ws": "^8.18.1"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts --fix",
+    "build": "yarn clean && yarn tsup ./src/index.ts --format cjs,esm --clean --dts --sourcemap",
+    "start": "yarn build && yarn node --enable-source-maps dist/index.js",
+    "testClient": "yarn test:build && yarn node --enable-source-maps dist/test.js",
+    "testClient:debug": "yarn test:build && cross-env NODE_ENV=DEV yarn node --enable-source-maps dist/test.js",
+    "clean": "rimraf dist",
+    "docs:generate": "typedoc --options static/typedoc.json",
+    "docs:dev": "cd docs && astro dev",
+    "docs:build": "yarn docs:generate && cd docs && astro build",
+    "docs:preview": "cd docs && astro preview",
+    "test:docs": "rimraf docs && yarn typedoc --options static/typedoc.json",
+    "test:build": "yarn clean && tsc -p tsconfig.json"
+  }
+}
