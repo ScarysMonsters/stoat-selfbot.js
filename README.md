@@ -3,20 +3,13 @@
 >
 > **This project is actively maintained and developed by ScarysMonsters.**
 
-<div align="center">
-  <br />
-  <p>
-    <a href="https://stoat.chat"><img src="https://raw.githubusercontent.com/ScarysMonsters/stoat-selfbot.js/main/assets/stoat-logo.png" width="546" alt="stoat-selfbot.js" /></a>
-  </p>
-</div>
-
 > [!CAUTION]
 > **The use of this module under a different name on NPM (or another source besides this Github) is not associated with this library.**
 > **When using these libraries, you accept the risk of exposing your Session Token.**
 
 ## About
 
-<strong>Welcome to `stoat-selfbot.js@v0.1.0`, a Node.js module that allows user accounts to interact with the Stoat API.</strong>
+<strong>Welcome to `stoat-selfbot.js`, a Node.js module that allows user accounts to interact with the Stoat API.</strong>
 
 - stoat-selfbot.js is a [Node.js](https://nodejs.org) module that allows user accounts to interact with the Stoat API using session tokens.
 
