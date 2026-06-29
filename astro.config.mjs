@@ -27,11 +27,11 @@ export default defineConfig({
       customCss: [
         './src/styles/custom.css'
       ],
-      social: {
-        github: 'https://github.com/ScarysMonsters/stoat-selfbot.js'
-      },
+      social: [
+        { icon: 'github', href: 'https://github.com/ScarysMonsters/stoat-selfbot.js', label: 'GitHub' }
+      ],
       editLink: {
-        baseUrl: 'https://github.com/ScarysMonsters/stoat-selfbot.js/edit/main/'
+        baseUrl: 'https://github.com/ScarysMonsters/stoat-selfbot.js/edit/master/'
       }
     })
   ]

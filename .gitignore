@@ -29,6 +29,9 @@ yarn-error.log*
 # OS
 Thumbs.db
 
+# Astro cache
+docs/.astro/
+
 # Test results
 test-results/
 *.test.result
