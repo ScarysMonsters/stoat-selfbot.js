@@ -4,7 +4,7 @@ title: "Class: BotManager"
 
 # Class: BotManager
 
-Defined in: [src/managers/botManager.ts:38](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/botManager.ts#L38)
+Defined in: [src/managers/botManager.ts:38](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L38)
 
 Manages bot accounts for the authenticated user.
 Provides methods to create, fetch, edit, and delete bots.
@@ -33,7 +33,7 @@ await client.bots.delete(bot.id);
 
 > **new BotManager**(`client`): `BotManager`
 
-Defined in: [src/managers/botManager.ts:42](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/botManager.ts#L42)
+Defined in: [src/managers/botManager.ts:42](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L42)
 
 #### Parameters
 
@@ -51,7 +51,7 @@ Defined in: [src/managers/botManager.ts:42](https://github.com/ScarysMonsters/st
 
 > `readonly` **cache**: [`Collection`](Collection.md)\<`string`, [`BotData`](../interfaces/BotData.md)\>
 
-Defined in: [src/managers/botManager.ts:40](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/botManager.ts#L40)
+Defined in: [src/managers/botManager.ts:40](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L40)
 
 ***
 
@@ -59,7 +59,7 @@ Defined in: [src/managers/botManager.ts:40](https://github.com/ScarysMonsters/st
 
 > `readonly` **client**: [`Client`](Client.md)
 
-Defined in: [src/managers/botManager.ts:39](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/botManager.ts#L39)
+Defined in: [src/managers/botManager.ts:39](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L39)
 
 ## Methods
 
@@ -67,7 +67,7 @@ Defined in: [src/managers/botManager.ts:39](https://github.com/ScarysMonsters/st
 
 > **create**(`name`, `options?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`BotData`](../interfaces/BotData.md)\>
 
-Defined in: [src/managers/botManager.ts:70](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/botManager.ts#L70)
+Defined in: [src/managers/botManager.ts:70](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L70)
 
 Creates a new bot.
 
@@ -99,7 +99,7 @@ The created bot data.
 
 > **delete**(`botId`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/botManager.ts:126](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/botManager.ts#L126)
+Defined in: [src/managers/botManager.ts:126](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L126)
 
 Deletes a bot.
 Removes the bot from the cache.
@@ -122,7 +122,7 @@ The ID of the bot to delete.
 
 > **edit**(`botId`, `options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/botManager.ts:100](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/botManager.ts#L100)
+Defined in: [src/managers/botManager.ts:100](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L100)
 
 Edits a bot's properties.
 
@@ -164,7 +164,7 @@ The properties to update.
 
 > **fetch**(`botId`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`BotData`](../interfaces/BotData.md)\>
 
-Defined in: [src/managers/botManager.ts:87](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/botManager.ts#L87)
+Defined in: [src/managers/botManager.ts:87](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L87)
 
 Fetches a specific bot by ID.
 Caches the result.
@@ -189,7 +189,7 @@ The bot data.
 
 > **fetchAll**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`Collection`](Collection.md)\<`string`, [`BotData`](../interfaces/BotData.md)\>\>
 
-Defined in: [src/managers/botManager.ts:52](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/botManager.ts#L52)
+Defined in: [src/managers/botManager.ts:52](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L52)
 
 Fetches all bots owned by the authenticated user.
 Caches the results.
@@ -206,7 +206,7 @@ A collection of bot data keyed by bot ID.
 
 > **fetchInvite**(`botId`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`string`\>
 
-Defined in: [src/managers/botManager.ts:137](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/botManager.ts#L137)
+Defined in: [src/managers/botManager.ts:137](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L137)
 
 Fetches the invite URL for a bot.
 

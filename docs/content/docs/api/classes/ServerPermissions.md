@@ -4,7 +4,7 @@ title: "Class: ServerPermissions"
 
 # Class: ServerPermissions
 
-Defined in: [src/utils/permissions.ts:63](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/permissions.ts#L63)
+Defined in: [src/utils/permissions.ts:63](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/permissions.ts#L63)
 
 Server-specific permissions subset.
 Permissions applicable at the server (guild) level.
@@ -19,7 +19,7 @@ Permissions applicable at the server (guild) level.
 
 > **new ServerPermissions**(`bits?`): `ServerPermissions`
 
-Defined in: [src/utils/permissions.ts:294](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/permissions.ts#L294)
+Defined in: [src/utils/permissions.ts:294](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/permissions.ts#L294)
 
 #### Parameters
 
@@ -41,7 +41,7 @@ Defined in: [src/utils/permissions.ts:294](https://github.com/ScarysMonsters/sto
 
 > **bitfield**: `number` = `DEFAULT_BIT`
 
-Defined in: [src/utils/bitField.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/bitField.ts#L17)
+Defined in: [src/utils/bitField.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/bitField.ts#L17)
 
 #### Inherited from
 
@@ -53,7 +53,7 @@ Defined in: [src/utils/bitField.ts:17](https://github.com/ScarysMonsters/stoat-s
 
 > `readonly` `static` **FLAGS**: `object`
 
-Defined in: [src/utils/permissions.ts:263](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/permissions.ts#L263)
+Defined in: [src/utils/permissions.ts:263](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/permissions.ts#L263)
 
 #### ASSIGN\_ROLES
 
@@ -123,7 +123,7 @@ Defined in: [src/utils/permissions.ts:263](https://github.com/ScarysMonsters/sto
 
 > **get** **self**(): \{(`bits?`): [`BitField`](BitField.md); `FLAGS`: [`Record`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)\<`string`, `number`\>; `resolve`: `number`; \}
 
-Defined in: [src/utils/bitField.ts:42](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/bitField.ts#L42)
+Defined in: [src/utils/bitField.ts:42](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/bitField.ts#L42)
 
 Returns the class that this instance belongs to.
 
@@ -161,7 +161,7 @@ The class of the bitfield.
 
 > **\[iterator\]**(): [`Iterable`](https://www.typescriptlang.org/docs/handbook/iterators-and-generators.html#iterable-interface)\<`string`\>
 
-Defined in: [src/utils/bitField.ts:132](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/bitField.ts#L132)
+Defined in: [src/utils/bitField.ts:132](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/bitField.ts#L132)
 
 #### Returns
 
@@ -177,7 +177,7 @@ Defined in: [src/utils/bitField.ts:132](https://github.com/ScarysMonsters/stoat-
 
 > **add**(...`bits`): `this`
 
-Defined in: [src/utils/permissions.ts:66](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/permissions.ts#L66)
+Defined in: [src/utils/permissions.ts:66](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/permissions.ts#L66)
 
 #### Parameters
 
@@ -199,7 +199,7 @@ Defined in: [src/utils/permissions.ts:66](https://github.com/ScarysMonsters/stoa
 
 > **any**(`bit`): `boolean`
 
-Defined in: [src/utils/permissions.ts:65](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/permissions.ts#L65)
+Defined in: [src/utils/permissions.ts:65](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/permissions.ts#L65)
 
 Checks if any of the bits in the bitfield are set.
 
@@ -227,7 +227,7 @@ True if any bits are set, false otherwise.
 
 > **freeze**(): [`Readonly`](https://www.typescriptlang.org/docs/handbook/utility-types.html#readonlytype)\<`this`\>
 
-Defined in: [src/utils/bitField.ts:112](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/bitField.ts#L112)
+Defined in: [src/utils/bitField.ts:112](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/bitField.ts#L112)
 
 #### Returns
 
@@ -243,7 +243,7 @@ Defined in: [src/utils/bitField.ts:112](https://github.com/ScarysMonsters/stoat-
 
 > **has**(`bit`): `boolean`
 
-Defined in: [src/utils/permissions.ts:68](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/permissions.ts#L68)
+Defined in: [src/utils/permissions.ts:68](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/permissions.ts#L68)
 
 checks if a specific permission is set.
 
@@ -267,7 +267,7 @@ checks if a specific permission is set.
 
 > **missing**(`bit`): (`"VIEW_SERVER"` \| `"MANAGE_ROLES"` \| `"MANAGE_CHANNELS"` \| `"MANAGE_SERVER"` \| `"MANAGE_PERMISSIONS"` \| `"MANAGE_CUSTOMISATION"` \| `"KICK_MEMBERS"` \| `"BAN_MEMBERS"` \| `"TIMEOUT_MEMBERS"` \| `"ASSIGN_ROLES"` \| `"CHANGE_NICKNAME"` \| `"MANAGE_NICKNAMES"` \| `"CHANGE_AVATAR"` \| `"REMOVE_AVATARS"`)[]
 
-Defined in: [src/utils/permissions.ts:69](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/permissions.ts#L69)
+Defined in: [src/utils/permissions.ts:69](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/permissions.ts#L69)
 
 #### Parameters
 
@@ -285,7 +285,7 @@ Defined in: [src/utils/permissions.ts:69](https://github.com/ScarysMonsters/stoa
 
 > **remove**(...`bits`): `this`
 
-Defined in: [src/utils/permissions.ts:67](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/permissions.ts#L67)
+Defined in: [src/utils/permissions.ts:67](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/permissions.ts#L67)
 
 #### Parameters
 
@@ -307,7 +307,7 @@ Defined in: [src/utils/permissions.ts:67](https://github.com/ScarysMonsters/stoa
 
 > **serialize**(): [`Record`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)\<[`ServerPermissionsString`](../type-aliases/ServerPermissionsString.md), `boolean`\>
 
-Defined in: [src/utils/permissions.ts:64](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/permissions.ts#L64)
+Defined in: [src/utils/permissions.ts:64](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/permissions.ts#L64)
 
 #### Returns
 
@@ -325,7 +325,7 @@ A record of all flags and their boolean values indicating whether they are set.
 
 > **toArray**(): (`"VIEW_SERVER"` \| `"MANAGE_ROLES"` \| `"MANAGE_CHANNELS"` \| `"MANAGE_SERVER"` \| `"MANAGE_PERMISSIONS"` \| `"MANAGE_CUSTOMISATION"` \| `"KICK_MEMBERS"` \| `"BAN_MEMBERS"` \| `"TIMEOUT_MEMBERS"` \| `"ASSIGN_ROLES"` \| `"CHANGE_NICKNAME"` \| `"MANAGE_NICKNAMES"` \| `"CHANGE_AVATAR"` \| `"REMOVE_AVATARS"`)[]
 
-Defined in: [src/utils/permissions.ts:70](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/permissions.ts#L70)
+Defined in: [src/utils/permissions.ts:70](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/permissions.ts#L70)
 
 Returns an array of all the Permissions that are set in the bitfield.
 
@@ -345,7 +345,7 @@ An array of flag names.
 
 > **valueOf**(): `number`
 
-Defined in: [src/utils/bitField.ts:116](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/bitField.ts#L116)
+Defined in: [src/utils/bitField.ts:116](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/bitField.ts#L116)
 
 #### Returns
 
@@ -361,7 +361,7 @@ Defined in: [src/utils/bitField.ts:116](https://github.com/ScarysMonsters/stoat-
 
 > `static` **resolve**(`bit`): `number`
 
-Defined in: [src/utils/permissions.ts:298](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/permissions.ts#L298)
+Defined in: [src/utils/permissions.ts:298](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/permissions.ts#L298)
 
 Resolves a bitfield or an array of bitfields into a single number.
 

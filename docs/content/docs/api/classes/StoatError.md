@@ -4,7 +4,7 @@ title: "Class: StoatError"
 
 # Class: StoatError
 
-Defined in: [src/errors/index.ts:69](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/errors/index.ts#L69)
+Defined in: [src/errors/index.ts:69](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/errors/index.ts#L69)
 
 Custom error class for the Stoat selfbot library.
 Inspired by discord.js's DiscordAPIError pattern.
@@ -19,7 +19,7 @@ Inspired by discord.js's DiscordAPIError pattern.
 
 > **new StoatError**(`code`, ...`args`): `StoatError`
 
-Defined in: [src/errors/index.ts:73](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/errors/index.ts#L73)
+Defined in: [src/errors/index.ts:73](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/errors/index.ts#L73)
 
 #### Parameters
 
@@ -45,7 +45,7 @@ Defined in: [src/errors/index.ts:73](https://github.com/ScarysMonsters/stoat-sel
 
 > **code**: [`ErrorCodes`](../enumerations/ErrorCodes.md)
 
-Defined in: [src/errors/index.ts:71](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/errors/index.ts#L71)
+Defined in: [src/errors/index.ts:71](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/errors/index.ts#L71)
 
 The error code associated with this error.
 

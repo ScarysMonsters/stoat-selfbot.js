@@ -4,7 +4,7 @@ title: "Interface: VoiceNode"
 
 # Interface: VoiceNode
 
-Defined in: [src/client/baseClient.ts:219](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L219)
+Defined in: [src/client/baseClient.ts:219](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L219)
 
 ## Properties
 
@@ -12,7 +12,7 @@ Defined in: [src/client/baseClient.ts:219](https://github.com/ScarysMonsters/sto
 
 > **lat**: `number`
 
-Defined in: [src/client/baseClient.ts:221](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L221)
+Defined in: [src/client/baseClient.ts:221](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L221)
 
 ***
 
@@ -20,7 +20,7 @@ Defined in: [src/client/baseClient.ts:221](https://github.com/ScarysMonsters/sto
 
 > **lon**: `number`
 
-Defined in: [src/client/baseClient.ts:222](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L222)
+Defined in: [src/client/baseClient.ts:222](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L222)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [src/client/baseClient.ts:222](https://github.com/ScarysMonsters/sto
 
 > **name**: `string`
 
-Defined in: [src/client/baseClient.ts:220](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L220)
+Defined in: [src/client/baseClient.ts:220](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L220)
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: [src/client/baseClient.ts:220](https://github.com/ScarysMonsters/sto
 
 > **public\_url**: `string`
 
-Defined in: [src/client/baseClient.ts:223](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L223)
+Defined in: [src/client/baseClient.ts:223](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L223)

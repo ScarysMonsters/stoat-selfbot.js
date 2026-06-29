@@ -4,7 +4,7 @@ title: "Interface: ClientEvents"
 
 # Interface: ClientEvents
 
-Defined in: [src/client/baseClient.ts:76](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L76)
+Defined in: [src/client/baseClient.ts:76](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L76)
 
 Represents the events that the client can emit (discord.js style).
 
@@ -14,7 +14,7 @@ Represents the events that the client can emit (discord.js style).
 
 > **auth**: \[`any`\]
 
-Defined in: [src/client/baseClient.ts:166](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L166)
+Defined in: [src/client/baseClient.ts:166](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L166)
 
 Emitted when an auth event is received (e.g., MFA challenge).
 
@@ -24,7 +24,7 @@ Emitted when an auth event is received (e.g., MFA challenge).
 
 > **channelAck**: \[[`Channel`](../classes/Channel.md), `string`\]
 
-Defined in: [src/client/baseClient.ts:154](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L154)
+Defined in: [src/client/baseClient.ts:154](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L154)
 
 Emitted when a channel is acknowledged.
 
@@ -34,7 +34,7 @@ Emitted when a channel is acknowledged.
 
 > **channelCreate**: \[[`Channel`](../classes/Channel.md)\]
 
-Defined in: [src/client/baseClient.ts:96](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L96)
+Defined in: [src/client/baseClient.ts:96](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L96)
 
 Emitted when a channel is created.
 
@@ -44,7 +44,7 @@ Emitted when a channel is created.
 
 > **channelDelete**: \[[`Channel`](../classes/Channel.md)\]
 
-Defined in: [src/client/baseClient.ts:98](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L98)
+Defined in: [src/client/baseClient.ts:98](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L98)
 
 Emitted when a channel is deleted.
 
@@ -54,7 +54,7 @@ Emitted when a channel is deleted.
 
 > **channelUpdate**: \[[`Channel`](../classes/Channel.md), [`Channel`](../classes/Channel.md)\]
 
-Defined in: [src/client/baseClient.ts:100](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L100)
+Defined in: [src/client/baseClient.ts:100](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L100)
 
 Emitted when a channel is updated.
 
@@ -64,7 +64,7 @@ Emitted when a channel is updated.
 
 > **debug**: \[`unknown`\]
 
-Defined in: [src/client/baseClient.ts:78](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L78)
+Defined in: [src/client/baseClient.ts:78](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L78)
 
 Emitted when a debug message is logged.
 
@@ -74,7 +74,7 @@ Emitted when a debug message is logged.
 
 > **emojiCreate**: \[[`Emoji`](../classes/Emoji.md)\]
 
-Defined in: [src/client/baseClient.ts:148](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L148)
+Defined in: [src/client/baseClient.ts:148](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L148)
 
 Emitted when an emoji is created.
 
@@ -84,7 +84,7 @@ Emitted when an emoji is created.
 
 > **emojiDelete**: \[[`Emoji`](../classes/Emoji.md)\]
 
-Defined in: [src/client/baseClient.ts:152](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L152)
+Defined in: [src/client/baseClient.ts:152](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L152)
 
 Emitted when an emoji is deleted.
 
@@ -94,7 +94,7 @@ Emitted when an emoji is deleted.
 
 > **emojiUpdate**: \[[`Emoji`](../classes/Emoji.md), [`Emoji`](../classes/Emoji.md)\]
 
-Defined in: [src/client/baseClient.ts:150](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L150)
+Defined in: [src/client/baseClient.ts:150](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L150)
 
 Emitted when an emoji is updated.
 
@@ -104,7 +104,7 @@ Emitted when an emoji is updated.
 
 > **error**: \[`unknown`\]
 
-Defined in: [src/client/baseClient.ts:126](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L126)
+Defined in: [src/client/baseClient.ts:126](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L126)
 
 Emitted when an error occurs.
 
@@ -114,7 +114,7 @@ Emitted when an error occurs.
 
 > **groupJoin**: \[[`Channel`](../classes/Channel.md), [`User`](../classes/User.md)\]
 
-Defined in: [src/client/baseClient.ts:120](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L120)
+Defined in: [src/client/baseClient.ts:120](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L120)
 
 Emitted when a group member joins.
 
@@ -124,7 +124,7 @@ Emitted when a group member joins.
 
 > **groupLeave**: \[[`Channel`](../classes/Channel.md), [`User`](../classes/User.md)\]
 
-Defined in: [src/client/baseClient.ts:122](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L122)
+Defined in: [src/client/baseClient.ts:122](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L122)
 
 Emitted when a group member leaves.
 
@@ -134,7 +134,7 @@ Emitted when a group member leaves.
 
 > **guildMemberAdd**: \[[`ServerMember`](../classes/ServerMember.md)\]
 
-Defined in: [src/client/baseClient.ts:108](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L108)
+Defined in: [src/client/baseClient.ts:108](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L108)
 
 Emitted when a server member joins (discord.js: guildMemberAdd).
 
@@ -144,7 +144,7 @@ Emitted when a server member joins (discord.js: guildMemberAdd).
 
 > **guildMemberRemove**: \[[`ServerMember`](../classes/ServerMember.md)\]
 
-Defined in: [src/client/baseClient.ts:110](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L110)
+Defined in: [src/client/baseClient.ts:110](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L110)
 
 Emitted when a server member leaves (discord.js: guildMemberRemove).
 
@@ -154,7 +154,7 @@ Emitted when a server member leaves (discord.js: guildMemberRemove).
 
 > **guildMemberUpdate**: \[[`ServerMember`](../classes/ServerMember.md), [`ServerMember`](../classes/ServerMember.md)\]
 
-Defined in: [src/client/baseClient.ts:112](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L112)
+Defined in: [src/client/baseClient.ts:112](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L112)
 
 Emitted when a server member is updated (discord.js: guildMemberUpdate).
 
@@ -164,7 +164,7 @@ Emitted when a server member is updated (discord.js: guildMemberUpdate).
 
 > **logout**: \[\]
 
-Defined in: [src/client/baseClient.ts:164](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L164)
+Defined in: [src/client/baseClient.ts:164](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L164)
 
 Emitted when the client is logged out.
 
@@ -174,7 +174,7 @@ Emitted when the client is logged out.
 
 > **messageAppend**: \[[`MessageStruct`](../classes/MessageStruct.md), [`MessageStruct`](../classes/MessageStruct.md)\]
 
-Defined in: [src/client/baseClient.ts:170](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L170)
+Defined in: [src/client/baseClient.ts:170](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L170)
 
 Emitted when data is appended to a message (e.g., embeds loaded).
 
@@ -184,7 +184,7 @@ Emitted when data is appended to a message (e.g., embeds loaded).
 
 > **messageCreate**: \[[`MessageStruct`](../classes/MessageStruct.md)\]
 
-Defined in: [src/client/baseClient.ts:80](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L80)
+Defined in: [src/client/baseClient.ts:80](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L80)
 
 Emitted when a message is received.
 
@@ -194,7 +194,7 @@ Emitted when a message is received.
 
 > **messageDelete**: \[[`MessageStruct`](../classes/MessageStruct.md)\]
 
-Defined in: [src/client/baseClient.ts:82](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L82)
+Defined in: [src/client/baseClient.ts:82](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L82)
 
 Emitted when a message is deleted.
 
@@ -204,7 +204,7 @@ Emitted when a message is deleted.
 
 > **messageDeleteBulk**: \[`string`[]\]
 
-Defined in: [src/client/baseClient.ts:90](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L90)
+Defined in: [src/client/baseClient.ts:90](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L90)
 
 Emitted when messages are bulk deleted.
 
@@ -214,7 +214,7 @@ Emitted when messages are bulk deleted.
 
 > **messagePin**: \[[`MessageStruct`](../classes/MessageStruct.md)\]
 
-Defined in: [src/client/baseClient.ts:92](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L92)
+Defined in: [src/client/baseClient.ts:92](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L92)
 
 Emitted when a message is pinned.
 
@@ -224,7 +224,7 @@ Emitted when a message is pinned.
 
 > **messageReactionAdd**: \[[`MessageStruct`](../classes/MessageStruct.md), `string`, `string`\]
 
-Defined in: [src/client/baseClient.ts:86](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L86)
+Defined in: [src/client/baseClient.ts:86](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L86)
 
 Emitted when a reaction is added to a message.
 
@@ -234,7 +234,7 @@ Emitted when a reaction is added to a message.
 
 > **messageReactionRemove**: \[[`MessageStruct`](../classes/MessageStruct.md), `string`, `string`\]
 
-Defined in: [src/client/baseClient.ts:88](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L88)
+Defined in: [src/client/baseClient.ts:88](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L88)
 
 Emitted when a reaction is removed from a message.
 
@@ -244,7 +244,7 @@ Emitted when a reaction is removed from a message.
 
 > **messageUnpin**: \[[`MessageStruct`](../classes/MessageStruct.md)\]
 
-Defined in: [src/client/baseClient.ts:94](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L94)
+Defined in: [src/client/baseClient.ts:94](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L94)
 
 Emitted when a message is unpinned.
 
@@ -254,7 +254,7 @@ Emitted when a message is unpinned.
 
 > **messageUpdate**: \[[`MessageStruct`](../classes/MessageStruct.md), [`MessageStruct`](../classes/MessageStruct.md)\]
 
-Defined in: [src/client/baseClient.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L84)
+Defined in: [src/client/baseClient.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L84)
 
 Emitted when a message is updated.
 
@@ -264,7 +264,7 @@ Emitted when a message is updated.
 
 > **raw**: \[`unknown`\]
 
-Defined in: [src/client/baseClient.ts:128](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L128)
+Defined in: [src/client/baseClient.ts:128](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L128)
 
 Emitted when a raw event is received.
 
@@ -274,7 +274,7 @@ Emitted when a raw event is received.
 
 > **ready**: \[[`Client`](../classes/Client.md)\]
 
-Defined in: [src/client/baseClient.ts:124](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L124)
+Defined in: [src/client/baseClient.ts:124](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L124)
 
 Emitted when the client is ready.
 
@@ -284,7 +284,7 @@ Emitted when the client is ready.
 
 > **roleCreate**: \[[`Role`](../classes/Role.md)\]
 
-Defined in: [src/client/baseClient.ts:130](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L130)
+Defined in: [src/client/baseClient.ts:130](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L130)
 
 Emitted when a role is created.
 
@@ -294,7 +294,7 @@ Emitted when a role is created.
 
 > **roleDelete**: \[[`Role`](../classes/Role.md)\]
 
-Defined in: [src/client/baseClient.ts:132](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L132)
+Defined in: [src/client/baseClient.ts:132](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L132)
 
 Emitted when a role is deleted.
 
@@ -304,7 +304,7 @@ Emitted when a role is deleted.
 
 > **roleUpdate**: \[[`Role`](../classes/Role.md), [`Role`](../classes/Role.md)\]
 
-Defined in: [src/client/baseClient.ts:134](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L134)
+Defined in: [src/client/baseClient.ts:134](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L134)
 
 Emitted when a role is updated.
 
@@ -314,7 +314,7 @@ Emitted when a role is updated.
 
 > **serverBanAdd**: \[[`ServerBan`](../classes/ServerBan.md)\]
 
-Defined in: [src/client/baseClient.ts:158](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L158)
+Defined in: [src/client/baseClient.ts:158](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L158)
 
 Emitted when a server ban is created.
 
@@ -324,7 +324,7 @@ Emitted when a server ban is created.
 
 > **serverBanRemove**: \[[`ServerBan`](../classes/ServerBan.md)\]
 
-Defined in: [src/client/baseClient.ts:160](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L160)
+Defined in: [src/client/baseClient.ts:160](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L160)
 
 Emitted when a server ban is removed.
 
@@ -334,7 +334,7 @@ Emitted when a server ban is removed.
 
 > **serverCreate**: \[[`Server`](../classes/Server.md)\]
 
-Defined in: [src/client/baseClient.ts:102](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L102)
+Defined in: [src/client/baseClient.ts:102](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L102)
 
 Emitted when a server is created.
 
@@ -344,7 +344,7 @@ Emitted when a server is created.
 
 > **serverDelete**: \[[`Server`](../classes/Server.md)\]
 
-Defined in: [src/client/baseClient.ts:104](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L104)
+Defined in: [src/client/baseClient.ts:104](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L104)
 
 Emitted when a server is deleted.
 
@@ -354,7 +354,7 @@ Emitted when a server is deleted.
 
 > **serverRoleCreate**: \[[`Role`](../classes/Role.md)\]
 
-Defined in: [src/client/baseClient.ts:162](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L162)
+Defined in: [src/client/baseClient.ts:162](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L162)
 
 Emitted when a server role is created.
 
@@ -364,7 +364,7 @@ Emitted when a server role is created.
 
 > **serverUpdate**: \[[`Server`](../classes/Server.md), [`Server`](../classes/Server.md)\]
 
-Defined in: [src/client/baseClient.ts:106](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L106)
+Defined in: [src/client/baseClient.ts:106](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L106)
 
 Emitted when a server is updated.
 
@@ -374,7 +374,7 @@ Emitted when a server is updated.
 
 > **typingStart**: \[[`Channel`](../classes/Channel.md), [`User`](../classes/User.md)\]
 
-Defined in: [src/client/baseClient.ts:116](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L116)
+Defined in: [src/client/baseClient.ts:116](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L116)
 
 Emitted when a user is typing.
 
@@ -384,7 +384,7 @@ Emitted when a user is typing.
 
 > **typingStop**: \[[`Channel`](../classes/Channel.md), [`User`](../classes/User.md)\]
 
-Defined in: [src/client/baseClient.ts:118](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L118)
+Defined in: [src/client/baseClient.ts:118](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L118)
 
 Emitted when a user stops typing.
 
@@ -394,7 +394,7 @@ Emitted when a user stops typing.
 
 > **userPlatformWipe**: \[`any`\]
 
-Defined in: [src/client/baseClient.ts:168](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L168)
+Defined in: [src/client/baseClient.ts:168](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L168)
 
 Emitted when a user platform wipe event is received.
 
@@ -404,7 +404,7 @@ Emitted when a user platform wipe event is received.
 
 > **userRelationship**: \[[`User`](../classes/User.md), `string`\]
 
-Defined in: [src/client/baseClient.ts:156](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L156)
+Defined in: [src/client/baseClient.ts:156](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L156)
 
 Emitted when a user relationship changes (discord.js: relationshipAdd/Remove).
 
@@ -414,7 +414,7 @@ Emitted when a user relationship changes (discord.js: relationshipAdd/Remove).
 
 > **userUpdate**: \[[`User`](../classes/User.md), [`User`](../classes/User.md)\]
 
-Defined in: [src/client/baseClient.ts:114](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L114)
+Defined in: [src/client/baseClient.ts:114](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L114)
 
 Emitted when a user is updated.
 
@@ -424,7 +424,7 @@ Emitted when a user is updated.
 
 > **voiceChannelJoin**: \[[`VoiceChannelJoinData`](VoiceChannelJoinData.md)\]
 
-Defined in: [src/client/baseClient.ts:144](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L144)
+Defined in: [src/client/baseClient.ts:144](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L144)
 
 Emitted when a user joins a voice channel.
 
@@ -434,7 +434,7 @@ Emitted when a user joins a voice channel.
 
 > **voiceChannelLeave**: \[[`VoiceChannelLeaveData`](VoiceChannelLeaveData.md)\]
 
-Defined in: [src/client/baseClient.ts:146](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L146)
+Defined in: [src/client/baseClient.ts:146](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L146)
 
 Emitted when a user leaves a voice channel.
 
@@ -444,7 +444,7 @@ Emitted when a user leaves a voice channel.
 
 > **voiceStateUpdate**: \[[`UserVoiceStateUpdateData`](UserVoiceStateUpdateData.md)\]
 
-Defined in: [src/client/baseClient.ts:142](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L142)
+Defined in: [src/client/baseClient.ts:142](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L142)
 
 Emitted when a user's voice state is updated (discord.js: voiceStateUpdate).
 
@@ -454,7 +454,7 @@ Emitted when a user's voice state is updated (discord.js: voiceStateUpdate).
 
 > **webhookCreate**: \[[`WebhookCreateData`](WebhookCreateData.md)\]
 
-Defined in: [src/client/baseClient.ts:136](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L136)
+Defined in: [src/client/baseClient.ts:136](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L136)
 
 Emitted when a webhook is created.
 
@@ -464,7 +464,7 @@ Emitted when a webhook is created.
 
 > **webhookDelete**: \[[`WebhookDeleteData`](WebhookDeleteData.md)\]
 
-Defined in: [src/client/baseClient.ts:138](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L138)
+Defined in: [src/client/baseClient.ts:138](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L138)
 
 Emitted when a webhook is deleted.
 
@@ -474,6 +474,6 @@ Emitted when a webhook is deleted.
 
 > **webhookUpdate**: \[[`WebhookUpdateData`](WebhookUpdateData.md)\]
 
-Defined in: [src/client/baseClient.ts:140](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L140)
+Defined in: [src/client/baseClient.ts:140](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L140)
 
 Emitted when a webhook is updated.

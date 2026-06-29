@@ -4,7 +4,7 @@ title: "Class: Relationship"
 
 # Class: Relationship
 
-Defined in: [src/struct/relationship.ts:16](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L16)
+Defined in: [src/struct/relationship.ts:16](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L16)
 
 Represents a relationship between the client user and another user.
 Relationships can be: Friend, Blocked, Incoming, Outgoing, Implicit.
@@ -21,7 +21,7 @@ Inspired by discord.js-selfbot-v13's Relationship system.
 
 > **new Relationship**(`client`, `data`): `Relationship`
 
-Defined in: [src/struct/relationship.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L29)
+Defined in: [src/struct/relationship.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L29)
 
 Creates a new Relationship instance.
 
@@ -67,7 +67,7 @@ Relationship status with them
 
 > `readonly` **client**: [`Client`](Client.md)
 
-Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L21)
+Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L21)
 
 The client instance.
 
@@ -81,7 +81,7 @@ The client instance.
 
 > **id**: `string`
 
-Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L14)
+Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L14)
 
 The unique identifier for the object.
 
@@ -95,7 +95,7 @@ The unique identifier for the object.
 
 > **status**: [`RelationshipStatus`](../enumerations/RelationshipStatus.md) = `RelationshipStatus.NONE`
 
-Defined in: [src/struct/relationship.ts:18](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L18)
+Defined in: [src/struct/relationship.ts:18](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L18)
 
 The status of the relationship.
 
@@ -105,7 +105,7 @@ The status of the relationship.
 
 > **targetId**: `string`
 
-Defined in: [src/struct/relationship.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L21)
+Defined in: [src/struct/relationship.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L21)
 
 The ID of the target user.
 
@@ -117,7 +117,7 @@ The ID of the target user.
 
 > **get** **createdAt**(): [`Date`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-Defined in: [src/struct/relationship.ts:105](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L105)
+Defined in: [src/struct/relationship.ts:105](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L105)
 
 Gets the creation date of the target user (derived from their ID).
 
@@ -133,7 +133,7 @@ Gets the creation date of the target user (derived from their ID).
 
 > **get** **isBlocked**(): `boolean`
 
-Defined in: [src/struct/relationship.ts:119](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L119)
+Defined in: [src/struct/relationship.ts:119](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L119)
 
 Whether this relationship is a block.
 
@@ -149,7 +149,7 @@ Whether this relationship is a block.
 
 > **get** **isFriend**(): `boolean`
 
-Defined in: [src/struct/relationship.ts:112](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L112)
+Defined in: [src/struct/relationship.ts:112](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L112)
 
 Whether this relationship is a friendship.
 
@@ -165,7 +165,7 @@ Whether this relationship is a friendship.
 
 > **get** **isImplicit**(): `boolean`
 
-Defined in: [src/struct/relationship.ts:140](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L140)
+Defined in: [src/struct/relationship.ts:140](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L140)
 
 Whether this is an implicit relationship (e.g. shared server or group).
 
@@ -181,7 +181,7 @@ Whether this is an implicit relationship (e.g. shared server or group).
 
 > **get** **isPendingIncoming**(): `boolean`
 
-Defined in: [src/struct/relationship.ts:126](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L126)
+Defined in: [src/struct/relationship.ts:126](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L126)
 
 Whether this is a pending incoming friend request.
 
@@ -197,7 +197,7 @@ Whether this is a pending incoming friend request.
 
 > **get** **isPendingOutgoing**(): `boolean`
 
-Defined in: [src/struct/relationship.ts:133](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L133)
+Defined in: [src/struct/relationship.ts:133](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L133)
 
 Whether this is a pending outgoing friend request.
 
@@ -213,7 +213,7 @@ Whether this is a pending outgoing friend request.
 
 > **get** **type**(): `string`
 
-Defined in: [src/struct/relationship.ts:89](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L89)
+Defined in: [src/struct/relationship.ts:89](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L89)
 
 Gets the relationship type as a human-readable string.
 
@@ -229,7 +229,7 @@ Gets the relationship type as a human-readable string.
 
 > **get** **user**(): [`User`](User.md) \| `null`
 
-Defined in: [src/struct/relationship.ts:82](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L82)
+Defined in: [src/struct/relationship.ts:82](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L82)
 
 Gets the target user of this relationship.
 Returns `null` if the user is not cached.
@@ -244,7 +244,7 @@ Returns `null` if the user is not cached.
 
 > **\_clone**(): `this`
 
-Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L84)
+Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L84)
 
 Creates a deep clone of the object.
 
@@ -264,7 +264,7 @@ A clone of the object.
 
 > **\_update**(`data`, `clear?`): `this`
 
-Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L56)
+Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L56)
 
 Updates the object with new data and returns a clone of the object.
 
@@ -298,7 +298,7 @@ A clone of the updated object.
 
 > **accept**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/relationship.ts:162](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L162)
+Defined in: [src/struct/relationship.ts:162](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L162)
 
 Accepts this friend request.
 Only works if the status is PendingIncoming.
@@ -313,7 +313,7 @@ Only works if the status is PendingIncoming.
 
 > **block**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/relationship.ts:179](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L179)
+Defined in: [src/struct/relationship.ts:179](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L179)
 
 Blocks the target user.
 
@@ -327,7 +327,7 @@ Blocks the target user.
 
 > **equals**(`obj?`): `boolean`
 
-Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L29)
+Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L29)
 
 Compares this object with another to determine if they are equal.
 
@@ -355,7 +355,7 @@ The object to compare with.
 
 > **fetchUser**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`User`](User.md)\>
 
-Defined in: [src/struct/relationship.ts:154](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L154)
+Defined in: [src/struct/relationship.ts:154](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L154)
 
 Fetches the full user data for the target of this relationship.
 
@@ -377,7 +377,7 @@ const targetUser = await relationship.fetchUser();
 
 > **remove**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/relationship.ts:172](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L172)
+Defined in: [src/struct/relationship.ts:172](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L172)
 
 Declines or removes this friend request/relationship.
 
@@ -391,7 +391,7 @@ Declines or removes this friend request/relationship.
 
 > **toString**(): `string`
 
-Defined in: [src/struct/relationship.ts:190](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L190)
+Defined in: [src/struct/relationship.ts:190](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L190)
 
 Returns a string representation of an object.
 
@@ -405,7 +405,7 @@ Returns a string representation of an object.
 
 > **unblock**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/relationship.ts:186](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/relationship.ts#L186)
+Defined in: [src/struct/relationship.ts:186](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/relationship.ts#L186)
 
 Unblocks the target user.
 

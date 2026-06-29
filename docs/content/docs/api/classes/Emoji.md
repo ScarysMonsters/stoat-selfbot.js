@@ -4,7 +4,7 @@ title: "Class: Emoji"
 
 # Class: Emoji
 
-Defined in: [src/struct/emoji.ts:12](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/emoji.ts#L12)
+Defined in: [src/struct/emoji.ts:12](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/emoji.ts#L12)
 
 Represents an emoji in the client.
 
@@ -18,7 +18,7 @@ Represents an emoji in the client.
 
 > **new Emoji**(`client`, `data`): `Emoji`
 
-Defined in: [src/struct/emoji.ts:34](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/emoji.ts#L34)
+Defined in: [src/struct/emoji.ts:34](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/emoji.ts#L34)
 
 Creates a new Emoji instance.
 
@@ -50,7 +50,7 @@ The raw data for the emoji.
 
 > **animated**: `boolean` = `false`
 
-Defined in: [src/struct/emoji.ts:26](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/emoji.ts#L26)
+Defined in: [src/struct/emoji.ts:26](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/emoji.ts#L26)
 
 Whether the emoji is animated.
 
@@ -60,7 +60,7 @@ Whether the emoji is animated.
 
 > `readonly` **client**: [`Client`](Client.md)
 
-Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L21)
+Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L21)
 
 The client instance.
 
@@ -74,7 +74,7 @@ The client instance.
 
 > `optional` **creator\_id?**: `string` \| `null` = `null`
 
-Defined in: [src/struct/emoji.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/emoji.ts#L17)
+Defined in: [src/struct/emoji.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/emoji.ts#L17)
 
 The ID of the user who created the emoji, or `null` if not available.
 
@@ -84,7 +84,7 @@ The ID of the user who created the emoji, or `null` if not available.
 
 > **id**: `string`
 
-Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L14)
+Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L14)
 
 The unique identifier for the object.
 
@@ -98,7 +98,7 @@ The unique identifier for the object.
 
 > `optional` **name?**: `string` \| `null` = `null`
 
-Defined in: [src/struct/emoji.ts:20](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/emoji.ts#L20)
+Defined in: [src/struct/emoji.ts:20](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/emoji.ts#L20)
 
 The name of the emoji, or `null` if not set.
 
@@ -108,7 +108,7 @@ The name of the emoji, or `null` if not set.
 
 > **nsfw**: `boolean` = `false`
 
-Defined in: [src/struct/emoji.ts:23](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/emoji.ts#L23)
+Defined in: [src/struct/emoji.ts:23](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/emoji.ts#L23)
 
 Whether the emoji is marked as NSFW.
 
@@ -118,7 +118,7 @@ Whether the emoji is marked as NSFW.
 
 > `optional` **parent?**: \{ `id`: `string`; `type`: `string`; \} \| `null` = `null`
 
-Defined in: [src/struct/emoji.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/emoji.ts#L14)
+Defined in: [src/struct/emoji.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/emoji.ts#L14)
 
 The parent object of the emoji, which can be a server or other entity.
 
@@ -130,7 +130,7 @@ The parent object of the emoji, which can be a server or other entity.
 
 > **get** **createdAt**(): [`Date`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-Defined in: [src/struct/emoji.ts:127](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/emoji.ts#L127)
+Defined in: [src/struct/emoji.ts:127](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/emoji.ts#L127)
 
 Gets the creation date of the emoji.
 
@@ -148,7 +148,7 @@ The date when the emoji was created.
 
 > **get** **createdTimestamp**(): `number`
 
-Defined in: [src/struct/emoji.ts:136](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/emoji.ts#L136)
+Defined in: [src/struct/emoji.ts:136](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/emoji.ts#L136)
 
 Gets the creation timestamp of the emoji in milliseconds.
 
@@ -166,7 +166,7 @@ The timestamp of when the emoji was created.
 
 > **get** **creator**(): [`User`](User.md) \| `null`
 
-Defined in: [src/struct/emoji.ts:76](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/emoji.ts#L76)
+Defined in: [src/struct/emoji.ts:76](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/emoji.ts#L76)
 
 Retrieves the user who created the emoji.
 
@@ -184,7 +184,7 @@ The creator of the emoji, or `null` if not found.
 
 > **get** **server**(): [`Server`](Server.md) \| `null`
 
-Defined in: [src/struct/emoji.ts:85](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/emoji.ts#L85)
+Defined in: [src/struct/emoji.ts:85](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/emoji.ts#L85)
 
 Retrieves the server associated with the emoji, if any.
 
@@ -202,7 +202,7 @@ The server instance, or `null` if the emoji is not associated with a server.
 
 > **get** **url**(): `string`
 
-Defined in: [src/struct/emoji.ts:95](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/emoji.ts#L95)
+Defined in: [src/struct/emoji.ts:95](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/emoji.ts#L95)
 
 Gets the URL for the emoji image.
 
@@ -218,7 +218,7 @@ The URL to the emoji image.
 
 > **\_clone**(): `this`
 
-Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L84)
+Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L84)
 
 Creates a deep clone of the object.
 
@@ -238,7 +238,7 @@ A clone of the object.
 
 > **\_update**(`data`, `clear?`): `this`
 
-Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L56)
+Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L56)
 
 Updates the object with new data and returns a clone of the object.
 
@@ -272,7 +272,7 @@ A clone of the updated object.
 
 > **delete**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/emoji.ts:117](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/emoji.ts#L117)
+Defined in: [src/struct/emoji.ts:117](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/emoji.ts#L117)
 
 Deletes this emoji.
 
@@ -288,7 +288,7 @@ A promise that resolves when the emoji is deleted.
 
 > **edit**(`options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/emoji.ts:105](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/emoji.ts#L105)
+Defined in: [src/struct/emoji.ts:105](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/emoji.ts#L105)
 
 Edits this emoji.
 
@@ -322,7 +322,7 @@ A promise that resolves when the emoji is updated.
 
 > **equals**(`obj?`): `boolean`
 
-Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L29)
+Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L29)
 
 Compares this object with another to determine if they are equal.
 
@@ -350,7 +350,7 @@ The object to compare with.
 
 > **toString**(): `string`
 
-Defined in: [src/struct/emoji.ts:143](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/emoji.ts#L143)
+Defined in: [src/struct/emoji.ts:143](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/emoji.ts#L143)
 
 Returns the emoji string for use in messages.
 

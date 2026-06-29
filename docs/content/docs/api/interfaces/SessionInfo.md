@@ -4,7 +4,7 @@ title: "Interface: SessionInfo"
 
 # Interface: SessionInfo
 
-Defined in: [src/managers/sessionManager.ts:7](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/sessionManager.ts#L7)
+Defined in: [src/managers/sessionManager.ts:7](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/sessionManager.ts#L7)
 
 Represents a session's information from the API.
 
@@ -14,7 +14,7 @@ Represents a session's information from the API.
 
 > `optional` **created\_at?**: `string`
 
-Defined in: [src/managers/sessionManager.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/sessionManager.ts#L11)
+Defined in: [src/managers/sessionManager.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/sessionManager.ts#L11)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/managers/sessionManager.ts:11](https://github.com/ScarysMonster
 
 > `optional` **current?**: `boolean`
 
-Defined in: [src/managers/sessionManager.ts:13](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/sessionManager.ts#L13)
+Defined in: [src/managers/sessionManager.ts:13](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/sessionManager.ts#L13)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/managers/sessionManager.ts:13](https://github.com/ScarysMonster
 
 > `optional` **hostname?**: `string`
 
-Defined in: [src/managers/sessionManager.ts:10](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/sessionManager.ts#L10)
+Defined in: [src/managers/sessionManager.ts:10](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/sessionManager.ts#L10)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/managers/sessionManager.ts:10](https://github.com/ScarysMonster
 
 > **id**: `string`
 
-Defined in: [src/managers/sessionManager.ts:8](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/sessionManager.ts#L8)
+Defined in: [src/managers/sessionManager.ts:8](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/sessionManager.ts#L8)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [src/managers/sessionManager.ts:8](https://github.com/ScarysMonsters
 
 > `optional` **last\_used\_at?**: `string`
 
-Defined in: [src/managers/sessionManager.ts:12](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/sessionManager.ts#L12)
+Defined in: [src/managers/sessionManager.ts:12](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/sessionManager.ts#L12)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: [src/managers/sessionManager.ts:12](https://github.com/ScarysMonster
 
 > `optional` **name?**: `string`
 
-Defined in: [src/managers/sessionManager.ts:9](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/sessionManager.ts#L9)
+Defined in: [src/managers/sessionManager.ts:9](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/sessionManager.ts#L9)

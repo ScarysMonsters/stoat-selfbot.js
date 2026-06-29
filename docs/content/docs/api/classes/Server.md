@@ -4,7 +4,7 @@ title: "Class: Server"
 
 # Class: Server
 
-Defined in: [src/struct/server.ts:22](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L22)
+Defined in: [src/struct/server.ts:22](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L22)
 
 Represents a server (guild) in the client.
 
@@ -18,7 +18,7 @@ Represents a server (guild) in the client.
 
 > **new Server**(`client`, `data`): `Server`
 
-Defined in: [src/struct/server.ts:74](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L74)
+Defined in: [src/struct/server.ts:74](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L74)
 
 Creates a new Server instance.
 
@@ -172,7 +172,7 @@ Configuration for sending system event messages
 
 > **analytics**: `boolean` = `false`
 
-Defined in: [src/struct/server.ts:48](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L48)
+Defined in: [src/struct/server.ts:48](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L48)
 
 Whether analytics are enabled for the server.
 
@@ -182,7 +182,7 @@ Whether analytics are enabled for the server.
 
 > **banner**: [`Attachment`](Attachment.md) \| `null` = `null`
 
-Defined in: [src/struct/server.ts:45](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L45)
+Defined in: [src/struct/server.ts:45](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L45)
 
 The banner of the server, or `null` if none is set.
 
@@ -192,7 +192,7 @@ The banner of the server, or `null` if none is set.
 
 > **categories**: [`Map`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map)\<`string`, [`Category`](Category.md)\>
 
-Defined in: [src/struct/server.ts:60](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L60)
+Defined in: [src/struct/server.ts:60](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L60)
 
 The categories in the server.
 
@@ -202,7 +202,7 @@ The categories in the server.
 
 > **channels**: [`ServerChannelManager`](ServerChannelManager.md)
 
-Defined in: [src/struct/server.ts:36](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L36)
+Defined in: [src/struct/server.ts:36](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L36)
 
 Manages the channels of the server.
 
@@ -212,7 +212,7 @@ Manages the channels of the server.
 
 > `readonly` **client**: [`Client`](Client.md)
 
-Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L21)
+Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L21)
 
 The client instance.
 
@@ -226,7 +226,7 @@ The client instance.
 
 > **description**: `string` \| `null` = `null`
 
-Defined in: [src/struct/server.ts:27](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L27)
+Defined in: [src/struct/server.ts:27](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L27)
 
 The description of the server, or `null` if none is set.
 
@@ -236,7 +236,7 @@ The description of the server, or `null` if none is set.
 
 > **discoverable**: `boolean` = `false`
 
-Defined in: [src/struct/server.ts:51](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L51)
+Defined in: [src/struct/server.ts:51](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L51)
 
 Whether the server is discoverable.
 
@@ -246,7 +246,7 @@ Whether the server is discoverable.
 
 > **emojis**: [`EmojiManager`](EmojiManager.md)
 
-Defined in: [src/struct/server.ts:63](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L63)
+Defined in: [src/struct/server.ts:63](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L63)
 
 Manages the emojis of the server.
 
@@ -256,7 +256,7 @@ Manages the emojis of the server.
 
 > **icon**: [`Attachment`](Attachment.md) \| `null` = `null`
 
-Defined in: [src/struct/server.ts:42](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L42)
+Defined in: [src/struct/server.ts:42](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L42)
 
 The icon of the server, or `null` if none is set.
 
@@ -266,7 +266,7 @@ The icon of the server, or `null` if none is set.
 
 > **id**: `string`
 
-Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L14)
+Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L14)
 
 The unique identifier for the object.
 
@@ -280,7 +280,7 @@ The unique identifier for the object.
 
 > **members**: [`ServerMemberManager`](ServerMemberManager.md)
 
-Defined in: [src/struct/server.ts:33](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L33)
+Defined in: [src/struct/server.ts:33](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L33)
 
 Manages the members of the server.
 
@@ -290,7 +290,7 @@ Manages the members of the server.
 
 > **name**: `string`
 
-Defined in: [src/struct/server.ts:24](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L24)
+Defined in: [src/struct/server.ts:24](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L24)
 
 The name of the server.
 
@@ -300,7 +300,7 @@ The name of the server.
 
 > **nsfw**: `boolean` = `false`
 
-Defined in: [src/struct/server.ts:54](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L54)
+Defined in: [src/struct/server.ts:54](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L54)
 
 Whether the server is marked as NSFW (Not Safe For Work).
 
@@ -310,7 +310,7 @@ Whether the server is marked as NSFW (Not Safe For Work).
 
 > **ownerId**: `string`
 
-Defined in: [src/struct/server.ts:30](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L30)
+Defined in: [src/struct/server.ts:30](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L30)
 
 The ID of the user who owns the server.
 
@@ -320,7 +320,7 @@ The ID of the user who owns the server.
 
 > **permissions**: [`FullPermissions`](FullPermissions.md)
 
-Defined in: [src/struct/server.ts:57](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L57)
+Defined in: [src/struct/server.ts:57](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L57)
 
 The default permissions for the server.
 
@@ -330,7 +330,7 @@ The default permissions for the server.
 
 > **roles**: [`RoleManager`](RoleManager.md)
 
-Defined in: [src/struct/server.ts:39](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L39)
+Defined in: [src/struct/server.ts:39](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L39)
 
 Manages the roles of the server.
 
@@ -340,7 +340,7 @@ Manages the roles of the server.
 
 > **systemMessages**: \{ `user_banned?`: `string` \| `null`; `user_joined?`: `string` \| `null`; `user_kicked?`: `string` \| `null`; `user_left?`: `string` \| `null`; \} \| `null` = `null`
 
-Defined in: [src/struct/server.ts:66](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L66)
+Defined in: [src/struct/server.ts:66](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L66)
 
 The system message channels for the server.
 
@@ -394,7 +394,7 @@ ID of channel to send user left messages in
 
 > **get** **createdAt**(): [`Date`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-Defined in: [src/struct/server.ts:169](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L169)
+Defined in: [src/struct/server.ts:169](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L169)
 
 Gets the creation date of the server.
 
@@ -412,7 +412,7 @@ The date when the server was created.
 
 > **get** **createdTimestamp**(): `number`
 
-Defined in: [src/struct/server.ts:178](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L178)
+Defined in: [src/struct/server.ts:178](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L178)
 
 Gets the creation timestamp of the server in milliseconds.
 
@@ -430,7 +430,7 @@ The timestamp of when the server was created.
 
 > **get** **me**(): [`ServerMember`](ServerMember.md) \| `null`
 
-Defined in: [src/struct/server.ts:160](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L160)
+Defined in: [src/struct/server.ts:160](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L160)
 
 Retrieves the current user's member instance in the server.
 
@@ -448,7 +448,7 @@ The current user's member instance, or `null` if not found.
 
 > **get** **owner**(): [`User`](User.md) \| `null`
 
-Defined in: [src/struct/server.ts:187](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L187)
+Defined in: [src/struct/server.ts:187](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L187)
 
 Retrieves the owner of the server.
 
@@ -464,7 +464,7 @@ The owner of the server, or `null` if not found.
 
 > **\_clone**(): `this`
 
-Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L84)
+Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L84)
 
 Creates a deep clone of the object.
 
@@ -484,7 +484,7 @@ A clone of the object.
 
 > **\_update**(`data`, `clear?`): `this`
 
-Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L56)
+Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L56)
 
 Updates the object with new data and returns a clone of the object.
 
@@ -518,7 +518,7 @@ A clone of the updated object.
 
 > **ack**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/server.ts:362](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L362)
+Defined in: [src/struct/server.ts:362](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L362)
 
 Marks all channels in this server as read.
 
@@ -532,7 +532,7 @@ Marks all channels in this server as read.
 
 > **ban**(`userId`, `reason?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/server.ts:337](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L337)
+Defined in: [src/struct/server.ts:337](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L337)
 
 Bans a user from this server.
 
@@ -560,7 +560,7 @@ The reason for the ban (optional).
 
 > **bannerURL**(): `string` \| `null`
 
-Defined in: [src/struct/server.ts:207](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L207)
+Defined in: [src/struct/server.ts:207](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L207)
 
 Gets the URL of the server banner.
 
@@ -576,7 +576,7 @@ The banner URL, or `null` if no banner is set.
 
 > **createEmoji**(`name`, `image`, `options?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`Emoji`](Emoji.md)\>
 
-Defined in: [src/struct/server.ts:305](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L305)
+Defined in: [src/struct/server.ts:305](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L305)
 
 Creates a new emoji in this server.
 
@@ -614,7 +614,7 @@ The created emoji.
 
 > **delete**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/server.ts:238](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L238)
+Defined in: [src/struct/server.ts:238](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L238)
 
 Deletes the server (alias for leave).
 
@@ -628,7 +628,7 @@ Deletes the server (alias for leave).
 
 > **edit**(`options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`Server`\>
 
-Defined in: [src/struct/server.ts:219](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L219)
+Defined in: [src/struct/server.ts:219](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L219)
 
 Edits the server.
 
@@ -740,7 +740,7 @@ The updated server instance.
 
 > **equals**(`obj?`): `boolean`
 
-Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L29)
+Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L29)
 
 Compares this object with another to determine if they are equal.
 
@@ -768,7 +768,7 @@ The object to compare with.
 
 > **fetchBans**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`any`[]\>
 
-Defined in: [src/struct/server.ts:327](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L327)
+Defined in: [src/struct/server.ts:327](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L327)
 
 Fetches all bans for this server.
 
@@ -784,7 +784,7 @@ Array of ban data.
 
 > **fetchEmojis**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`Map`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map)\<`string`, [`Emoji`](Emoji.md)\>\>
 
-Defined in: [src/struct/server.ts:318](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L318)
+Defined in: [src/struct/server.ts:318](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L318)
 
 Fetches all emojis for this server.
 
@@ -800,7 +800,7 @@ Map of emojis.
 
 > **fetchInvites**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`any`[]\>
 
-Defined in: [src/struct/server.ts:355](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L355)
+Defined in: [src/struct/server.ts:355](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L355)
 
 Fetches all invites for this server.
 
@@ -816,7 +816,7 @@ Array of invite data.
 
 > **iconURL**(): `string` \| `null`
 
-Defined in: [src/struct/server.ts:196](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L196)
+Defined in: [src/struct/server.ts:196](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L196)
 
 Gets the URL of the server icon.
 
@@ -832,7 +832,7 @@ The icon URL, or `null` if no icon is set.
 
 > **leave**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/server.ts:229](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L229)
+Defined in: [src/struct/server.ts:229](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L229)
 
 Leaves the server.
 
@@ -846,7 +846,7 @@ Leaves the server.
 
 > **markAsRead**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/server.ts:370](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L370)
+Defined in: [src/struct/server.ts:370](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L370)
 
 Marks all channels in this server as read.
 
@@ -864,7 +864,7 @@ ack
 
 > **setBanner**(`banner`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`Server`\>
 
-Defined in: [src/struct/server.ts:259](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L259)
+Defined in: [src/struct/server.ts:259](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L259)
 
 Sets the banner of the server.
 
@@ -886,7 +886,7 @@ The new banner, or `null` to remove it.
 
 > **setDefaultPermissions**(`permissions`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`Server`\>
 
-Defined in: [src/struct/server.ts:292](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L292)
+Defined in: [src/struct/server.ts:292](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L292)
 
 Sets the default permissions for the server.
 
@@ -908,7 +908,7 @@ The default permissions value.
 
 > **setDescription**(`description`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`Server`\>
 
-Defined in: [src/struct/server.ts:270](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L270)
+Defined in: [src/struct/server.ts:270](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L270)
 
 Sets the description of the server.
 
@@ -930,7 +930,7 @@ The new description, or `null` to remove it.
 
 > **setIcon**(`icon`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`Server`\>
 
-Defined in: [src/struct/server.ts:248](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L248)
+Defined in: [src/struct/server.ts:248](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L248)
 
 Sets the icon of the server.
 
@@ -952,7 +952,7 @@ The new icon, or `null` to remove it.
 
 > **setNSFW**(`nsfw`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`Server`\>
 
-Defined in: [src/struct/server.ts:281](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L281)
+Defined in: [src/struct/server.ts:281](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L281)
 
 Sets whether the server is NSFW.
 
@@ -974,7 +974,7 @@ Whether the server should be NSFW.
 
 > **toString**(): `string`
 
-Defined in: [src/struct/server.ts:379](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L379)
+Defined in: [src/struct/server.ts:379](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L379)
 
 Converts the server to a string representation.
 
@@ -990,7 +990,7 @@ The name of the server.
 
 > **unban**(`userId`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/server.ts:346](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/server.ts#L346)
+Defined in: [src/struct/server.ts:346](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/server.ts#L346)
 
 Unbans a user from this server.
 

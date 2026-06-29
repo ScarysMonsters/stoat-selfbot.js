@@ -4,7 +4,7 @@ title: "Interface: CreateChannelOptions"
 
 # Interface: CreateChannelOptions
 
-Defined in: [src/managers/serverChannelManager.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/serverChannelManager.ts#L14)
+Defined in: [src/managers/serverChannelManager.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverChannelManager.ts#L14)
 
 ## Properties
 
@@ -12,7 +12,7 @@ Defined in: [src/managers/serverChannelManager.ts:14](https://github.com/ScarysM
 
 > `optional` **description?**: `string`
 
-Defined in: [src/managers/serverChannelManager.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/serverChannelManager.ts#L17)
+Defined in: [src/managers/serverChannelManager.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverChannelManager.ts#L17)
 
 ***
 
@@ -20,7 +20,7 @@ Defined in: [src/managers/serverChannelManager.ts:17](https://github.com/ScarysM
 
 > **name**: `string`
 
-Defined in: [src/managers/serverChannelManager.ts:15](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/serverChannelManager.ts#L15)
+Defined in: [src/managers/serverChannelManager.ts:15](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverChannelManager.ts#L15)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [src/managers/serverChannelManager.ts:15](https://github.com/ScarysM
 
 > `optional` **nsfw?**: `boolean`
 
-Defined in: [src/managers/serverChannelManager.ts:18](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/serverChannelManager.ts#L18)
+Defined in: [src/managers/serverChannelManager.ts:18](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverChannelManager.ts#L18)
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: [src/managers/serverChannelManager.ts:18](https://github.com/ScarysM
 
 > `optional` **type?**: `"Text"` \| `"Voice"`
 
-Defined in: [src/managers/serverChannelManager.ts:16](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/serverChannelManager.ts#L16)
+Defined in: [src/managers/serverChannelManager.ts:16](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverChannelManager.ts#L16)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [src/managers/serverChannelManager.ts:16](https://github.com/ScarysM
 
 > **voice**: `object`
 
-Defined in: [src/managers/serverChannelManager.ts:19](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/serverChannelManager.ts#L19)
+Defined in: [src/managers/serverChannelManager.ts:19](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverChannelManager.ts#L19)
 
 #### max\_users?
 

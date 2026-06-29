@@ -4,7 +4,7 @@ title: "Class: Invite"
 
 # Class: Invite
 
-Defined in: [src/struct/invite.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L11)
+Defined in: [src/struct/invite.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L11)
 
 Represents an invite to a server or channel.
 
@@ -18,7 +18,7 @@ Represents an invite to a server or channel.
 
 > **new Invite**(`client`, `data`): `Invite`
 
-Defined in: [src/struct/invite.ts:42](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L42)
+Defined in: [src/struct/invite.ts:42](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L42)
 
 Creates a new Invite instance.
 
@@ -128,7 +128,7 @@ Id of user who created this invite
 
 > **channelId**: `string`
 
-Defined in: [src/struct/invite.ts:25](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L25)
+Defined in: [src/struct/invite.ts:25](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L25)
 
 The ID of the channel associated with the invite.
 
@@ -138,7 +138,7 @@ The ID of the channel associated with the invite.
 
 > **channelName**: `string` \| `null` = `null`
 
-Defined in: [src/struct/invite.ts:28](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L28)
+Defined in: [src/struct/invite.ts:28](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L28)
 
 The name of the channel associated with the invite, if any.
 
@@ -148,7 +148,7 @@ The name of the channel associated with the invite, if any.
 
 > `readonly` **client**: [`Client`](Client.md)
 
-Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L21)
+Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L21)
 
 The client instance.
 
@@ -162,7 +162,7 @@ The client instance.
 
 > **id**: `string`
 
-Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L14)
+Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L14)
 
 The unique identifier for the object.
 
@@ -176,7 +176,7 @@ The unique identifier for the object.
 
 > **inviterId**: `string` \| `null` = `null`
 
-Defined in: [src/struct/invite.ts:22](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L22)
+Defined in: [src/struct/invite.ts:22](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L22)
 
 The ID of the user who created the invite.
 
@@ -186,7 +186,7 @@ The ID of the user who created the invite.
 
 > **serverBanner**: `string` \| `null` = `null`
 
-Defined in: [src/struct/invite.ts:34](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L34)
+Defined in: [src/struct/invite.ts:34](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L34)
 
 The banner of the server associated with the invite, if any.
 
@@ -196,7 +196,7 @@ The banner of the server associated with the invite, if any.
 
 > **serverIcon**: `string` \| `null` = `null`
 
-Defined in: [src/struct/invite.ts:31](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L31)
+Defined in: [src/struct/invite.ts:31](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L31)
 
 The icon of the server associated with the invite, if any.
 
@@ -206,7 +206,7 @@ The icon of the server associated with the invite, if any.
 
 > **serverId**: `string` \| `null` = `null`
 
-Defined in: [src/struct/invite.ts:16](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L16)
+Defined in: [src/struct/invite.ts:16](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L16)
 
 The ID of the server associated with the invite, if any.
 
@@ -216,7 +216,7 @@ The ID of the server associated with the invite, if any.
 
 > **serverName**: `string` \| `null` = `null`
 
-Defined in: [src/struct/invite.ts:19](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L19)
+Defined in: [src/struct/invite.ts:19](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L19)
 
 The name of the server associated with the invite, if any.
 
@@ -226,7 +226,7 @@ The name of the server associated with the invite, if any.
 
 > **type**: `string` \| `null` = `null`
 
-Defined in: [src/struct/invite.ts:13](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L13)
+Defined in: [src/struct/invite.ts:13](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L13)
 
 The type of the invite (e.g., "Server" or "Group").
 
@@ -238,7 +238,7 @@ The type of the invite (e.g., "Server" or "Group").
 
 > **get** **channel**(): [`Channel`](Channel.md) \| `null`
 
-Defined in: [src/struct/invite.ts:98](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L98)
+Defined in: [src/struct/invite.ts:98](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L98)
 
 Retrieves the channel associated with the invite.
 
@@ -256,7 +256,7 @@ The channel associated with the invite, or `null` if not found.
 
 > **get** **inviter**(): [`User`](User.md) \| `null`
 
-Defined in: [src/struct/invite.ts:107](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L107)
+Defined in: [src/struct/invite.ts:107](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L107)
 
 Retrieves the user who created the invite.
 
@@ -274,7 +274,7 @@ The user who created the invite, or `null` if not found.
 
 > **get** **server**(): [`Server`](Server.md) \| `null`
 
-Defined in: [src/struct/invite.ts:87](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L87)
+Defined in: [src/struct/invite.ts:87](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L87)
 
 Retrieves the server associated with the invite.
 
@@ -292,7 +292,7 @@ The server associated with the invite, or `null` if not found.
 
 > **get** **url**(): `string`
 
-Defined in: [src/struct/invite.ts:146](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L146)
+Defined in: [src/struct/invite.ts:146](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L146)
 
 Gets the URL for this invite.
 
@@ -308,7 +308,7 @@ The invite URL.
 
 > **\_clone**(): `this`
 
-Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L84)
+Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L84)
 
 Creates a deep clone of the object.
 
@@ -328,7 +328,7 @@ A clone of the object.
 
 > **\_update**(`data`, `clear?`): `this`
 
-Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L56)
+Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L56)
 
 Updates the object with new data and returns a clone of the object.
 
@@ -362,7 +362,7 @@ A clone of the updated object.
 
 > **accept**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/invite.ts:128](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L128)
+Defined in: [src/struct/invite.ts:128](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L128)
 
 Accepts/joins the invite.
 
@@ -378,7 +378,7 @@ A promise that resolves when the invite is accepted.
 
 > **delete**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/invite.ts:137](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L137)
+Defined in: [src/struct/invite.ts:137](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L137)
 
 Deletes the invite.
 
@@ -394,7 +394,7 @@ A promise that resolves when the invite is deleted.
 
 > **equals**(`obj?`): `boolean`
 
-Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L29)
+Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L29)
 
 Compares this object with another to determine if they are equal.
 
@@ -422,7 +422,7 @@ The object to compare with.
 
 > **fetch**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`Invite`\>
 
-Defined in: [src/struct/invite.ts:118](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L118)
+Defined in: [src/struct/invite.ts:118](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L118)
 
 Fetches the invite data from the API.
 
@@ -438,7 +438,7 @@ The updated invite.
 
 > **toString**(): `string`
 
-Defined in: [src/struct/invite.ts:150](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/invite.ts#L150)
+Defined in: [src/struct/invite.ts:150](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/invite.ts#L150)
 
 Returns a string representation of an object.
 

@@ -4,7 +4,7 @@ title: "Class: MFAManager"
 
 # Class: MFAManager
 
-Defined in: [src/managers/mfaManager.ts:39](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/mfaManager.ts#L39)
+Defined in: [src/managers/mfaManager.ts:39](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/mfaManager.ts#L39)
 
 Manages multi-factor authentication (MFA) for the authenticated user.
 Provides methods to check MFA status, manage TOTP, and handle recovery codes.
@@ -32,7 +32,7 @@ console.log("Recovery codes:", codes);
 
 > **new MFAManager**(`client`): `MFAManager`
 
-Defined in: [src/managers/mfaManager.ts:42](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/mfaManager.ts#L42)
+Defined in: [src/managers/mfaManager.ts:42](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/mfaManager.ts#L42)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [src/managers/mfaManager.ts:42](https://github.com/ScarysMonsters/st
 
 > `readonly` **client**: [`Client`](Client.md)
 
-Defined in: [src/managers/mfaManager.ts:40](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/mfaManager.ts#L40)
+Defined in: [src/managers/mfaManager.ts:40](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/mfaManager.ts#L40)
 
 ## Methods
 
@@ -58,7 +58,7 @@ Defined in: [src/managers/mfaManager.ts:40](https://github.com/ScarysMonsters/st
 
 > **disableTOTP**(`code`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/mfaManager.ts:96](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/mfaManager.ts#L96)
+Defined in: [src/managers/mfaManager.ts:96](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/mfaManager.ts#L96)
 
 Disables TOTP-based MFA for the authenticated user.
 
@@ -80,7 +80,7 @@ The current TOTP code to confirm the action.
 
 > **enableTOTP**(`secret`, `code`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/mfaManager.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/mfaManager.ts#L84)
+Defined in: [src/managers/mfaManager.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/mfaManager.ts#L84)
 
 Enables TOTP-based MFA for the authenticated user.
 
@@ -108,7 +108,7 @@ The current TOTP code to verify.
 
 > **generateTicket**(`code`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`MFATicket`](../interfaces/MFATicket.md)\>
 
-Defined in: [src/managers/mfaManager.ts:71](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/mfaManager.ts#L71)
+Defined in: [src/managers/mfaManager.ts:71](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/mfaManager.ts#L71)
 
 Generates an MFA ticket using a TOTP code.
 
@@ -132,7 +132,7 @@ The generated MFA ticket.
 
 > **getMethods**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`MFAMethod`](../interfaces/MFAMethod.md)[]\>
 
-Defined in: [src/managers/mfaManager.ts:60](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/mfaManager.ts#L60)
+Defined in: [src/managers/mfaManager.ts:60](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/mfaManager.ts#L60)
 
 Gets the available MFA methods for the authenticated user.
 
@@ -148,7 +148,7 @@ An array of MFA methods.
 
 > **getRecoveryCodes**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`string`[]\>
 
-Defined in: [src/managers/mfaManager.ts:107](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/mfaManager.ts#L107)
+Defined in: [src/managers/mfaManager.ts:107](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/mfaManager.ts#L107)
 
 Gets the recovery codes for the authenticated user's MFA.
 
@@ -164,7 +164,7 @@ An array of recovery code strings.
 
 > **getStatus**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`any`\>
 
-Defined in: [src/managers/mfaManager.ts:51](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/mfaManager.ts#L51)
+Defined in: [src/managers/mfaManager.ts:51](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/mfaManager.ts#L51)
 
 Gets the current MFA status for the authenticated user.
 

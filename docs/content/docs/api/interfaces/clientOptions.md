@@ -4,7 +4,7 @@ title: "Interface: clientOptions"
 
 # Interface: clientOptions
 
-Defined in: [src/client/baseClient.ts:179](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L179)
+Defined in: [src/client/baseClient.ts:179](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L179)
 
 Represents the options for configuring the selfbot client.
 
@@ -14,7 +14,7 @@ Represents the options for configuring the selfbot client.
 
 > `optional` **fetchMembers?**: `boolean`
 
-Defined in: [src/client/baseClient.ts:181](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L181)
+Defined in: [src/client/baseClient.ts:181](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L181)
 
 Whether to fetch all members of a server.
 
@@ -24,7 +24,7 @@ Whether to fetch all members of a server.
 
 > `optional` **ignoreEvents?**: `string`[]
 
-Defined in: [src/client/baseClient.ts:184](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L184)
+Defined in: [src/client/baseClient.ts:184](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L184)
 
 Events for the client to ignore.
 
@@ -34,7 +34,7 @@ Events for the client to ignore.
 
 > `optional` **MessageCache?**: `object`
 
-Defined in: [src/client/baseClient.ts:198](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L198)
+Defined in: [src/client/baseClient.ts:198](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L198)
 
 #### maxSize?
 
@@ -48,7 +48,7 @@ The maximum size of the cache.
 
 > `optional` **rest?**: `object`
 
-Defined in: [src/client/baseClient.ts:187](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L187)
+Defined in: [src/client/baseClient.ts:187](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L187)
 
 Configuration for REST API requests.
 
@@ -82,7 +82,7 @@ The timeout for REST requests in milliseconds.
 
 > `optional` **ws?**: `object`
 
-Defined in: [src/client/baseClient.ts:204](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/client/baseClient.ts#L204)
+Defined in: [src/client/baseClient.ts:204](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L204)
 
 Configuration for WebSocket connections.
 

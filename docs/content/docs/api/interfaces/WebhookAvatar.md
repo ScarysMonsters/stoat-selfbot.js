@@ -4,7 +4,7 @@ title: "Interface: WebhookAvatar"
 
 # Interface: WebhookAvatar
 
-Defined in: [src/utils/types.ts:16](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/types.ts#L16)
+Defined in: [src/utils/types.ts:16](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L16)
 
 Represents a webhook avatar attachment.
 
@@ -14,7 +14,7 @@ Represents a webhook avatar attachment.
 
 > **\_id**: `string`
 
-Defined in: [src/utils/types.ts:18](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/types.ts#L18)
+Defined in: [src/utils/types.ts:18](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L18)
 
 The unique identifier of the attachment.
 
@@ -24,7 +24,7 @@ The unique identifier of the attachment.
 
 > **content\_type**: `string`
 
-Defined in: [src/utils/types.ts:26](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/types.ts#L26)
+Defined in: [src/utils/types.ts:26](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L26)
 
 The MIME type of the attachment.
 
@@ -34,7 +34,7 @@ The MIME type of the attachment.
 
 > **filename**: `string`
 
-Defined in: [src/utils/types.ts:22](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/types.ts#L22)
+Defined in: [src/utils/types.ts:22](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L22)
 
 The filename of the attachment.
 
@@ -44,7 +44,7 @@ The filename of the attachment.
 
 > **metadata**: `any`
 
-Defined in: [src/utils/types.ts:24](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/types.ts#L24)
+Defined in: [src/utils/types.ts:24](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L24)
 
 Additional metadata for the attachment.
 
@@ -54,7 +54,7 @@ Additional metadata for the attachment.
 
 > **size**: `number`
 
-Defined in: [src/utils/types.ts:28](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/types.ts#L28)
+Defined in: [src/utils/types.ts:28](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L28)
 
 The size of the attachment in bytes.
 
@@ -64,6 +64,6 @@ The size of the attachment in bytes.
 
 > **tag**: `string`
 
-Defined in: [src/utils/types.ts:20](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/types.ts#L20)
+Defined in: [src/utils/types.ts:20](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L20)
 
 The tag associated with the attachment.

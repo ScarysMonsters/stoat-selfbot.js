@@ -4,7 +4,7 @@ title: "Class: Collection\\<K, V\\>"
 
 # Class: Collection\<K, V\>
 
-Defined in: [src/utils/collection.ts:7](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L7)
+Defined in: [src/utils/collection.ts:7](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L7)
 
 A discord.js-style Collection class that extends Map with utility methods.
 
@@ -132,7 +132,7 @@ Returns an iterable of entries in the map.
 
 > **array**(): `V`[]
 
-Defined in: [src/utils/collection.ts:167](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L167)
+Defined in: [src/utils/collection.ts:167](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L167)
 
 Returns an array of all values in the Collection (insertion order).
 
@@ -146,7 +146,7 @@ Returns an array of all values in the Collection (insertion order).
 
 > **at**(`index`): `V` \| `undefined`
 
-Defined in: [src/utils/collection.ts:125](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L125)
+Defined in: [src/utils/collection.ts:125](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L125)
 
 Returns the value at the given index (insertion order), or undefined if out of bounds.
 
@@ -184,7 +184,7 @@ Defined in: node\_modules/.pnpm/typescript@5.9.3/node\_modules/typescript/lib/li
 
 > **clone**(): `Collection`\<`K`, `V`\>
 
-Defined in: [src/utils/collection.ts:174](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L174)
+Defined in: [src/utils/collection.ts:174](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L174)
 
 Creates a shallow clone of this Collection.
 
@@ -198,7 +198,7 @@ Creates a shallow clone of this Collection.
 
 > **concat**(...`collections`): `Collection`\<`K`, `V`\>
 
-Defined in: [src/utils/collection.ts:183](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L183)
+Defined in: [src/utils/collection.ts:183](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L183)
 
 Combines this Collection with others, returning a new Collection.
 Later collections' entries overwrite earlier ones when keys collide.
@@ -245,7 +245,7 @@ true if an element in the Map existed and has been removed, or false if the elem
 
 > **difference**(`other`): `Collection`\<`K`, `V`\>
 
-Defined in: [src/utils/collection.ts:295](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L295)
+Defined in: [src/utils/collection.ts:295](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L295)
 
 Returns a new Collection with items whose keys exist in this but not in the other.
 
@@ -285,7 +285,7 @@ Returns an iterable of key, value pairs for every entry in the map.
 
 > **equals**(`collection`): `boolean`
 
-Defined in: [src/utils/collection.ts:197](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L197)
+Defined in: [src/utils/collection.ts:197](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L197)
 
 Checks if this Collection equals another by comparing keys and values.
 
@@ -307,7 +307,7 @@ The Collection to compare against.
 
 > **every**(`fn`): `boolean`
 
-Defined in: [src/utils/collection.ts:60](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L60)
+Defined in: [src/utils/collection.ts:60](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L60)
 
 Checks whether every item passes the test.
 
@@ -329,7 +329,7 @@ Test function called with (value, key, collection).
 
 > **filter**(`fn`): `Collection`\<`K`, `V`\>
 
-Defined in: [src/utils/collection.ts:12](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L12)
+Defined in: [src/utils/collection.ts:12](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L12)
 
 Identifies items that pass a test, returning a new Collection with only those items.
 
@@ -351,7 +351,7 @@ Test function called with (value, key, collection).
 
 > **find**(`fn`): `V` \| `undefined`
 
-Defined in: [src/utils/collection.ts:26](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L26)
+Defined in: [src/utils/collection.ts:26](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L26)
 
 Searches for a single item that passes the test and returns its value.
 
@@ -375,7 +375,7 @@ Test function called with (value, key, collection).
 
 > **first**(): `V` \| `undefined`
 
-Defined in: [src/utils/collection.ts:93](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L93)
+Defined in: [src/utils/collection.ts:93](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L93)
 
 Returns the first value in the Collection, or the first `count` values as an array.
 
@@ -387,7 +387,7 @@ Returns the first value in the Collection, or the first `count` values as an arr
 
 > **first**(`count`): `V`[]
 
-Defined in: [src/utils/collection.ts:94](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L94)
+Defined in: [src/utils/collection.ts:94](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L94)
 
 Returns the first value in the Collection, or the first `count` values as an array.
 
@@ -407,7 +407,7 @@ Returns the first value in the Collection, or the first `count` values as an arr
 
 > **flatMap**\<`T`\>(`fn`): `Collection`\<`K`, `T`\>
 
-Defined in: [src/utils/collection.ts:266](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L266)
+Defined in: [src/utils/collection.ts:266](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L266)
 
 Maps each item to a Collection and flattens the results into a single Collection.
 
@@ -513,7 +513,7 @@ boolean indicating whether an element with the specified key exists or not.
 
 > **intersect**(`other`): `Collection`\<`K`, `V`\>
 
-Defined in: [src/utils/collection.ts:281](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L281)
+Defined in: [src/utils/collection.ts:281](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L281)
 
 Returns a new Collection with items whose keys exist in both Collections.
 
@@ -535,7 +535,7 @@ The other Collection to intersect with.
 
 > **keyArray**(): `K`[]
 
-Defined in: [src/utils/collection.ts:160](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L160)
+Defined in: [src/utils/collection.ts:160](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L160)
 
 Returns an array of all keys in the Collection (insertion order).
 
@@ -569,7 +569,7 @@ Returns an iterable of keys in the map
 
 > **last**(): `V` \| `undefined`
 
-Defined in: [src/utils/collection.ts:112](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L112)
+Defined in: [src/utils/collection.ts:112](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L112)
 
 Returns the last value in the Collection, or the last `count` values as an array.
 
@@ -581,7 +581,7 @@ Returns the last value in the Collection, or the last `count` values as an array
 
 > **last**(`count`): `V`[]
 
-Defined in: [src/utils/collection.ts:113](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L113)
+Defined in: [src/utils/collection.ts:113](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L113)
 
 Returns the last value in the Collection, or the last `count` values as an array.
 
@@ -601,7 +601,7 @@ Returns the last value in the Collection, or the last `count` values as an array
 
 > **map**\<`T`\>(`fn`): `T`[]
 
-Defined in: [src/utils/collection.ts:37](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L37)
+Defined in: [src/utils/collection.ts:37](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L37)
 
 Maps each item to a new value, returning an array of results.
 
@@ -629,7 +629,7 @@ Mapping function called with (value, key, collection).
 
 > **partition**(`fn`): \[`Collection`\<`K`, `V`\>, `Collection`\<`K`, `V`\>\]
 
-Defined in: [src/utils/collection.ts:249](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L249)
+Defined in: [src/utils/collection.ts:249](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L249)
 
 Partitions the Collection into two Collections based on the test.
 
@@ -655,7 +655,7 @@ A tuple of [truthy Collection, falsy Collection].
 
 > **random**(): `V` \| `undefined`
 
-Defined in: [src/utils/collection.ts:133](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L133)
+Defined in: [src/utils/collection.ts:133](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L133)
 
 Returns a random value from the Collection, or `count` random values as an array.
 
@@ -667,7 +667,7 @@ Returns a random value from the Collection, or `count` random values as an array
 
 > **random**(`count`): `V`[]
 
-Defined in: [src/utils/collection.ts:134](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L134)
+Defined in: [src/utils/collection.ts:134](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L134)
 
 Returns a random value from the Collection, or `count` random values as an array.
 
@@ -687,7 +687,7 @@ Returns a random value from the Collection, or `count` random values as an array
 
 > **reduce**\<`T`\>(`fn`, `initialValue?`): `T`
 
-Defined in: [src/utils/collection.ts:72](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L72)
+Defined in: [src/utils/collection.ts:72](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L72)
 
 Reduces the Collection to a single value.
 
@@ -749,7 +749,7 @@ Adds a new element with a specified key and value to the Map. If an element with
 
 > **some**(`fn`): `boolean`
 
-Defined in: [src/utils/collection.ts:49](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L49)
+Defined in: [src/utils/collection.ts:49](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L49)
 
 Checks whether at least one item passes the test.
 
@@ -771,7 +771,7 @@ Test function called with (value, key, collection).
 
 > **sort**(`compareFunction?`): `Collection`\<`K`, `V`\>
 
-Defined in: [src/utils/collection.ts:210](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L210)
+Defined in: [src/utils/collection.ts:210](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L210)
 
 Sorts the Collection in place by a compare function (default: ascending by value).
 
@@ -793,7 +793,7 @@ Function to determine sort order.
 
 > **sweep**(`fn`): `number`
 
-Defined in: [src/utils/collection.ts:231](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L231)
+Defined in: [src/utils/collection.ts:231](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L231)
 
 Removes items that pass the test, returning the number of removed items.
 
@@ -815,7 +815,7 @@ Test function called with (value, key, collection).
 
 > **tap**(`fn`): `this`
 
-Defined in: [src/utils/collection.ts:309](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L309)
+Defined in: [src/utils/collection.ts:309](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L309)
 
 Runs a function on this Collection and returns the Collection (for chaining).
 
@@ -837,7 +837,7 @@ Function called with the Collection.
 
 > **toJSON**(): [`Record`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)\<`string`, `V`\>
 
-Defined in: [src/utils/collection.ts:317](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L317)
+Defined in: [src/utils/collection.ts:317](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L317)
 
 Returns a JSON-friendly object representation.
 
@@ -851,7 +851,7 @@ Returns a JSON-friendly object representation.
 
 > **toString**(): `string`
 
-Defined in: [src/utils/collection.ts:329](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L329)
+Defined in: [src/utils/collection.ts:329](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L329)
 
 Returns a string representation of this Collection.
 
@@ -883,7 +883,7 @@ Returns an iterable of values in the map
 
 > `static` **combineEntries**\<`K`, `V`\>(`entries`, `combine`): `Collection`\<`K`, `V`\>
 
-Defined in: [src/utils/collection.ts:341](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/collection.ts#L341)
+Defined in: [src/utils/collection.ts:341](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/collection.ts#L341)
 
 Combines entries that share the same key using a combine function.
 If duplicate keys are found, the combine function is called to merge values.

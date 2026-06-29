@@ -15,10 +15,10 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'stoat-selfbot.js',
-      defaultLocale: 'fr',
+      defaultLocale: 'root',
       locales: {
-        fr: { label: 'Français' },
-        en: { label: 'English' }
+        root: { label: 'Français', lang: 'fr' },
+        en: { label: 'English', lang: 'en' }
       },
       sidebar: [
         {

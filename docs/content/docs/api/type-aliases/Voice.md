@@ -6,7 +6,7 @@ title: "Type Alias: Voice"
 
 > **Voice** = `object`
 
-Defined in: [src/struct/voiceChannels.ts:9](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/voiceChannels.ts#L9)
+Defined in: [src/struct/voiceChannels.ts:9](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/voiceChannels.ts#L9)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/struct/voiceChannels.ts:9](https://github.com/ScarysMonsters/st
 
 > **id**: `string`
 
-Defined in: [src/struct/voiceChannels.ts:10](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/voiceChannels.ts#L10)
+Defined in: [src/struct/voiceChannels.ts:10](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/voiceChannels.ts#L10)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [src/struct/voiceChannels.ts:10](https://github.com/ScarysMonsters/s
 
 > **participants**: [`voiceParticipant`](voiceParticipant.md)[]
 
-Defined in: [src/struct/voiceChannels.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/voiceChannels.ts#L11)
+Defined in: [src/struct/voiceChannels.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/voiceChannels.ts#L11)

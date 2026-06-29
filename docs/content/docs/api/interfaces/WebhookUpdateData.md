@@ -4,7 +4,7 @@ title: "Interface: WebhookUpdateData"
 
 # Interface: WebhookUpdateData
 
-Defined in: [src/utils/types.ts:58](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/types.ts#L58)
+Defined in: [src/utils/types.ts:58](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L58)
 
 Represents data for a webhook update event.
 
@@ -14,7 +14,7 @@ Represents data for a webhook update event.
 
 > **avatar**: [`WebhookAvatar`](WebhookAvatar.md) \| `undefined`
 
-Defined in: [src/utils/types.ts:64](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/types.ts#L64)
+Defined in: [src/utils/types.ts:64](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L64)
 
 The updated avatar of the webhook, if any.
 
@@ -24,7 +24,7 @@ The updated avatar of the webhook, if any.
 
 > **name**: `string`
 
-Defined in: [src/utils/types.ts:62](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/types.ts#L62)
+Defined in: [src/utils/types.ts:62](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L62)
 
 The updated name of the webhook.
 
@@ -34,7 +34,7 @@ The updated name of the webhook.
 
 > **remove**: `string`[]
 
-Defined in: [src/utils/types.ts:66](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/types.ts#L66)
+Defined in: [src/utils/types.ts:66](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L66)
 
 Fields to remove from the webhook.
 
@@ -44,6 +44,6 @@ Fields to remove from the webhook.
 
 > **webhookId**: `string`
 
-Defined in: [src/utils/types.ts:60](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/types.ts#L60)
+Defined in: [src/utils/types.ts:60](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L60)
 
 The unique identifier of the webhook.

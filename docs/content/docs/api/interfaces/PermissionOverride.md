@@ -4,7 +4,7 @@ title: "Interface: PermissionOverride"
 
 # Interface: PermissionOverride
 
-Defined in: [src/utils/permissions.ts:327](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/permissions.ts#L327)
+Defined in: [src/utils/permissions.ts:327](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/permissions.ts#L327)
 
 Helper to compute the effective permission allow/deny for a role override.
 The Stoat API uses { a: number, d: number } format where:
@@ -17,7 +17,7 @@ The Stoat API uses { a: number, d: number } format where:
 
 > **allow**: `number`
 
-Defined in: [src/utils/permissions.ts:328](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/permissions.ts#L328)
+Defined in: [src/utils/permissions.ts:328](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/permissions.ts#L328)
 
 ***
 
@@ -25,4 +25,4 @@ Defined in: [src/utils/permissions.ts:328](https://github.com/ScarysMonsters/sto
 
 > **deny**: `number`
 
-Defined in: [src/utils/permissions.ts:329](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/utils/permissions.ts#L329)
+Defined in: [src/utils/permissions.ts:329](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/permissions.ts#L329)

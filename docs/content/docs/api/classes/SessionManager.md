@@ -4,7 +4,7 @@ title: "Class: SessionManager"
 
 # Class: SessionManager
 
-Defined in: [src/managers/sessionManager.ts:36](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/sessionManager.ts#L36)
+Defined in: [src/managers/sessionManager.ts:36](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/sessionManager.ts#L36)
 
 Manages the authenticated user's sessions.
 Provides methods to list, edit, and delete sessions.
@@ -32,7 +32,7 @@ await client.sessions.logout();
 
 > **new SessionManager**(`client`): `SessionManager`
 
-Defined in: [src/managers/sessionManager.ts:40](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/sessionManager.ts#L40)
+Defined in: [src/managers/sessionManager.ts:40](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/sessionManager.ts#L40)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [src/managers/sessionManager.ts:40](https://github.com/ScarysMonster
 
 > `readonly` **cache**: [`Collection`](Collection.md)\<`string`, [`SessionInfo`](../interfaces/SessionInfo.md)\>
 
-Defined in: [src/managers/sessionManager.ts:38](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/sessionManager.ts#L38)
+Defined in: [src/managers/sessionManager.ts:38](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/sessionManager.ts#L38)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [src/managers/sessionManager.ts:38](https://github.com/ScarysMonster
 
 > `readonly` **client**: [`Client`](Client.md)
 
-Defined in: [src/managers/sessionManager.ts:37](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/sessionManager.ts#L37)
+Defined in: [src/managers/sessionManager.ts:37](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/sessionManager.ts#L37)
 
 ## Methods
 
@@ -66,7 +66,7 @@ Defined in: [src/managers/sessionManager.ts:37](https://github.com/ScarysMonster
 
 > **delete**(`sessionId`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/sessionManager.ts:83](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/sessionManager.ts#L83)
+Defined in: [src/managers/sessionManager.ts:83](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/sessionManager.ts#L83)
 
 Deletes (revokes) a session by ID.
 Removes the session from the cache.
@@ -89,7 +89,7 @@ The ID of the session to delete.
 
 > **edit**(`sessionId`, `options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/sessionManager.ts:68](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/sessionManager.ts#L68)
+Defined in: [src/managers/sessionManager.ts:68](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/sessionManager.ts#L68)
 
 Edits a session's properties (e.g. friendly name).
 Updates the cache if the session is present.
@@ -120,7 +120,7 @@ The properties to update.
 
 > **fetchAll**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`Collection`](Collection.md)\<`string`, [`SessionInfo`](../interfaces/SessionInfo.md)\>\>
 
-Defined in: [src/managers/sessionManager.ts:50](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/sessionManager.ts#L50)
+Defined in: [src/managers/sessionManager.ts:50](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/sessionManager.ts#L50)
 
 Fetches all sessions for the authenticated user.
 Caches the results.
@@ -137,7 +137,7 @@ A collection of session info keyed by session ID.
 
 > **logout**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/sessionManager.ts:94](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/sessionManager.ts#L94)
+Defined in: [src/managers/sessionManager.ts:94](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/sessionManager.ts#L94)
 
 Logs out the current session.
 This effectively revokes the session token used by this client.

@@ -4,7 +4,7 @@ title: "Class: Role"
 
 # Class: Role
 
-Defined in: [src/struct/role.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/role.ts#L11)
+Defined in: [src/struct/role.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/role.ts#L11)
 
 Represents a role in a server.
 
@@ -18,7 +18,7 @@ Represents a role in a server.
 
 > **new Role**(`server`, `data`): `Role`
 
-Defined in: [src/struct/role.ts:33](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/role.ts#L33)
+Defined in: [src/struct/role.ts:33](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/role.ts#L33)
 
 Creates a new Role instance.
 
@@ -50,7 +50,7 @@ The raw data for the role from the API.
 
 > `readonly` **client**: [`Client`](Client.md)
 
-Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L21)
+Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L21)
 
 The client instance.
 
@@ -64,7 +64,7 @@ The client instance.
 
 > **color**: `string` \| `null` = `null`
 
-Defined in: [src/struct/role.ts:16](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/role.ts#L16)
+Defined in: [src/struct/role.ts:16](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/role.ts#L16)
 
 The color of the role, or `null` if no color is set.
 
@@ -74,7 +74,7 @@ The color of the role, or `null` if no color is set.
 
 > **hoist**: `boolean` = `false`
 
-Defined in: [src/struct/role.ts:19](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/role.ts#L19)
+Defined in: [src/struct/role.ts:19](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/role.ts#L19)
 
 Whether the role is displayed separately in the member list.
 
@@ -84,7 +84,7 @@ Whether the role is displayed separately in the member list.
 
 > **id**: `string`
 
-Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L14)
+Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L14)
 
 The unique identifier for the object.
 
@@ -98,7 +98,7 @@ The unique identifier for the object.
 
 > **name**: `string`
 
-Defined in: [src/struct/role.ts:13](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/role.ts#L13)
+Defined in: [src/struct/role.ts:13](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/role.ts#L13)
 
 The name of the role.
 
@@ -108,7 +108,7 @@ The name of the role.
 
 > **overwrite**: [`Overwrite`](../interfaces/Overwrite.md)
 
-Defined in: [src/struct/role.ts:25](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/role.ts#L25)
+Defined in: [src/struct/role.ts:25](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/role.ts#L25)
 
 The permissions overwrite for the role.
 
@@ -118,7 +118,7 @@ The permissions overwrite for the role.
 
 > **rank**: `number`
 
-Defined in: [src/struct/role.ts:22](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/role.ts#L22)
+Defined in: [src/struct/role.ts:22](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/role.ts#L22)
 
 The rank of the role, used for ordering.
 
@@ -128,7 +128,7 @@ The rank of the role, used for ordering.
 
 > **server**: [`Server`](Server.md)
 
-Defined in: [src/struct/role.ts:34](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/role.ts#L34)
+Defined in: [src/struct/role.ts:34](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/role.ts#L34)
 
 The server this role belongs to.
 
@@ -140,7 +140,7 @@ The server this role belongs to.
 
 > **get** **createdAt**(): [`Date`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-Defined in: [src/struct/role.ts:83](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/role.ts#L83)
+Defined in: [src/struct/role.ts:83](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/role.ts#L83)
 
 Gets the date when the role was created.
 
@@ -158,7 +158,7 @@ The creation date of the role.
 
 > **get** **createdTimestamp**(): `number`
 
-Defined in: [src/struct/role.ts:92](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/role.ts#L92)
+Defined in: [src/struct/role.ts:92](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/role.ts#L92)
 
 Gets the timestamp of when the role was created.
 
@@ -176,7 +176,7 @@ The creation timestamp of the role in milliseconds.
 
 > **get** **permissions**(): [`Overwrite`](../interfaces/Overwrite.md)
 
-Defined in: [src/struct/role.ts:101](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/role.ts#L101)
+Defined in: [src/struct/role.ts:101](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/role.ts#L101)
 
 Gets the permissions overwrite for the role.
 
@@ -192,7 +192,7 @@ The permissions overwrite for the role.
 
 > **\_clone**(): `this`
 
-Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L84)
+Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L84)
 
 Creates a deep clone of the object.
 
@@ -212,7 +212,7 @@ A clone of the object.
 
 > **\_update**(`data`, `clear?`): `this`
 
-Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L56)
+Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L56)
 
 Updates the object with new data and returns a clone of the object.
 
@@ -246,7 +246,7 @@ A clone of the updated object.
 
 > **delete**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/role.ts:116](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/role.ts#L116)
+Defined in: [src/struct/role.ts:116](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/role.ts#L116)
 
 Deletes the role from the server.
 
@@ -269,7 +269,7 @@ console.log("Role deleted successfully.");
 
 > **edit**(`data`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`Role`\>
 
-Defined in: [src/struct/role.ts:120](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/role.ts#L120)
+Defined in: [src/struct/role.ts:120](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/role.ts#L120)
 
 #### Parameters
 
@@ -287,7 +287,7 @@ Defined in: [src/struct/role.ts:120](https://github.com/ScarysMonsters/stoat-sel
 
 > **equals**(`obj?`): `boolean`
 
-Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L29)
+Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L29)
 
 Compares this object with another to determine if they are equal.
 
@@ -315,7 +315,7 @@ The object to compare with.
 
 > **toString**(): `string`
 
-Defined in: [src/struct/role.ts:129](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/role.ts#L129)
+Defined in: [src/struct/role.ts:129](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/role.ts#L129)
 
 Converts the role to a string representation.
 

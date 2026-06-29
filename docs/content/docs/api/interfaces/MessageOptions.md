@@ -4,7 +4,7 @@ title: "Interface: MessageOptions"
 
 # Interface: MessageOptions
 
-Defined in: [src/managers/messageManager.ts:23](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/messageManager.ts#L23)
+Defined in: [src/managers/messageManager.ts:23](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/messageManager.ts#L23)
 
 ## Properties
 
@@ -12,7 +12,7 @@ Defined in: [src/managers/messageManager.ts:23](https://github.com/ScarysMonster
 
 > `optional` **attachments?**: `string`[] \| `Readable`[] \| `File`[]
 
-Defined in: [src/managers/messageManager.ts:26](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/messageManager.ts#L26)
+Defined in: [src/managers/messageManager.ts:26](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/messageManager.ts#L26)
 
 ***
 
@@ -20,7 +20,7 @@ Defined in: [src/managers/messageManager.ts:26](https://github.com/ScarysMonster
 
 > `optional` **content?**: `string`
 
-Defined in: [src/managers/messageManager.ts:24](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/messageManager.ts#L24)
+Defined in: [src/managers/messageManager.ts:24](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/messageManager.ts#L24)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [src/managers/messageManager.ts:24](https://github.com/ScarysMonster
 
 > `optional` **embeds?**: [`MessageEmbed`](../classes/MessageEmbed.md)[]
 
-Defined in: [src/managers/messageManager.ts:27](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/messageManager.ts#L27)
+Defined in: [src/managers/messageManager.ts:27](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/messageManager.ts#L27)
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: [src/managers/messageManager.ts:27](https://github.com/ScarysMonster
 
 > `optional` **masquerade?**: `object`
 
-Defined in: [src/managers/messageManager.ts:28](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/messageManager.ts#L28)
+Defined in: [src/managers/messageManager.ts:28](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/messageManager.ts#L28)
 
 #### avatar?
 
@@ -70,4 +70,4 @@ Replace the display name shown on this message
 
 > `optional` **replies?**: [`MessageReply`](MessageReply.md)[]
 
-Defined in: [src/managers/messageManager.ts:25](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/managers/messageManager.ts#L25)
+Defined in: [src/managers/messageManager.ts:25](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/messageManager.ts#L25)

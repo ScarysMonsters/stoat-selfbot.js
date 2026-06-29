@@ -4,7 +4,7 @@ title: "Class: ServerBan"
 
 # Class: ServerBan
 
-Defined in: [src/struct/serverBan.ts:12](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/serverBan.ts#L12)
+Defined in: [src/struct/serverBan.ts:12](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverBan.ts#L12)
 
 Represents a ban entry in a server.
 
@@ -18,7 +18,7 @@ Represents a ban entry in a server.
 
 > **new ServerBan**(`client`, `data`): `ServerBan`
 
-Defined in: [src/struct/serverBan.ts:28](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/serverBan.ts#L28)
+Defined in: [src/struct/serverBan.ts:28](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverBan.ts#L28)
 
 Creates a new ServerBan instance.
 
@@ -50,7 +50,7 @@ The raw ban data from the API.
 
 > `readonly` **client**: [`Client`](Client.md)
 
-Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L21)
+Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L21)
 
 The client instance.
 
@@ -64,7 +64,7 @@ The client instance.
 
 > **id**: `string`
 
-Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L14)
+Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L14)
 
 The unique identifier for the object.
 
@@ -78,7 +78,7 @@ The unique identifier for the object.
 
 > **reason**: `string` \| `null` = `null`
 
-Defined in: [src/struct/serverBan.ts:20](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/serverBan.ts#L20)
+Defined in: [src/struct/serverBan.ts:20](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverBan.ts#L20)
 
 The reason for the ban, or `null` if none was provided.
 
@@ -88,7 +88,7 @@ The reason for the ban, or `null` if none was provided.
 
 > **serverId**: `string`
 
-Defined in: [src/struct/serverBan.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/serverBan.ts#L14)
+Defined in: [src/struct/serverBan.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverBan.ts#L14)
 
 The ID of the server this ban belongs to.
 
@@ -98,7 +98,7 @@ The ID of the server this ban belongs to.
 
 > **userId**: `string`
 
-Defined in: [src/struct/serverBan.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/serverBan.ts#L17)
+Defined in: [src/struct/serverBan.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverBan.ts#L17)
 
 The ID of the banned user.
 
@@ -110,7 +110,7 @@ The ID of the banned user.
 
 > **get** **createdAt**(): [`Date`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-Defined in: [src/struct/serverBan.ts:60](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/serverBan.ts#L60)
+Defined in: [src/struct/serverBan.ts:60](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverBan.ts#L60)
 
 Gets the creation date of the ban.
 
@@ -126,7 +126,7 @@ Gets the creation date of the ban.
 
 > **get** **server**(): [`Server`](Server.md) \| `null`
 
-Defined in: [src/struct/serverBan.ts:67](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/serverBan.ts#L67)
+Defined in: [src/struct/serverBan.ts:67](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverBan.ts#L67)
 
 Gets the server this ban belongs to.
 
@@ -142,7 +142,7 @@ Gets the server this ban belongs to.
 
 > **get** **user**(): [`User`](User.md) \| `null`
 
-Defined in: [src/struct/serverBan.ts:74](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/serverBan.ts#L74)
+Defined in: [src/struct/serverBan.ts:74](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverBan.ts#L74)
 
 Gets the banned user.
 
@@ -156,7 +156,7 @@ Gets the banned user.
 
 > **\_clone**(): `this`
 
-Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L84)
+Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L84)
 
 Creates a deep clone of the object.
 
@@ -176,7 +176,7 @@ A clone of the object.
 
 > **\_update**(`data`, `clear?`): `this`
 
-Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L56)
+Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L56)
 
 Updates the object with new data and returns a clone of the object.
 
@@ -210,7 +210,7 @@ A clone of the updated object.
 
 > **equals**(`obj?`): `boolean`
 
-Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/base.ts#L29)
+Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L29)
 
 Compares this object with another to determine if they are equal.
 
@@ -238,7 +238,7 @@ The object to compare with.
 
 > **revoke**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/serverBan.ts:81](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/serverBan.ts#L81)
+Defined in: [src/struct/serverBan.ts:81](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverBan.ts#L81)
 
 Revokes (unbans) this ban.
 
@@ -252,7 +252,7 @@ Revokes (unbans) this ban.
 
 > **toString**(): `string`
 
-Defined in: [src/struct/serverBan.ts:85](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/serverBan.ts#L85)
+Defined in: [src/struct/serverBan.ts:85](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverBan.ts#L85)
 
 Returns a string representation of an object.
 

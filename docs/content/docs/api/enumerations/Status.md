@@ -4,7 +4,7 @@ title: "Enumeration: Status"
 
 # Enumeration: Status
 
-Defined in: [src/struct/presence.ts:6](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/presence.ts#L6)
+Defined in: [src/struct/presence.ts:6](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/presence.ts#L6)
 
 Enum representing the possible presence statuses of a user.
 
@@ -14,7 +14,7 @@ Enum representing the possible presence statuses of a user.
 
 > **Busy**: `"Busy"`
 
-Defined in: [src/struct/presence.ts:10](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/presence.ts#L10)
+Defined in: [src/struct/presence.ts:10](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/presence.ts#L10)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/struct/presence.ts:10](https://github.com/ScarysMonsters/stoat-
 
 > **Focus**: `"Focus"`
 
-Defined in: [src/struct/presence.ts:9](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/presence.ts#L9)
+Defined in: [src/struct/presence.ts:9](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/presence.ts#L9)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/struct/presence.ts:9](https://github.com/ScarysMonsters/stoat-s
 
 > **Idle**: `"Idle"`
 
-Defined in: [src/struct/presence.ts:8](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/presence.ts#L8)
+Defined in: [src/struct/presence.ts:8](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/presence.ts#L8)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/struct/presence.ts:8](https://github.com/ScarysMonsters/stoat-s
 
 > **Invisible**: `"Invisible"`
 
-Defined in: [src/struct/presence.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/presence.ts#L11)
+Defined in: [src/struct/presence.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/presence.ts#L11)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [src/struct/presence.ts:11](https://github.com/ScarysMonsters/stoat-
 
 > **Online**: `"Online"`
 
-Defined in: [src/struct/presence.ts:7](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/presence.ts#L7)
+Defined in: [src/struct/presence.ts:7](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/presence.ts#L7)

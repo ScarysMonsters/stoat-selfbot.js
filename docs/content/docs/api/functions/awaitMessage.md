@@ -6,7 +6,7 @@ title: "Function: awaitMessage()"
 
 > **awaitMessage**(`client`, `options?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`MessageStruct`](../classes/MessageStruct.md) \| `null`\>
 
-Defined in: [src/struct/messageCollector.ts:171](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/1b9ee56ae2d958141519151132c15064f87b2571/src/struct/messageCollector.ts#L171)
+Defined in: [src/struct/messageCollector.ts:171](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageCollector.ts#L171)
 
 Convenience method to collect messages matching a filter.
 Returns a Promise that resolves with the first matching message.
