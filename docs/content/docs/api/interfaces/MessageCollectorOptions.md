@@ -4,7 +4,7 @@ title: "Interface: MessageCollectorOptions"
 
 # Interface: MessageCollectorOptions
 
-Defined in: [src/struct/messageCollector.ts:9](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageCollector.ts#L9)
+Defined in: [src/struct/messageCollector.ts:9](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageCollector.ts#L9)
 
 Options for creating a MessageCollector.
 
@@ -14,7 +14,7 @@ Options for creating a MessageCollector.
 
 > `optional` **channelIds?**: `string`[]
 
-Defined in: [src/struct/messageCollector.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageCollector.ts#L11)
+Defined in: [src/struct/messageCollector.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageCollector.ts#L11)
 
 The channel ID(s) to collect messages from.
 
@@ -24,7 +24,7 @@ The channel ID(s) to collect messages from.
 
 > `optional` **filter?**: (`message`) => `boolean` \| [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`boolean`\>
 
-Defined in: [src/struct/messageCollector.ts:19](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageCollector.ts#L19)
+Defined in: [src/struct/messageCollector.ts:19](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageCollector.ts#L19)
 
 A filter function to apply to incoming messages.
 
@@ -44,7 +44,7 @@ A filter function to apply to incoming messages.
 
 > `optional` **idle?**: `number`
 
-Defined in: [src/struct/messageCollector.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageCollector.ts#L17)
+Defined in: [src/struct/messageCollector.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageCollector.ts#L17)
 
 An idle timeout in milliseconds after which the collector ends.
 
@@ -54,7 +54,7 @@ An idle timeout in milliseconds after which the collector ends.
 
 > `optional` **max?**: `number`
 
-Defined in: [src/struct/messageCollector.ts:13](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageCollector.ts#L13)
+Defined in: [src/struct/messageCollector.ts:13](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageCollector.ts#L13)
 
 The maximum number of messages to collect.
 
@@ -64,6 +64,6 @@ The maximum number of messages to collect.
 
 > `optional` **time?**: `number`
 
-Defined in: [src/struct/messageCollector.ts:15](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageCollector.ts#L15)
+Defined in: [src/struct/messageCollector.ts:15](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageCollector.ts#L15)
 
 The maximum duration in milliseconds before the collector ends.

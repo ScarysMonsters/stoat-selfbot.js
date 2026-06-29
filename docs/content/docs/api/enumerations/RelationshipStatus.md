@@ -4,7 +4,7 @@ title: "Enumeration: RelationshipStatus"
 
 # Enumeration: RelationshipStatus
 
-Defined in: [src/utils/constants.ts:130](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/constants.ts#L130)
+Defined in: [src/utils/constants.ts:130](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/constants.ts#L130)
 
 Enum representing the relationship status between users.
 
@@ -14,7 +14,7 @@ Enum representing the relationship status between users.
 
 > **BLOCKED**: `"Blocked"`
 
-Defined in: [src/utils/constants.ts:134](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/constants.ts#L134)
+Defined in: [src/utils/constants.ts:134](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/constants.ts#L134)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/utils/constants.ts:134](https://github.com/ScarysMonsters/stoat
 
 > **FRIEND**: `"Friend"`
 
-Defined in: [src/utils/constants.ts:133](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/constants.ts#L133)
+Defined in: [src/utils/constants.ts:133](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/constants.ts#L133)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/utils/constants.ts:133](https://github.com/ScarysMonsters/stoat
 
 > **IMPLICIT**: `"Implicit"`
 
-Defined in: [src/utils/constants.ts:137](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/constants.ts#L137)
+Defined in: [src/utils/constants.ts:137](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/constants.ts#L137)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/utils/constants.ts:137](https://github.com/ScarysMonsters/stoat
 
 > **NONE**: `"None"`
 
-Defined in: [src/utils/constants.ts:131](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/constants.ts#L131)
+Defined in: [src/utils/constants.ts:131](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/constants.ts#L131)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [src/utils/constants.ts:131](https://github.com/ScarysMonsters/stoat
 
 > **PENDING\_INCOMING**: `"PendingIncoming"`
 
-Defined in: [src/utils/constants.ts:135](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/constants.ts#L135)
+Defined in: [src/utils/constants.ts:135](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/constants.ts#L135)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [src/utils/constants.ts:135](https://github.com/ScarysMonsters/stoat
 
 > **PENDING\_OUTGOING**: `"PendingOutgoing"`
 
-Defined in: [src/utils/constants.ts:136](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/constants.ts#L136)
+Defined in: [src/utils/constants.ts:136](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/constants.ts#L136)
 
 ***
 
@@ -62,4 +62,4 @@ Defined in: [src/utils/constants.ts:136](https://github.com/ScarysMonsters/stoat
 
 > **USER**: `"User"`
 
-Defined in: [src/utils/constants.ts:132](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/constants.ts#L132)
+Defined in: [src/utils/constants.ts:132](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/constants.ts#L132)

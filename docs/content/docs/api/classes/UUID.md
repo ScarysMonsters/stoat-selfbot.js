@@ -4,7 +4,7 @@ title: "Class: UUID"
 
 # Class: UUID
 
-Defined in: [src/utils/UUID.ts:3](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/UUID.ts#L3)
+Defined in: [src/utils/UUID.ts:3](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/UUID.ts#L3)
 
 ## Extends
 
@@ -30,7 +30,7 @@ Defined in: [src/utils/UUID.ts:3](https://github.com/ScarysMonsters/stoat-selfbo
 
 > `readonly` `static` **ENCODING**: `"0123456789ABCDEFGHJKMNPQRSTVWXYZ"` = `"0123456789ABCDEFGHJKMNPQRSTVWXYZ"`
 
-Defined in: [src/utils/UUID.ts:4](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/UUID.ts#L4)
+Defined in: [src/utils/UUID.ts:4](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/UUID.ts#L4)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/utils/UUID.ts:4](https://github.com/ScarysMonsters/stoat-selfbo
 
 > `readonly` `static` **ENCODING\_LENGTH**: `number` = `UUID.ENCODING.length`
 
-Defined in: [src/utils/UUID.ts:5](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/UUID.ts#L5)
+Defined in: [src/utils/UUID.ts:5](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/UUID.ts#L5)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [src/utils/UUID.ts:5](https://github.com/ScarysMonsters/stoat-selfbo
 
 > `readonly` `static` **RANDOM\_LENGTH**: `16` = `16`
 
-Defined in: [src/utils/UUID.ts:6](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/UUID.ts#L6)
+Defined in: [src/utils/UUID.ts:6](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/UUID.ts#L6)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [src/utils/UUID.ts:6](https://github.com/ScarysMonsters/stoat-selfbo
 
 > `readonly` `static` **TIME\_LENGTH**: `10` = `10`
 
-Defined in: [src/utils/UUID.ts:7](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/UUID.ts#L7)
+Defined in: [src/utils/UUID.ts:7](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/UUID.ts#L7)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [src/utils/UUID.ts:7](https://github.com/ScarysMonsters/stoat-selfbo
 
 > `readonly` `static` **TIME\_MAX**: `number`
 
-Defined in: [src/utils/UUID.ts:8](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/UUID.ts#L8)
+Defined in: [src/utils/UUID.ts:8](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/UUID.ts#L8)
 
 ## Accessors
 
@@ -72,7 +72,7 @@ Defined in: [src/utils/UUID.ts:8](https://github.com/ScarysMonsters/stoat-selfbo
 
 > **get** `static` **PROG**(): `number`
 
-Defined in: [src/utils/UUID.ts:9](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/UUID.ts#L9)
+Defined in: [src/utils/UUID.ts:9](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/UUID.ts#L9)
 
 ##### Returns
 
@@ -84,7 +84,7 @@ Defined in: [src/utils/UUID.ts:9](https://github.com/ScarysMonsters/stoat-selfbo
 
 > `static` **generate**(`timestamp?`): `string`
 
-Defined in: [src/utils/UUID.ts:42](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/UUID.ts#L42)
+Defined in: [src/utils/UUID.ts:42](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/UUID.ts#L42)
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: [src/utils/UUID.ts:42](https://github.com/ScarysMonsters/stoat-selfb
 
 > `static` **timestampOf**(`id`): [`Date`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-Defined in: [src/utils/UUID.ts:46](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/UUID.ts#L46)
+Defined in: [src/utils/UUID.ts:46](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/UUID.ts#L46)
 
 #### Parameters
 

@@ -4,7 +4,7 @@ title: "Class: Mentions"
 
 # Class: Mentions
 
-Defined in: [src/struct/mentions.ts:8](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/mentions.ts#L8)
+Defined in: [src/struct/mentions.ts:8](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/mentions.ts#L8)
 
 Represents the mentions in a message, including users and server members.
 
@@ -14,7 +14,7 @@ Represents the mentions in a message, including users and server members.
 
 > **new Mentions**(`message`, `_users`): `Mentions`
 
-Defined in: [src/struct/mentions.ts:18](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/mentions.ts#L18)
+Defined in: [src/struct/mentions.ts:18](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/mentions.ts#L18)
 
 Creates a new Mentions instance.
 
@@ -42,7 +42,7 @@ An array of user IDs mentioned in the message.
 
 > `readonly` **client**: [`Client`](Client.md)
 
-Defined in: [src/struct/mentions.ts:10](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/mentions.ts#L10)
+Defined in: [src/struct/mentions.ts:10](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/mentions.ts#L10)
 
 The client instance.
 
@@ -52,7 +52,7 @@ The client instance.
 
 > `readonly` **message**: [`MessageStruct`](MessageStruct.md)
 
-Defined in: [src/struct/mentions.ts:19](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/mentions.ts#L19)
+Defined in: [src/struct/mentions.ts:19](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/mentions.ts#L19)
 
 The message associated with the mentions.
 
@@ -64,7 +64,7 @@ The message associated with the mentions.
 
 > **get** **members**(): [`Map`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map)\<`string`, [`ServerMember`](ServerMember.md)\> \| `null`
 
-Defined in: [src/struct/mentions.ts:58](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/mentions.ts#L58)
+Defined in: [src/struct/mentions.ts:58](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/mentions.ts#L58)
 
 Retrieves the server members mentioned in the message.
 
@@ -91,7 +91,7 @@ A map of user IDs to `ServerMember` instances, or `null` if the message is not i
 
 > **get** **users**(): [`Map`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map)\<`string`, [`User`](User.md)\>
 
-Defined in: [src/struct/mentions.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/mentions.ts#L84)
+Defined in: [src/struct/mentions.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/mentions.ts#L84)
 
 Retrieves the users mentioned in the message.
 
@@ -114,7 +114,7 @@ A map of user IDs to `User` instances.
 
 > **has**(`user`): `boolean`
 
-Defined in: [src/struct/mentions.ts:39](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/mentions.ts#L39)
+Defined in: [src/struct/mentions.ts:39](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/mentions.ts#L39)
 
 Checks if a specific user is mentioned in the message.
 

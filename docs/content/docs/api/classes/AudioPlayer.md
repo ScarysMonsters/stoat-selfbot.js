@@ -4,7 +4,7 @@ title: "Class: AudioPlayer"
 
 # Class: AudioPlayer
 
-Defined in: [src/client/player.ts:40](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L40)
+Defined in: [src/client/player.ts:40](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L40)
 
 ## Extends
 
@@ -16,7 +16,7 @@ Defined in: [src/client/player.ts:40](https://github.com/ScarysMonsters/stoat-se
 
 > **new AudioPlayer**(`channelId`, `serverId`, `client`): `AudioPlayer`
 
-Defined in: [src/client/player.ts:66](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L66)
+Defined in: [src/client/player.ts:66](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L66)
 
 #### Parameters
 
@@ -141,7 +141,7 @@ v13.6.0, v12.17.0
 
 > **get** **channel**(): `string`
 
-Defined in: [src/client/player.ts:76](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L76)
+Defined in: [src/client/player.ts:76](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L76)
 
 Get the channel ID this player is associated with
 
@@ -157,7 +157,7 @@ Get the channel ID this player is associated with
 
 > **get** **connected**(): `boolean`
 
-Defined in: [src/client/player.ts:97](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L97)
+Defined in: [src/client/player.ts:97](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L97)
 
 Check if the player is connected to a voice channel
 
@@ -173,7 +173,7 @@ Check if the player is connected to a voice channel
 
 > **get** **server**(): `string`
 
-Defined in: [src/client/player.ts:83](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L83)
+Defined in: [src/client/player.ts:83](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L83)
 
 Get the server ID this player is associated with
 
@@ -189,7 +189,7 @@ Get the server ID this player is associated with
 
 > **get** **volume**(): `number`
 
-Defined in: [src/client/player.ts:90](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L90)
+Defined in: [src/client/player.ts:90](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L90)
 
 Get current volume level (0.0 to 2.0)
 
@@ -269,7 +269,7 @@ v0.1.26
 
 > **connect**(`targetChannelId?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/client/player.ts:211](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L211)
+Defined in: [src/client/player.ts:211](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L211)
 
 Connect to the voice channel
 
@@ -289,7 +289,7 @@ Connect to the voice channel
 
 > **decreaseVolume**(`amount?`): `void`
 
-Defined in: [src/client/player.ts:129](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L129)
+Defined in: [src/client/player.ts:129](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L129)
 
 Decrease volume by specified amount
 
@@ -311,7 +311,7 @@ Amount to decrease (default: 0.1)
 
 > **disconnect**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/client/player.ts:1005](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L1005)
+Defined in: [src/client/player.ts:1005](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L1005)
 
 Disconnect from the voice channel
 
@@ -447,7 +447,7 @@ v1.0.0
 
 > **getStatus**(): `object`
 
-Defined in: [src/client/player.ts:1057](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L1057)
+Defined in: [src/client/player.ts:1057](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L1057)
 
 Get player status information
 
@@ -481,7 +481,7 @@ Get player status information
 
 > **increaseVolume**(`amount?`): `void`
 
-Defined in: [src/client/player.ts:121](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L121)
+Defined in: [src/client/player.ts:121](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L121)
 
 Increase volume by specified amount
 
@@ -581,7 +581,7 @@ v0.1.26
 
 > **mute**(): `void`
 
-Defined in: [src/client/player.ts:136](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L136)
+Defined in: [src/client/player.ts:136](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L136)
 
 Mute audio (set volume to 0)
 
@@ -595,7 +595,7 @@ Mute audio (set volume to 0)
 
 > **off**\<`K`\>(`event`, `listener`): `this`
 
-Defined in: [src/client/player.ts:46](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L46)
+Defined in: [src/client/player.ts:46](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L46)
 
 #### Type Parameters
 
@@ -623,7 +623,7 @@ Defined in: [src/client/player.ts:46](https://github.com/ScarysMonsters/stoat-se
 
 > **on**\<`K`\>(`event`, `listener`): `this`
 
-Defined in: [src/client/player.ts:41](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L41)
+Defined in: [src/client/player.ts:41](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L41)
 
 #### Type Parameters
 
@@ -712,7 +712,7 @@ v0.3.0
 
 > **play**(`input`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/client/player.ts:329](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L329)
+Defined in: [src/client/player.ts:329](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L329)
 
 Generic play method that automatically detects the input type and uses the appropriate play method
 
@@ -901,7 +901,7 @@ v9.4.0
 
 > **removeAllListeners**\<`K`\>(`event?`): `this`
 
-Defined in: [src/client/player.ts:51](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L51)
+Defined in: [src/client/player.ts:51](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L51)
 
 #### Type Parameters
 
@@ -1066,7 +1066,7 @@ v0.3.5
 
 > **setVolume**(`level`): `void`
 
-Defined in: [src/client/player.ts:105](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L105)
+Defined in: [src/client/player.ts:105](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L105)
 
 Set volume level
 
@@ -1088,7 +1088,7 @@ Volume level from 0.0 (mute) to 2.0 (200%)
 
 > **stop**(`trackName?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/client/player.ts:961](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L961)
+Defined in: [src/client/player.ts:961](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L961)
 
 Stop current audio playback
 
@@ -1108,7 +1108,7 @@ Stop current audio playback
 
 > **unmute**(): `void`
 
-Defined in: [src/client/player.ts:145](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/player.ts#L145)
+Defined in: [src/client/player.ts:145](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/player.ts#L145)
 
 Unmute audio (restore to 100% if currently muted)
 

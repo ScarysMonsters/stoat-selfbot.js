@@ -4,7 +4,7 @@ title: "Abstract Class: Channel"
 
 # Abstract Class: Channel
 
-Defined in: [src/struct/channel.ts:34](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L34)
+Defined in: [src/struct/channel.ts:34](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L34)
 
 Represents a generic communication channel in the client.
 This abstract class provides a base structure and common functionality
@@ -27,7 +27,7 @@ for all types of channels, such as text, voice, group, and server channels.
 
 > **new Channel**(`client`): `Channel`
 
-Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L21)
+Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L21)
 
 Creates a new Base instance.
 
@@ -53,7 +53,7 @@ The client instance.
 
 > `readonly` **client**: [`Client`](Client.md)
 
-Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L21)
+Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L21)
 
 The client instance.
 
@@ -67,7 +67,7 @@ The client instance.
 
 > **id**: `string`
 
-Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L14)
+Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L14)
 
 The unique identifier for the object.
 
@@ -81,7 +81,7 @@ The unique identifier for the object.
 
 > **type**: [`ChannelTypes`](../enumerations/ChannelTypes.md) \| `"UNKNOWN"` = `"UNKNOWN"`
 
-Defined in: [src/struct/channel.ts:35](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L35)
+Defined in: [src/struct/channel.ts:35](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L35)
 
 The type of the channel. Defaults to "UNKNOWN".
 
@@ -91,7 +91,7 @@ The type of the channel. Defaults to "UNKNOWN".
 
 > `optional` **voice?**: [`Map`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map)\<`string`, [`voiceParticipant`](../type-aliases/voiceParticipant.md)\>
 
-Defined in: [src/struct/channel.ts:36](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L36)
+Defined in: [src/struct/channel.ts:36](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L36)
 
 ## Accessors
 
@@ -101,7 +101,7 @@ Defined in: [src/struct/channel.ts:36](https://github.com/ScarysMonsters/stoat-s
 
 > **get** **createdAt**(): [`Date`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-Defined in: [src/struct/channel.ts:52](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L52)
+Defined in: [src/struct/channel.ts:52](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L52)
 
 Gets the date and time when the channel was created.
 
@@ -121,7 +121,7 @@ The date and time when the channel was created.
 
 > **get** **createdTimestamp**(): `number`
 
-Defined in: [src/struct/channel.ts:43](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L43)
+Defined in: [src/struct/channel.ts:43](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L43)
 
 Gets the timestamp (in milliseconds) when the channel was created.
 
@@ -139,7 +139,7 @@ The timestamp (in milliseconds) when the channel was created.
 
 > **\_clone**(): `this`
 
-Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L84)
+Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L84)
 
 Creates a deep clone of the object.
 
@@ -159,7 +159,7 @@ A clone of the object.
 
 > **\_update**(`data`, `clear?`): `this`
 
-Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L56)
+Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L56)
 
 Updates the object with new data and returns a clone of the object.
 
@@ -193,7 +193,7 @@ A clone of the updated object.
 
 > **createWebhook**(`name`, `avatar?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`createWebhookResponse`](../interfaces/createWebhookResponse.md)\>
 
-Defined in: [src/struct/channel.ts:432](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L432)
+Defined in: [src/struct/channel.ts:432](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L432)
 
 Creates a new webhook in this channel.
 
@@ -229,7 +229,7 @@ const webhook = await channel.createWebhook("My Webhook", "https://example.com/a
 
 > **delete**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/channel.ts:74](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L74)
+Defined in: [src/struct/channel.ts:74](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L74)
 
 Deletes the current channel instance from the client's channel collection.
 
@@ -259,7 +259,7 @@ if (channel) {
 
 > **deleteWebhook**(`webhookId`, `token`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/channel.ts:516](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L516)
+Defined in: [src/struct/channel.ts:516](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L516)
 
 Deletes a webhook.
 
@@ -296,7 +296,7 @@ console.log("Webhook deleted successfully");
 
 > **edit**(`data`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<\{ `_id`: `string`; `channel_type`: `string`; `user`: `string`; \}\>
 
-Defined in: [src/struct/channel.ts:133](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L133)
+Defined in: [src/struct/channel.ts:133](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L133)
 
 #### Parameters
 
@@ -314,7 +314,7 @@ Defined in: [src/struct/channel.ts:133](https://github.com/ScarysMonsters/stoat-
 
 > **editWebhook**(`webhookId`, `token`, `options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`createWebhookResponse`](../interfaces/createWebhookResponse.md)\>
 
-Defined in: [src/struct/channel.ts:536](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L536)
+Defined in: [src/struct/channel.ts:536](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L536)
 
 Edits a webhook's properties.
 
@@ -359,7 +359,7 @@ const updatedWebhook = await channel.editWebhook("webhookId", "token", {
 
 > **equals**(`obj?`): `boolean`
 
-Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L29)
+Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L29)
 
 Compares this object with another to determine if they are equal.
 
@@ -387,7 +387,7 @@ The object to compare with.
 
 > **fetch**(`force?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`Channel`\>
 
-Defined in: [src/struct/channel.ts:129](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L129)
+Defined in: [src/struct/channel.ts:129](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L129)
 
 Fetches the latest data for the channel from the client's channel collection.
 
@@ -411,7 +411,7 @@ A promise that resolves with the updated channel instance.
 
 > **getPartialWebhook**(`webhookId`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`createWebhookResponse`](../interfaces/createWebhookResponse.md)\>
 
-Defined in: [src/struct/channel.ts:557](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L557)
+Defined in: [src/struct/channel.ts:557](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L557)
 
 Retrieves partial information about a webhook using only its ID.
 This method provides limited webhook information without requiring a token.
@@ -443,7 +443,7 @@ console.log(`Webhook name: ${partialWebhook.name}`);
 
 > **getWebhook**(`webhookId`, `token`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`createWebhookResponse`](../interfaces/createWebhookResponse.md)\>
 
-Defined in: [src/struct/channel.ts:467](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L467)
+Defined in: [src/struct/channel.ts:467](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L467)
 
 Retrieves a specific webhook by ID and token.
 
@@ -480,7 +480,7 @@ console.log(`Webhook name: ${webhook.name}`);
 
 > **getWebhooks**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`createWebhookResponse`](../interfaces/createWebhookResponse.md)[]\>
 
-Defined in: [src/struct/channel.ts:450](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L450)
+Defined in: [src/struct/channel.ts:450](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L450)
 
 Retrieves all webhooks for this channel.
 
@@ -503,7 +503,7 @@ console.log(`Found ${webhooks.length} webhooks`);
 
 > **inServer**(): `this is ServerChannel`
 
-Defined in: [src/struct/channel.ts:110](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L110)
+Defined in: [src/struct/channel.ts:110](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L110)
 
 Checks if the channel is part of a server.
 
@@ -519,7 +519,7 @@ True if the channel is a server channel, otherwise false.
 
 > **isGroup**(): `this is GroupChannel`
 
-Defined in: [src/struct/channel.ts:101](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L101)
+Defined in: [src/struct/channel.ts:101](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L101)
 
 Checks if the channel is a group channel.
 
@@ -535,7 +535,7 @@ True if the channel is a group channel, otherwise false.
 
 > **isText**(): this is TextChannel \| GroupChannel \| DMChannel
 
-Defined in: [src/struct/channel.ts:83](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L83)
+Defined in: [src/struct/channel.ts:83](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L83)
 
 Checks if the channel is a text-based channel.
 
@@ -551,7 +551,7 @@ True if the channel is a text-based channel, otherwise false.
 
 > **isVoice**(): `this is VoiceChannel`
 
-Defined in: [src/struct/channel.ts:92](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L92)
+Defined in: [src/struct/channel.ts:92](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L92)
 
 Checks if the channel is a voice channel.
 
@@ -567,7 +567,7 @@ True if the channel is a voice channel, otherwise false.
 
 > **sendWebhookMessage**(`webhookId`, `token`, `content`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<\{ `_id`: `string`; `attachments?`: `object`[] \| `null`; `author`: `string`; `channel`: `string`; `content?`: `string` \| `null`; `edited?`: `string` \| `null`; `embeds?`: (\{ `colour?`: `string` \| `null`; `description?`: `string` \| `null`; `icon_url?`: `string` \| `null`; `image?`: \{ `height`: `number`; `size`: `"Large"` \| `"Preview"`; `url`: `string`; `width`: `number`; \} \| `null`; `original_url?`: `string` \| `null`; `site_name?`: `string` \| `null`; `special?`: \{ `type`: `"None"`; \} \| \{ `type`: `"GIF"`; \} \| \{ `id`: `string`; `timestamp?`: `string` \| `null`; `type`: `"YouTube"`; \} \| \{ `content_type`: `"Channel"`; `id`: `string`; `type`: `"Lightspeed"`; \} \| \{ `content_type`: `"Video"` \| `"Channel"` \| `"Clip"`; `id`: `string`; `type`: `"Twitch"`; \} \| \{ `content_type`: `string`; `id`: `string`; `type`: `"Spotify"`; \} \| \{ `type`: `"Soundcloud"`; \} \| \{ `content_type`: `"Album"` \| `"Track"`; `id`: `string`; `type`: `"Bandcamp"`; \} \| \{ `album_id`: `string`; `track_id?`: `string` \| `null`; `type`: `"AppleMusic"`; \} \| \{ `id`: `string`; `type`: `"Streamable"`; \} \| `null`; `title?`: `string` \| `null`; `type`: `"Website"`; `url?`: `string` \| `null`; `video?`: \{ `height`: `number`; `url`: `string`; `width`: `number`; \} \| `null`; \} \| \{ `height`: `number`; `size`: `"Large"` \| `"Preview"`; `type`: `"Image"`; `url`: `string`; `width`: `number`; \} \| \{ `height`: `number`; `type`: `"Video"`; `url`: `string`; `width`: `number`; \} \| \{ `colour?`: `string` \| `null`; `description?`: `string` \| `null`; `icon_url?`: `string` \| `null`; `media?`: \{ `_id`: `string`; `content_type`: `string`; `deleted?`: `boolean` \| `null`; `filename`: `string`; `message_id?`: `string` \| `null`; `metadata`: \{ `type`: `"File"`; \} \| \{ `type`: `"Text"`; \} \| \{ `height`: `number`; `type`: `"Image"`; `width`: `number`; \} \| \{ `height`: `number`; `type`: `"Video"`; `width`: `number`; \} \| \{ `type`: `"Audio"`; \}; `object_id?`: `string` \| `null`; `reported?`: `boolean` \| `null`; `server_id?`: `string` \| `null`; `size`: `number`; `tag`: `string`; `user_id?`: `string` \| `null`; \} \| `null`; `title?`: `string` \| `null`; `type`: `"Text"`; `url?`: `string` \| `null`; \} \| \{ `type`: `"None"`; \})[] \| `null`; `flags?`: `number`; `interactions?`: \{ `reactions?`: `string`[] \| `null`; `restrict_reactions?`: `boolean`; \}; `masquerade?`: \{ `avatar?`: `string` \| `null`; `colour?`: `string` \| `null`; `name?`: `string` \| `null`; \} \| `null`; `member?`: \{ `_id`: \{ `server`: `string`; `user`: `string`; \}; `avatar?`: \{ `_id`: `string`; `content_type`: `string`; `deleted?`: `boolean` \| `null`; `filename`: `string`; `message_id?`: `string` \| `null`; `metadata`: \{ `type`: `"File"`; \} \| \{ `type`: `"Text"`; \} \| \{ `height`: `number`; `type`: `"Image"`; `width`: `number`; \} \| \{ `height`: `number`; `type`: `"Video"`; `width`: `number`; \} \| \{ `type`: `"Audio"`; \}; `object_id?`: `string` \| `null`; `reported?`: `boolean` \| `null`; `server_id?`: `string` \| `null`; `size`: `number`; `tag`: `string`; `user_id?`: `string` \| `null`; \} \| `null`; `joined_at`: `string`; `nickname?`: `string` \| `null`; `roles?`: `string`[]; `timeout?`: `string` \| `null`; \} \| `null`; `mentions?`: `string`[] \| `null`; `nonce?`: `string` \| `null`; `pinned?`: `boolean` \| `null`; `reactions?`: \{\[`key`: `string`\]: `string`[]; \}; `replies?`: `string`[] \| `null`; `role_mentions?`: `string`[] \| `null`; `system?`: \{ `content`: `string`; `type`: `"text"`; \} \| \{ `by`: `string`; `id`: `string`; `type`: `"user_added"`; \} \| \{ `by`: `string`; `id`: `string`; `type`: `"user_remove"`; \} \| \{ `id`: `string`; `type`: `"user_joined"`; \} \| \{ `id`: `string`; `type`: `"user_left"`; \} \| \{ `id`: `string`; `type`: `"user_kicked"`; \} \| \{ `id`: `string`; `type`: `"user_banned"`; \} \| \{ `by`: `string`; `name`: `string`; `type`: `"channel_renamed"`; \} \| \{ `by`: `string`; `type`: `"channel_description_changed"`; \} \| \{ `by`: `string`; `type`: `"channel_icon_changed"`; \} \| \{ `from`: `string`; `to`: `string`; `type`: `"channel_ownership_changed"`; \} \| \{ `by`: `string`; `id`: `string`; `type`: `"message_pinned"`; \} \| \{ `by`: `string`; `id`: `string`; `type`: `"message_unpinned"`; \} \| `null`; `user?`: \{ `_id`: `string`; `avatar?`: \{ `_id`: `string`; `content_type`: `string`; `deleted?`: `boolean` \| `null`; `filename`: `string`; `message_id?`: `string` \| `null`; `metadata`: \{ `type`: `"File"`; \} \| \{ `type`: `"Text"`; \} \| \{ `height`: `number`; `type`: `"Image"`; `width`: `number`; \} \| \{ `height`: `number`; `type`: `"Video"`; `width`: `number`; \} \| \{ `type`: `"Audio"`; \}; `object_id?`: `string` \| `null`; `reported?`: `boolean` \| `null`; `server_id?`: `string` \| `null`; `size`: `number`; `tag`: `string`; `user_id?`: `string` \| `null`; \} \| `null`; `badges?`: `number`; `bot?`: \{ `owner`: `string`; \} \| `null`; `discriminator`: `string`; `display_name?`: `string` \| `null`; `flags?`: `number`; `online`: `boolean`; `privileged?`: `boolean`; `relations?`: `object`[]; `relationship`: `"User"` \| `"None"` \| `"Friend"` \| `"Blocked"` \| `"Outgoing"` \| `"Incoming"` \| `"BlockedOther"`; `status?`: \{ `presence?`: `"Online"` \| `"Idle"` \| `"Focus"` \| `"Busy"` \| `"Invisible"` \| `null`; `text?`: `string` \| `null`; \} \| `null`; `username`: `string`; \} \| `null`; `webhook?`: \{ `avatar?`: `string` \| `null`; `name`: `string`; \} \| `null`; \}\>
 
-Defined in: [src/struct/channel.ts:495](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L495)
+Defined in: [src/struct/channel.ts:495](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L495)
 
 Sends a message through a webhook in this channel.
 
@@ -619,7 +619,7 @@ await channel.sendWebhookMessage("webhookId", "token", {
 
 > **setDefaultPermissions**(`allow`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/channel.ts:292](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L292)
+Defined in: [src/struct/channel.ts:292](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L292)
 
 Sets default permissions for this channel.
 
@@ -652,7 +652,7 @@ await channel.setDefaultPermissions(["ViewChannel", "SendMessage"]);
 
 > **setDefaultPermissions**(`options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/channel.ts:317](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L317)
+Defined in: [src/struct/channel.ts:317](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L317)
 
 Sets default permissions for this channel.
 
@@ -700,7 +700,7 @@ await channel.setDefaultPermissions({
 
 > **setDefaultPermissions**(`permissions`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/channel.ts:339](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L339)
+Defined in: [src/struct/channel.ts:339](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L339)
 
 Sets default permissions for this channel (legacy format).
 
@@ -740,7 +740,7 @@ await channel.setDefaultPermissions({
 
 > **setRolePermissions**(`roleId`, `allow`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/channel.ts:161](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L161)
+Defined in: [src/struct/channel.ts:161](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L161)
 
 Sets role permissions for this channel.
 
@@ -779,7 +779,7 @@ await channel.setRolePermissions(roleId, ["ViewChannel", "SendMessage"]);
 
 > **setRolePermissions**(`roleId`, `allow`, `deny`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/channel.ts:182](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L182)
+Defined in: [src/struct/channel.ts:182](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L182)
 
 Sets role permissions for this channel.
 
@@ -824,7 +824,7 @@ await channel.setRolePermissions(roleId, ["ViewChannel"], ["ManageMessages"]);
 
 > **setRolePermissions**(`roleId`, `options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/channel.ts:212](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L212)
+Defined in: [src/struct/channel.ts:212](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L212)
 
 Sets role permissions for this channel.
 
@@ -880,7 +880,7 @@ await channel.setRolePermissions(roleId, {
 
 > **toString**(): `string`
 
-Defined in: [src/struct/channel.ts:119](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/channel.ts#L119)
+Defined in: [src/struct/channel.ts:119](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/channel.ts#L119)
 
 Converts the channel to a string representation.
 

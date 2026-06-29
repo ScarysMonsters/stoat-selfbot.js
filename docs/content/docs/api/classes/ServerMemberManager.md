@@ -4,7 +4,7 @@ title: "Class: ServerMemberManager"
 
 # Class: ServerMemberManager
 
-Defined in: [src/managers/serverMemberManager.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverMemberManager.ts#L14)
+Defined in: [src/managers/serverMemberManager.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/serverMemberManager.ts#L14)
 
 Abstract base class for all managers.
 Provides caching with configurable max size and LRU eviction.
@@ -21,7 +21,7 @@ Inspired by discord.js-selfbot-v13's DataManager/CachedManager pattern.
 
 > **new ServerMemberManager**(`server`): `ServerMemberManager`
 
-Defined in: [src/managers/serverMemberManager.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverMemberManager.ts#L17)
+Defined in: [src/managers/serverMemberManager.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/serverMemberManager.ts#L17)
 
 #### Parameters
 
@@ -43,7 +43,7 @@ Defined in: [src/managers/serverMemberManager.ts:17](https://github.com/ScarysMo
 
 > `readonly` **cache**: [`Collection`](Collection.md)\<`string`, [`ServerMember`](ServerMember.md)\>
 
-Defined in: [src/managers/baseManager.ts:18](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L18)
+Defined in: [src/managers/baseManager.ts:18](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L18)
 
 Insertion ordered cache of items this manager holds.
 
@@ -57,7 +57,7 @@ Insertion ordered cache of items this manager holds.
 
 > `static` **defaultMaxSize**: `number` = `-1`
 
-Defined in: [src/managers/baseManager.ts:15](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L15)
+Defined in: [src/managers/baseManager.ts:15](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L15)
 
 Shared default max size for all managers (can be changed globally). -1 = unlimited.
 
@@ -73,7 +73,7 @@ Shared default max size for all managers (can be changed globally). -1 = unlimit
 
 > **get** **size**(): `number`
 
-Defined in: [src/managers/baseManager.ts:139](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L139)
+Defined in: [src/managers/baseManager.ts:139](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L139)
 
 Returns the number of items in the cache.
 
@@ -91,7 +91,7 @@ Returns the number of items in the cache.
 
 > **ban**(`member`, `reason?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/serverMemberManager.ts:49](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverMemberManager.ts#L49)
+Defined in: [src/managers/serverMemberManager.ts:49](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/serverMemberManager.ts#L49)
 
 ban selected member in the server
 
@@ -121,7 +121,7 @@ A promise that resolves when the member is banned
 
 > **clear**(): `void`
 
-Defined in: [src/managers/baseManager.ts:162](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L162)
+Defined in: [src/managers/baseManager.ts:162](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L162)
 
 Clears the entire cache.
 
@@ -139,7 +139,7 @@ Clears the entire cache.
 
 > **edit**(`member`, `options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/serverMemberManager.ts:30](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverMemberManager.ts#L30)
+Defined in: [src/managers/serverMemberManager.ts:30](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/serverMemberManager.ts#L30)
 
 edit selected member in the server
 
@@ -171,7 +171,7 @@ A promise that resolves when the member is edited
 
 > **fetch**(`member`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`ServerMember`](ServerMember.md)\>
 
-Defined in: [src/managers/serverMemberManager.ts:105](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverMemberManager.ts#L105)
+Defined in: [src/managers/serverMemberManager.ts:105](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/serverMemberManager.ts#L105)
 
 fetch a member from the server
 
@@ -193,7 +193,7 @@ A promise that resolves with the fetched member
 
 > **fetch**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`Map`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map)\<`string`, [`ServerMember`](ServerMember.md)\>\>
 
-Defined in: [src/managers/serverMemberManager.ts:106](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverMemberManager.ts#L106)
+Defined in: [src/managers/serverMemberManager.ts:106](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/serverMemberManager.ts#L106)
 
 fetch a member from the server
 
@@ -209,7 +209,7 @@ A promise that resolves with the fetched member
 
 > **get**(`id`): [`ServerMember`](ServerMember.md) \| `undefined`
 
-Defined in: [src/managers/baseManager.ts:155](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L155)
+Defined in: [src/managers/baseManager.ts:155](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L155)
 
 Gets an item from the cache by ID.
 
@@ -235,7 +235,7 @@ The ID of the item.
 
 > **has**(`id`): `boolean`
 
-Defined in: [src/managers/baseManager.ts:147](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L147)
+Defined in: [src/managers/baseManager.ts:147](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L147)
 
 Checks if an item with the given ID exists in the cache.
 
@@ -261,7 +261,7 @@ The ID to check.
 
 > **kick**(`member`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/serverMemberManager.ts:64](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverMemberManager.ts#L64)
+Defined in: [src/managers/serverMemberManager.ts:64](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/serverMemberManager.ts#L64)
 
 kick selected member in the server
 
@@ -287,7 +287,7 @@ A promise that resolves when the member is kicked
 
 > **resolve**(`resolvable`): [`ServerMember`](ServerMember.md) \| `null`
 
-Defined in: [src/managers/baseManager.ts:108](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L108)
+Defined in: [src/managers/baseManager.ts:108](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L108)
 
 Resolves a resolvable to the held object.
 
@@ -313,7 +313,7 @@ The held object or null.
 
 > **resolve**(`resolvable`): [`ServerMember`](ServerMember.md) \| `null`
 
-Defined in: [src/managers/baseManager.ts:109](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L109)
+Defined in: [src/managers/baseManager.ts:109](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L109)
 
 Resolves a resolvable to the held object.
 
@@ -339,7 +339,7 @@ The held object or null.
 
 > **resolve**(`resolvable`): [`ServerMember`](ServerMember.md) \| `null`
 
-Defined in: [src/managers/baseManager.ts:110](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L110)
+Defined in: [src/managers/baseManager.ts:110](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L110)
 
 Resolves a resolvable to the held object.
 
@@ -429,7 +429,7 @@ The held object or null.
 
 > **resolveId**(`member`): `string` \| `null`
 
-Defined in: [src/managers/serverMemberManager.ts:144](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverMemberManager.ts#L144)
+Defined in: [src/managers/serverMemberManager.ts:144](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/serverMemberManager.ts#L144)
 
 resolves a member from a string or a member object
 
@@ -457,7 +457,7 @@ The id of the member or null if it cannot be resolved
 
 > **setMaxSize**(`size`): `void`
 
-Defined in: [src/managers/baseManager.ts:79](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L79)
+Defined in: [src/managers/baseManager.ts:79](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L79)
 
 Adjust the maximum size for this manager at runtime.
 
@@ -483,7 +483,7 @@ The new max size. -1 for unlimited, 0 to disable caching.
 
 > **timeout**(`member`, `duration`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/serverMemberManager.ts:91](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverMemberManager.ts#L91)
+Defined in: [src/managers/serverMemberManager.ts:91](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/serverMemberManager.ts#L91)
 
 set timeout for a member in the server
 
@@ -513,7 +513,7 @@ A promise that resolves when the timeout is set
 
 > **unban**(`member`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/serverMemberManager.ts:77](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverMemberManager.ts#L77)
+Defined in: [src/managers/serverMemberManager.ts:77](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/serverMemberManager.ts#L77)
 
 unban selected member in the server
 
@@ -537,7 +537,7 @@ A promise that resolves when the member is unbanned
 
 > **valueOf**(): [`Collection`](Collection.md)\<`string`, [`ServerMember`](ServerMember.md)\>
 
-Defined in: [src/managers/baseManager.ts:166](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L166)
+Defined in: [src/managers/baseManager.ts:166](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L166)
 
 #### Returns
 

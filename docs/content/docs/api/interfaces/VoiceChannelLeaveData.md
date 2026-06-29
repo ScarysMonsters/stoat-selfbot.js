@@ -4,7 +4,7 @@ title: "Interface: VoiceChannelLeaveData"
 
 # Interface: VoiceChannelLeaveData
 
-Defined in: [src/client/events/voiceChannelLeave.ts:8](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/events/voiceChannelLeave.ts#L8)
+Defined in: [src/client/events/voiceChannelLeave.ts:8](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/events/voiceChannelLeave.ts#L8)
 
 Data structure for voice channel leave event.
 
@@ -14,7 +14,7 @@ Data structure for voice channel leave event.
 
 > **id**: `string`
 
-Defined in: [src/client/events/voiceChannelLeave.ts:9](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/events/voiceChannelLeave.ts#L9)
+Defined in: [src/client/events/voiceChannelLeave.ts:9](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/events/voiceChannelLeave.ts#L9)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [src/client/events/voiceChannelLeave.ts:9](https://github.com/Scarys
 
 > **user**: `string`
 
-Defined in: [src/client/events/voiceChannelLeave.ts:10](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/events/voiceChannelLeave.ts#L10)
+Defined in: [src/client/events/voiceChannelLeave.ts:10](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/events/voiceChannelLeave.ts#L10)

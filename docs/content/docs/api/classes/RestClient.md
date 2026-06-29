@@ -4,7 +4,7 @@ title: "Class: RestClient"
 
 # Class: RestClient
 
-Defined in: [src/rest/restClient.ts:25](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/rest/restClient.ts#L25)
+Defined in: [src/rest/restClient.ts:25](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/rest/restClient.ts#L25)
 
 ## Constructors
 
@@ -12,7 +12,7 @@ Defined in: [src/rest/restClient.ts:25](https://github.com/ScarysMonsters/stoat-
 
 > **new RestClient**(`client`): `RestClient`
 
-Defined in: [src/rest/restClient.ts:27](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/rest/restClient.ts#L27)
+Defined in: [src/rest/restClient.ts:27](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/rest/restClient.ts#L27)
 
 #### Parameters
 
@@ -30,7 +30,7 @@ Defined in: [src/rest/restClient.ts:27](https://github.com/ScarysMonsters/stoat-
 
 > **delete**\<`T`\>(`url`, `body?`, `query?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`T`\>
 
-Defined in: [src/rest/restClient.ts:221](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/rest/restClient.ts#L221)
+Defined in: [src/rest/restClient.ts:221](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/rest/restClient.ts#L221)
 
 DELETE request.
 
@@ -72,7 +72,7 @@ The API response.
 
 > **get**\<`T`\>(`url`, `query?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`T`\>
 
-Defined in: [src/rest/restClient.ts:162](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/rest/restClient.ts#L162)
+Defined in: [src/rest/restClient.ts:162](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/rest/restClient.ts#L162)
 
 GET request.
 
@@ -108,7 +108,7 @@ The API response.
 
 > **getConfig**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`ApiDiscoveryResponse`\>
 
-Defined in: [src/rest/restClient.ts:103](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/rest/restClient.ts#L103)
+Defined in: [src/rest/restClient.ts:103](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/rest/restClient.ts#L103)
 
 Fetches the API configuration (discovery endpoint).
 Sets the CDN URL, WebSocket URL, and voice options on the client.
@@ -127,7 +127,7 @@ If the configuration cannot be fetched.
 
 > **patch**\<`T`\>(`url`, `body?`, `query?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`T`\>
 
-Defined in: [src/rest/restClient.ts:191](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/rest/restClient.ts#L191)
+Defined in: [src/rest/restClient.ts:191](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/rest/restClient.ts#L191)
 
 PATCH request.
 
@@ -169,7 +169,7 @@ The API response.
 
 > **post**\<`T`\>(`url`, `body?`, `query?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`T`\>
 
-Defined in: [src/rest/restClient.ts:176](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/rest/restClient.ts#L176)
+Defined in: [src/rest/restClient.ts:176](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/rest/restClient.ts#L176)
 
 POST request.
 
@@ -211,7 +211,7 @@ The API response.
 
 > **put**\<`T`\>(`url`, `body?`, `query?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`T`\>
 
-Defined in: [src/rest/restClient.ts:206](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/rest/restClient.ts#L206)
+Defined in: [src/rest/restClient.ts:206](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/rest/restClient.ts#L206)
 
 PUT request.
 

@@ -4,7 +4,7 @@ title: "Class: AccountManager"
 
 # Class: AccountManager
 
-Defined in: [src/managers/accountManager.ts:23](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/accountManager.ts#L23)
+Defined in: [src/managers/accountManager.ts:23](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/accountManager.ts#L23)
 
 Manages the authenticated user's account settings.
 Provides methods for email changes, password changes, account deletion,
@@ -32,7 +32,7 @@ await client.account.verify("verification-code");
 
 > **new AccountManager**(`client`): `AccountManager`
 
-Defined in: [src/managers/accountManager.ts:26](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/accountManager.ts#L26)
+Defined in: [src/managers/accountManager.ts:26](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/accountManager.ts#L26)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [src/managers/accountManager.ts:26](https://github.com/ScarysMonster
 
 > `readonly` **client**: [`Client`](Client.md)
 
-Defined in: [src/managers/accountManager.ts:24](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/accountManager.ts#L24)
+Defined in: [src/managers/accountManager.ts:24](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/accountManager.ts#L24)
 
 ## Methods
 
@@ -58,7 +58,7 @@ Defined in: [src/managers/accountManager.ts:24](https://github.com/ScarysMonster
 
 > **changeEmail**(`newEmail`, `currentPassword`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/accountManager.ts:36](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/accountManager.ts#L36)
+Defined in: [src/managers/accountManager.ts:36](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/accountManager.ts#L36)
 
 Changes the authenticated user's email address.
 
@@ -86,7 +86,7 @@ The current password for confirmation.
 
 > **changePassword**(`currentPassword`, `newPassword`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/accountManager.ts:49](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/accountManager.ts#L49)
+Defined in: [src/managers/accountManager.ts:49](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/accountManager.ts#L49)
 
 Changes the authenticated user's password.
 
@@ -114,7 +114,7 @@ The new password to set.
 
 > **delete**(`password`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/accountManager.ts:62](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/accountManager.ts#L62)
+Defined in: [src/managers/accountManager.ts:62](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/accountManager.ts#L62)
 
 Deletes the authenticated user's account.
 This action is irreversible.
@@ -137,7 +137,7 @@ The current password for confirmation.
 
 > **disable**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/accountManager.ts:72](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/accountManager.ts#L72)
+Defined in: [src/managers/accountManager.ts:72](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/accountManager.ts#L72)
 
 Disables the authenticated user's account.
 The account can be re-enabled later.
@@ -152,7 +152,7 @@ The account can be re-enabled later.
 
 > **resendVerification**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/accountManager.ts:90](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/accountManager.ts#L90)
+Defined in: [src/managers/accountManager.ts:90](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/accountManager.ts#L90)
 
 Resends the account verification email.
 
@@ -166,7 +166,7 @@ Resends the account verification email.
 
 > **resetPassword**(`email`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/accountManager.ts:81](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/accountManager.ts#L81)
+Defined in: [src/managers/accountManager.ts:81](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/accountManager.ts#L81)
 
 Requests a password reset email.
 
@@ -188,7 +188,7 @@ The email address associated with the account.
 
 > **verify**(`code`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/accountManager.ts:99](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/accountManager.ts#L99)
+Defined in: [src/managers/accountManager.ts:99](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/accountManager.ts#L99)
 
 Verifies the account using a verification code.
 

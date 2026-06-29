@@ -4,7 +4,7 @@ title: "Interface: createWebhookResponse"
 
 # Interface: createWebhookResponse
 
-Defined in: [src/utils/types.ts:184](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L184)
+Defined in: [src/utils/types.ts:184](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L184)
 
 Response from the API when creating or fetching a webhook.
 FIX: Was using string literal types like `id: "string"` which only match the literal string "string".
@@ -15,7 +15,7 @@ FIX: Was using string literal types like `id: "string"` which only match the lit
 
 > **avatar**: `object`
 
-Defined in: [src/utils/types.ts:187](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L187)
+Defined in: [src/utils/types.ts:187](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L187)
 
 #### \_id
 
@@ -75,7 +75,7 @@ Defined in: [src/utils/types.ts:187](https://github.com/ScarysMonsters/stoat-sel
 
 > **channel\_id**: `string`
 
-Defined in: [src/utils/types.ts:204](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L204)
+Defined in: [src/utils/types.ts:204](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L204)
 
 ***
 
@@ -83,7 +83,7 @@ Defined in: [src/utils/types.ts:204](https://github.com/ScarysMonsters/stoat-sel
 
 > **creator\_id**: `string`
 
-Defined in: [src/utils/types.ts:203](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L203)
+Defined in: [src/utils/types.ts:203](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L203)
 
 ***
 
@@ -91,7 +91,7 @@ Defined in: [src/utils/types.ts:203](https://github.com/ScarysMonsters/stoat-sel
 
 > **id**: `string`
 
-Defined in: [src/utils/types.ts:185](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L185)
+Defined in: [src/utils/types.ts:185](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L185)
 
 ***
 
@@ -99,7 +99,7 @@ Defined in: [src/utils/types.ts:185](https://github.com/ScarysMonsters/stoat-sel
 
 > **name**: `string`
 
-Defined in: [src/utils/types.ts:186](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L186)
+Defined in: [src/utils/types.ts:186](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L186)
 
 ***
 
@@ -107,7 +107,7 @@ Defined in: [src/utils/types.ts:186](https://github.com/ScarysMonsters/stoat-sel
 
 > **permissions**: `number`
 
-Defined in: [src/utils/types.ts:205](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L205)
+Defined in: [src/utils/types.ts:205](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L205)
 
 ***
 
@@ -115,4 +115,4 @@ Defined in: [src/utils/types.ts:205](https://github.com/ScarysMonsters/stoat-sel
 
 > `optional` **token?**: `string` \| `null`
 
-Defined in: [src/utils/types.ts:206](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L206)
+Defined in: [src/utils/types.ts:206](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L206)

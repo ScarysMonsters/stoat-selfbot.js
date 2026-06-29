@@ -4,7 +4,7 @@ title: "Class: User"
 
 # Class: User
 
-Defined in: [src/struct/user.ts:18](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L18)
+Defined in: [src/struct/user.ts:18](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L18)
 
 Represents a user in the client.
 
@@ -22,7 +22,7 @@ Represents a user in the client.
 
 > **new User**(`client`, `data`): `User`
 
-Defined in: [src/struct/user.ts:58](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L58)
+Defined in: [src/struct/user.ts:58](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L58)
 
 Creates a new User instance.
 
@@ -164,7 +164,7 @@ Username
 
 > **avatar**: [`Attachment`](Attachment.md) \| `null` = `null`
 
-Defined in: [src/struct/user.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L29)
+Defined in: [src/struct/user.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L29)
 
 The avatar of the user, or `null` if none is set.
 
@@ -174,7 +174,7 @@ The avatar of the user, or `null` if none is set.
 
 > **badges**: [`Badges`](Badges.md)
 
-Defined in: [src/struct/user.ts:38](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L38)
+Defined in: [src/struct/user.ts:38](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L38)
 
 The badges associated with the user.
 
@@ -184,7 +184,7 @@ The badges associated with the user.
 
 > **bot**: `boolean` = `false`
 
-Defined in: [src/struct/user.ts:41](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L41)
+Defined in: [src/struct/user.ts:41](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L41)
 
 Whether the user is a bot.
 
@@ -194,7 +194,7 @@ Whether the user is a bot.
 
 > `readonly` **client**: [`Client`](Client.md)
 
-Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L21)
+Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L21)
 
 The client instance.
 
@@ -208,7 +208,7 @@ The client instance.
 
 > **discriminator**: `string` = `"0000"`
 
-Defined in: [src/struct/user.ts:23](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L23)
+Defined in: [src/struct/user.ts:23](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L23)
 
 The discriminator of the user (4 digits).
 
@@ -218,7 +218,7 @@ The discriminator of the user (4 digits).
 
 > **displayName**: `string` \| `null` = `null`
 
-Defined in: [src/struct/user.ts:26](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L26)
+Defined in: [src/struct/user.ts:26](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L26)
 
 The display name of the user, or `null` if none is set.
 
@@ -228,7 +228,7 @@ The display name of the user, or `null` if none is set.
 
 > **flags**: `number` = `0`
 
-Defined in: [src/struct/user.ts:50](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L50)
+Defined in: [src/struct/user.ts:50](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L50)
 
 The user's flags.
 
@@ -238,7 +238,7 @@ The user's flags.
 
 > **id**: `string`
 
-Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L14)
+Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L14)
 
 The unique identifier for the object.
 
@@ -252,7 +252,7 @@ The unique identifier for the object.
 
 > **online**: `boolean` = `false`
 
-Defined in: [src/struct/user.ts:44](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L44)
+Defined in: [src/struct/user.ts:44](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L44)
 
 Whether the user is currently online.
 
@@ -262,7 +262,7 @@ Whether the user is currently online.
 
 > **presence**: [`Presence`](Presence.md)
 
-Defined in: [src/struct/user.ts:35](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L35)
+Defined in: [src/struct/user.ts:35](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L35)
 
 The presence status of the user.
 
@@ -272,7 +272,7 @@ The presence status of the user.
 
 > **profile**: \{ `background?`: \{ `_id`: `string`; `content_type`: `string`; `deleted?`: `boolean` \| `null`; `filename`: `string`; `message_id?`: `string` \| `null`; `metadata`: \{ `type`: `"File"`; \} \| \{ `type`: `"Text"`; \} \| \{ `height`: `number`; `type`: `"Image"`; `width`: `number`; \} \| \{ `height`: `number`; `type`: `"Video"`; `width`: `number`; \} \| \{ `type`: `"Audio"`; \}; `object_id?`: `string` \| `null`; `reported?`: `boolean` \| `null`; `server_id?`: `string` \| `null`; `size`: `number`; `tag`: `string`; `user_id?`: `string` \| `null`; \} \| `null`; `content?`: `string` \| `null`; \} \| `null` = `null`
 
-Defined in: [src/struct/user.ts:47](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L47)
+Defined in: [src/struct/user.ts:47](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L47)
 
 The user's profile, or `null` if not fetched.
 
@@ -466,7 +466,7 @@ Text content on user's profile
 
 > **relations**: `object`[] = `[]`
 
-Defined in: [src/struct/user.ts:32](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L32)
+Defined in: [src/struct/user.ts:32](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L32)
 
 The relationships of the user.
 
@@ -492,7 +492,7 @@ Relationship status with them
 
 > **username**: `string`
 
-Defined in: [src/struct/user.ts:20](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L20)
+Defined in: [src/struct/user.ts:20](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L20)
 
 The username of the user.
 
@@ -504,7 +504,7 @@ The username of the user.
 
 > **get** **createdAt**(): [`Date`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-Defined in: [src/struct/user.ts:144](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L144)
+Defined in: [src/struct/user.ts:144](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L144)
 
 Gets the creation date of the user.
 
@@ -522,7 +522,7 @@ The date when the user was created.
 
 > **get** **createdTimestamp**(): `number`
 
-Defined in: [src/struct/user.ts:160](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L160)
+Defined in: [src/struct/user.ts:160](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L160)
 
 Gets the creation timestamp of the user in milliseconds.
 
@@ -540,7 +540,7 @@ The timestamp of when the user was created.
 
 > **get** **isOwner**(): `boolean`
 
-Defined in: [src/struct/user.ts:151](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L151)
+Defined in: [src/struct/user.ts:151](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L151)
 
 checks if the user is the owner of the bot.
 
@@ -556,7 +556,7 @@ checks if the user is the owner of the bot.
 
 > **get** **tag**(): `string`
 
-Defined in: [src/struct/user.ts:135](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L135)
+Defined in: [src/struct/user.ts:135](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L135)
 
 Returns the tag of the user (username#discriminator).
 
@@ -572,7 +572,7 @@ The user's tag.
 
 > **\_clone**(): `this`
 
-Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L84)
+Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L84)
 
 Creates a deep clone of the object.
 
@@ -592,7 +592,7 @@ A clone of the object.
 
 > **\_update**(`data`, `clear?`): `this`
 
-Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L56)
+Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L56)
 
 Updates the object with new data and returns a clone of the object.
 
@@ -626,7 +626,7 @@ A clone of the updated object.
 
 > **avatarURL**(): `string` \| `undefined`
 
-Defined in: [src/struct/user.ts:207](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L207)
+Defined in: [src/struct/user.ts:207](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L207)
 
 #### Returns
 
@@ -638,7 +638,7 @@ Defined in: [src/struct/user.ts:207](https://github.com/ScarysMonsters/stoat-sel
 
 > **block**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/user.ts:174](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L174)
+Defined in: [src/struct/user.ts:174](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L174)
 
 Blocks the user.
 
@@ -660,7 +660,7 @@ await user.block();
 
 > **createDM**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`DMChannel`](DMChannel.md)\>
 
-Defined in: [src/struct/user.ts:202](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L202)
+Defined in: [src/struct/user.ts:202](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L202)
 
 Creates a direct message (DM) channel with the user.
 
@@ -682,7 +682,7 @@ const dmChannel = await user.createDM();
 
 > **displayAvatarURL**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`string`\>
 
-Defined in: [src/struct/user.ts:212](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L212)
+Defined in: [src/struct/user.ts:212](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L212)
 
 #### Returns
 
@@ -694,7 +694,7 @@ Defined in: [src/struct/user.ts:212](https://github.com/ScarysMonsters/stoat-sel
 
 > **equals**(`obj?`): `boolean`
 
-Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L29)
+Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L29)
 
 Compares this object with another to determine if they are equal.
 
@@ -722,7 +722,7 @@ The object to compare with.
 
 > **fetch**(`force?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`User`\>
 
-Defined in: [src/struct/user.ts:262](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L262)
+Defined in: [src/struct/user.ts:262](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L262)
 
 Fetches the latest data for the user from the API.
 
@@ -746,7 +746,7 @@ A promise that resolves with the updated user instance.
 
 > **fetchDefaultAvatar**(): `string`
 
-Defined in: [src/struct/user.ts:221](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L221)
+Defined in: [src/struct/user.ts:221](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L221)
 
 Returns the default avatar URL for this user.
 
@@ -762,7 +762,7 @@ The default avatar URL.
 
 > **fetchMutual**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<\{ `channels`: `string`[]; `servers`: `string`[]; `users`: `string`[]; \}\>
 
-Defined in: [src/struct/user.ts:251](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L251)
+Defined in: [src/struct/user.ts:251](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L251)
 
 Fetches mutual servers, channels, and friends for this user.
 
@@ -784,7 +784,7 @@ const mutual = await user.fetchMutual();
 
 > **fetchProfile**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<\{ `background?`: \{ `_id`: `string`; `content_type`: `string`; `deleted?`: `boolean` \| `null`; `filename`: `string`; `message_id?`: `string` \| `null`; `metadata`: \{ `type`: `"File"`; \} \| \{ `type`: `"Text"`; \} \| \{ `height`: `number`; `type`: `"Image"`; `width`: `number`; \} \| \{ `height`: `number`; `type`: `"Video"`; `width`: `number`; \} \| \{ `type`: `"Audio"`; \}; `object_id?`: `string` \| `null`; `reported?`: `boolean` \| `null`; `server_id?`: `string` \| `null`; `size`: `number`; `tag`: `string`; `user_id?`: `string` \| `null`; \} \| `null`; `content?`: `string` \| `null`; \}\>
 
-Defined in: [src/struct/user.ts:235](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L235)
+Defined in: [src/struct/user.ts:235](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L235)
 
 Fetches the profile of the user.
 
@@ -806,7 +806,7 @@ const profile = await user.fetchProfile();
 
 > **toString**(): `string`
 
-Defined in: [src/struct/user.ts:271](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L271)
+Defined in: [src/struct/user.ts:271](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L271)
 
 Converts the user to a string representation.
 
@@ -822,7 +822,7 @@ A string representation of the user in the format `<@userId>`.
 
 > **unblock**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/user.ts:188](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/user.ts#L188)
+Defined in: [src/struct/user.ts:188](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/user.ts#L188)
 
 Unblocks the user.
 

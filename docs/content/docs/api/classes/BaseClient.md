@@ -4,7 +4,7 @@ title: "Abstract Class: BaseClient"
 
 # Abstract Class: BaseClient
 
-Defined in: [src/client/baseClient.ts:34](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L34)
+Defined in: [src/client/baseClient.ts:34](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L34)
 
 Represents the base client that provides core functionality for interacting with the API.
 
@@ -22,7 +22,7 @@ Represents the base client that provides core functionality for interacting with
 
 > **new BaseClient**(`options?`): `BaseClient`
 
-Defined in: [src/client/baseClient.ts:260](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L260)
+Defined in: [src/client/baseClient.ts:260](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L260)
 
 Creates a new BaseClient instance.
 
@@ -44,7 +44,7 @@ The options for configuring the client.
 
 > `readonly` **api**: [`RestClient`](RestClient.md)
 
-Defined in: [src/client/baseClient.ts:233](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L233)
+Defined in: [src/client/baseClient.ts:233](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L233)
 
 The REST client for making API requests.
 
@@ -54,7 +54,7 @@ The REST client for making API requests.
 
 > `readonly` **bot**: `false` = `false`
 
-Defined in: [src/client/baseClient.ts:250](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L250)
+Defined in: [src/client/baseClient.ts:250](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L250)
 
 Whether this is a selfbot client (always true for this package).
 
@@ -64,7 +64,7 @@ Whether this is a selfbot client (always true for this package).
 
 > `readonly` **cdn**: [`CDNClient`](CDNClient.md)
 
-Defined in: [src/client/baseClient.ts:236](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L236)
+Defined in: [src/client/baseClient.ts:236](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L236)
 
 The CDN client for accessing media resources.
 
@@ -74,7 +74,7 @@ The CDN client for accessing media resources.
 
 > **currentVoiceConnection**: \{ `channelId`: `string`; `playerId`: `string`; \} \| `null` = `null`
 
-Defined in: [src/client/baseClient.ts:247](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L247)
+Defined in: [src/client/baseClient.ts:247](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L247)
 
 Track current voice connection to prevent AlreadyConnected errors
 
@@ -84,7 +84,7 @@ Track current voice connection to prevent AlreadyConnected errors
 
 > **options**: [`clientOptions`](../interfaces/clientOptions.md)
 
-Defined in: [src/client/baseClient.ts:242](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L242)
+Defined in: [src/client/baseClient.ts:242](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L242)
 
 The options for configuring the client.
 
@@ -94,7 +94,7 @@ The options for configuring the client.
 
 > **voiceOptions**: [`VoiceClientOptions`](../interfaces/VoiceClientOptions.md)
 
-Defined in: [src/client/baseClient.ts:244](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L244)
+Defined in: [src/client/baseClient.ts:244](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L244)
 
 ***
 
@@ -201,7 +201,7 @@ v13.6.0, v12.17.0
 
 > **get** **token**(): `string` \| `null`
 
-Defined in: [src/client/baseClient.ts:323](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L323)
+Defined in: [src/client/baseClient.ts:323](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L323)
 
 Gets the authentication token for the client.
 
@@ -215,7 +215,7 @@ The authentication token, or `null` if not set.
 
 > **set** **token**(`token`): `void`
 
-Defined in: [src/client/baseClient.ts:314](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L314)
+Defined in: [src/client/baseClient.ts:314](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L314)
 
 Sets the authentication token for the client.
 
@@ -303,7 +303,7 @@ v0.1.26
 
 > **debug**(`msg`): `void`
 
-Defined in: [src/client/baseClient.ts:305](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L305)
+Defined in: [src/client/baseClient.ts:305](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L305)
 
 Emits a debug message.
 
@@ -327,7 +327,7 @@ The debug message to emit.
 
 > **emit**\<`K`\>(`event`, ...`args`): `boolean`
 
-Defined in: [src/client/baseClient.ts:51](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L51)
+Defined in: [src/client/baseClient.ts:51](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L51)
 
 ##### Type Parameters
 
@@ -353,7 +353,7 @@ Defined in: [src/client/baseClient.ts:51](https://github.com/ScarysMonsters/stoa
 
 > **emit**\<`S`\>(`event`, ...`args`): `boolean`
 
-Defined in: [src/client/baseClient.ts:55](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L55)
+Defined in: [src/client/baseClient.ts:55](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L55)
 
 ##### Type Parameters
 
@@ -513,7 +513,7 @@ v0.1.26
 
 > **off**\<`K`\>(`event`, `listener`): `this`
 
-Defined in: [src/client/baseClient.ts:59](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L59)
+Defined in: [src/client/baseClient.ts:59](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L59)
 
 ##### Type Parameters
 
@@ -539,7 +539,7 @@ Defined in: [src/client/baseClient.ts:59](https://github.com/ScarysMonsters/stoa
 
 > **off**\<`S`\>(`event`, `listener`): `this`
 
-Defined in: [src/client/baseClient.ts:63](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L63)
+Defined in: [src/client/baseClient.ts:63](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L63)
 
 ##### Type Parameters
 
@@ -569,7 +569,7 @@ Defined in: [src/client/baseClient.ts:63](https://github.com/ScarysMonsters/stoa
 
 > **on**\<`K`\>(`event`, `listener`): `this`
 
-Defined in: [src/client/baseClient.ts:35](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L35)
+Defined in: [src/client/baseClient.ts:35](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L35)
 
 ##### Type Parameters
 
@@ -595,7 +595,7 @@ Defined in: [src/client/baseClient.ts:35](https://github.com/ScarysMonsters/stoa
 
 > **on**\<`S`\>(`event`, `listener`): `this`
 
-Defined in: [src/client/baseClient.ts:39](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L39)
+Defined in: [src/client/baseClient.ts:39](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L39)
 
 ##### Type Parameters
 
@@ -625,7 +625,7 @@ Defined in: [src/client/baseClient.ts:39](https://github.com/ScarysMonsters/stoa
 
 > **once**\<`K`\>(`event`, `listener`): `this`
 
-Defined in: [src/client/baseClient.ts:43](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L43)
+Defined in: [src/client/baseClient.ts:43](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L43)
 
 ##### Type Parameters
 
@@ -651,7 +651,7 @@ Defined in: [src/client/baseClient.ts:43](https://github.com/ScarysMonsters/stoa
 
 > **once**\<`S`\>(`event`, `listener`): `this`
 
-Defined in: [src/client/baseClient.ts:47](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L47)
+Defined in: [src/client/baseClient.ts:47](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L47)
 
 ##### Type Parameters
 
@@ -833,7 +833,7 @@ v9.4.0
 
 > **removeAllListeners**\<`K`\>(`event?`): `this`
 
-Defined in: [src/client/baseClient.ts:67](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L67)
+Defined in: [src/client/baseClient.ts:67](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L67)
 
 ##### Type Parameters
 
@@ -855,7 +855,7 @@ Defined in: [src/client/baseClient.ts:67](https://github.com/ScarysMonsters/stoa
 
 > **removeAllListeners**\<`S`\>(`event?`): `this`
 
-Defined in: [src/client/baseClient.ts:68](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/client/baseClient.ts#L68)
+Defined in: [src/client/baseClient.ts:68](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/client/baseClient.ts#L68)
 
 ##### Type Parameters
 

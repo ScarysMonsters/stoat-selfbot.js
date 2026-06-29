@@ -4,7 +4,7 @@ title: "Class: MessageEmbed"
 
 # Class: MessageEmbed
 
-Defined in: [src/struct/messageEmbed.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageEmbed.ts#L17)
+Defined in: [src/struct/messageEmbed.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageEmbed.ts#L17)
 
 Represents a message embed, which can include rich content such as titles, descriptions, URLs, and media.
 
@@ -24,7 +24,7 @@ Represents a message embed, which can include rich content such as titles, descr
 
 > **setColor**(`color`): `this`
 
-Defined in: [src/struct/messageEmbed.ts:53](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageEmbed.ts#L53)
+Defined in: [src/struct/messageEmbed.ts:53](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageEmbed.ts#L53)
 
 Sets the color of the embed.
 
@@ -48,7 +48,7 @@ The updated `MessageEmbed` instance.
 
 > **setDescription**(`description`): `this`
 
-Defined in: [src/struct/messageEmbed.ts:64](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageEmbed.ts#L64)
+Defined in: [src/struct/messageEmbed.ts:64](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageEmbed.ts#L64)
 
 Sets the description of the embed.
 
@@ -72,7 +72,7 @@ The updated `MessageEmbed` instance.
 
 > **setIcon**(`iconURL`): `this`
 
-Defined in: [src/struct/messageEmbed.ts:42](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageEmbed.ts#L42)
+Defined in: [src/struct/messageEmbed.ts:42](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageEmbed.ts#L42)
 
 Sets the icon URL of the embed.
 
@@ -96,7 +96,7 @@ The updated `MessageEmbed` instance.
 
 > **setMedia**(`media`): `this`
 
-Defined in: [src/struct/messageEmbed.ts:86](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageEmbed.ts#L86)
+Defined in: [src/struct/messageEmbed.ts:86](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageEmbed.ts#L86)
 
 Sets the media (e.g., image or video) of the embed.
 
@@ -120,7 +120,7 @@ The updated `MessageEmbed` instance.
 
 > **setTitle**(`title`): `this`
 
-Defined in: [src/struct/messageEmbed.ts:31](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageEmbed.ts#L31)
+Defined in: [src/struct/messageEmbed.ts:31](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageEmbed.ts#L31)
 
 Sets the title of the embed.
 
@@ -144,7 +144,7 @@ The updated `MessageEmbed` instance.
 
 > **setURL**(`url`): `this`
 
-Defined in: [src/struct/messageEmbed.ts:75](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageEmbed.ts#L75)
+Defined in: [src/struct/messageEmbed.ts:75](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageEmbed.ts#L75)
 
 Sets the URL of the embed.
 
@@ -168,7 +168,7 @@ The updated `MessageEmbed` instance.
 
 > **toJSON**(): `object`
 
-Defined in: [src/struct/messageEmbed.ts:141](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageEmbed.ts#L141)
+Defined in: [src/struct/messageEmbed.ts:141](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageEmbed.ts#L141)
 
 Converts the embed to a JSON object that can be sent to the API.
 
@@ -208,7 +208,7 @@ The JSON representation of the embed.
 
 > **toJSONWithMedia**(`client`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<\{ `colour?`: `string` \| `null`; `description?`: `string` \| `null`; `icon_url?`: `string` \| `null`; `media?`: `string` \| `null`; `title?`: `string` \| `null`; `url?`: `string` \| `null`; \}\>
 
-Defined in: [src/struct/messageEmbed.ts:97](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageEmbed.ts#L97)
+Defined in: [src/struct/messageEmbed.ts:97](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageEmbed.ts#L97)
 
 #### Parameters
 

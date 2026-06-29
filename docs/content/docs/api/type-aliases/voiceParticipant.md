@@ -6,7 +6,7 @@ title: "Type Alias: voiceParticipant"
 
 > **voiceParticipant** = `object`
 
-Defined in: [src/struct/voiceChannels.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/voiceChannels.ts#L14)
+Defined in: [src/struct/voiceChannels.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/voiceChannels.ts#L14)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/struct/voiceChannels.ts:14](https://github.com/ScarysMonsters/s
 
 > **camera**: `boolean`
 
-Defined in: [src/struct/voiceChannels.ts:20](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/voiceChannels.ts#L20)
+Defined in: [src/struct/voiceChannels.ts:20](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/voiceChannels.ts#L20)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/struct/voiceChannels.ts:20](https://github.com/ScarysMonsters/s
 
 > **id**: `string`
 
-Defined in: [src/struct/voiceChannels.ts:15](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/voiceChannels.ts#L15)
+Defined in: [src/struct/voiceChannels.ts:15](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/voiceChannels.ts#L15)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/struct/voiceChannels.ts:15](https://github.com/ScarysMonsters/s
 
 > **is\_publishing**: `boolean`
 
-Defined in: [src/struct/voiceChannels.ts:18](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/voiceChannels.ts#L18)
+Defined in: [src/struct/voiceChannels.ts:18](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/voiceChannels.ts#L18)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/struct/voiceChannels.ts:18](https://github.com/ScarysMonsters/s
 
 > **is\_receving**: `boolean`
 
-Defined in: [src/struct/voiceChannels.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/voiceChannels.ts#L17)
+Defined in: [src/struct/voiceChannels.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/voiceChannels.ts#L17)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [src/struct/voiceChannels.ts:17](https://github.com/ScarysMonsters/s
 
 > **joined\_at**: `string`
 
-Defined in: [src/struct/voiceChannels.ts:16](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/voiceChannels.ts#L16)
+Defined in: [src/struct/voiceChannels.ts:16](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/voiceChannels.ts#L16)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: [src/struct/voiceChannels.ts:16](https://github.com/ScarysMonsters/s
 
 > **screensharing**: `boolean`
 
-Defined in: [src/struct/voiceChannels.ts:19](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/voiceChannels.ts#L19)
+Defined in: [src/struct/voiceChannels.ts:19](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/voiceChannels.ts#L19)

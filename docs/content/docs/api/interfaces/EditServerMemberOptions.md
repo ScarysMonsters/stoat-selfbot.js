@@ -4,7 +4,7 @@ title: "Interface: EditServerMemberOptions"
 
 # Interface: EditServerMemberOptions
 
-Defined in: [src/managers/serverMemberManager.ts:7](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverMemberManager.ts#L7)
+Defined in: [src/managers/serverMemberManager.ts:7](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/serverMemberManager.ts#L7)
 
 ## Properties
 
@@ -12,7 +12,7 @@ Defined in: [src/managers/serverMemberManager.ts:7](https://github.com/ScarysMon
 
 > `optional` **avatar?**: `string`
 
-Defined in: [src/managers/serverMemberManager.ts:9](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverMemberManager.ts#L9)
+Defined in: [src/managers/serverMemberManager.ts:9](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/serverMemberManager.ts#L9)
 
 ***
 
@@ -20,7 +20,7 @@ Defined in: [src/managers/serverMemberManager.ts:9](https://github.com/ScarysMon
 
 > `optional` **nickname?**: `string`
 
-Defined in: [src/managers/serverMemberManager.ts:8](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverMemberManager.ts#L8)
+Defined in: [src/managers/serverMemberManager.ts:8](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/serverMemberManager.ts#L8)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [src/managers/serverMemberManager.ts:8](https://github.com/ScarysMon
 
 > `optional` **roles?**: `string`[]
 
-Defined in: [src/managers/serverMemberManager.ts:10](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverMemberManager.ts#L10)
+Defined in: [src/managers/serverMemberManager.ts:10](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/serverMemberManager.ts#L10)
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: [src/managers/serverMemberManager.ts:10](https://github.com/ScarysMo
 
 > `optional` **timeout?**: `number` \| [`Date`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-Defined in: [src/managers/serverMemberManager.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/serverMemberManager.ts#L11)
+Defined in: [src/managers/serverMemberManager.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/serverMemberManager.ts#L11)

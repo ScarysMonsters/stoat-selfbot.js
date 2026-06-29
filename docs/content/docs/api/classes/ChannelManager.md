@@ -4,7 +4,7 @@ title: "Class: ChannelManager"
 
 # Class: ChannelManager
 
-Defined in: [src/managers/channelManager.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/channelManager.ts#L14)
+Defined in: [src/managers/channelManager.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/channelManager.ts#L14)
 
 Abstract base class for all managers.
 Provides caching with configurable max size and LRU eviction.
@@ -21,7 +21,7 @@ Inspired by discord.js-selfbot-v13's DataManager/CachedManager pattern.
 
 > **new ChannelManager**(`client`, `maxSize?`): `ChannelManager`
 
-Defined in: [src/managers/baseManager.ts:26](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L26)
+Defined in: [src/managers/baseManager.ts:26](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L26)
 
 #### Parameters
 
@@ -47,7 +47,7 @@ Defined in: [src/managers/baseManager.ts:26](https://github.com/ScarysMonsters/s
 
 > `readonly` **cache**: [`Collection`](Collection.md)\<`string`, [`Channel`](Channel.md)\>
 
-Defined in: [src/managers/baseManager.ts:18](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L18)
+Defined in: [src/managers/baseManager.ts:18](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L18)
 
 Insertion ordered cache of items this manager holds.
 
@@ -61,7 +61,7 @@ Insertion ordered cache of items this manager holds.
 
 > `static` **defaultMaxSize**: `number` = `-1`
 
-Defined in: [src/managers/baseManager.ts:15](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L15)
+Defined in: [src/managers/baseManager.ts:15](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L15)
 
 Shared default max size for all managers (can be changed globally). -1 = unlimited.
 
@@ -77,7 +77,7 @@ Shared default max size for all managers (can be changed globally). -1 = unlimit
 
 > **get** **size**(): `number`
 
-Defined in: [src/managers/baseManager.ts:139](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L139)
+Defined in: [src/managers/baseManager.ts:139](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L139)
 
 Returns the number of items in the cache.
 
@@ -95,7 +95,7 @@ Returns the number of items in the cache.
 
 > **clear**(): `void`
 
-Defined in: [src/managers/baseManager.ts:162](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L162)
+Defined in: [src/managers/baseManager.ts:162](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L162)
 
 Clears the entire cache.
 
@@ -113,7 +113,7 @@ Clears the entire cache.
 
 > **createGroup**(`options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`GroupChannel`](GroupChannel.md)\>
 
-Defined in: [src/managers/channelManager.ts:136](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/channelManager.ts#L136)
+Defined in: [src/managers/channelManager.ts:136](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/channelManager.ts#L136)
 
 Creates a new group DM channel.
 
@@ -159,7 +159,7 @@ A promise that resolves with the created group channel.
 
 > **delete**(`channel`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/managers/channelManager.ts:71](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/channelManager.ts#L71)
+Defined in: [src/managers/channelManager.ts:71](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/channelManager.ts#L71)
 
 used to delete a channel
 
@@ -183,7 +183,7 @@ A promise that resolves when the channel is deleted
 
 > **fetch**(`channel`, `force?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`Channel`](Channel.md)\>
 
-Defined in: [src/managers/channelManager.ts:86](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/channelManager.ts#L86)
+Defined in: [src/managers/channelManager.ts:86](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/channelManager.ts#L86)
 
 used to fetch a channel
 
@@ -215,7 +215,7 @@ A promise that resolves with the fetched channel
 
 > **fetchDMs**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`DMChannel`](DMChannel.md)[]\>
 
-Defined in: [src/managers/channelManager.ts:156](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/channelManager.ts#L156)
+Defined in: [src/managers/channelManager.ts:156](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/channelManager.ts#L156)
 
 Fetches all DM channels for the current user.
 
@@ -231,7 +231,7 @@ A promise that resolves with an array of DM channels.
 
 > **get**(`id`): [`Channel`](Channel.md) \| `undefined`
 
-Defined in: [src/managers/baseManager.ts:155](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L155)
+Defined in: [src/managers/baseManager.ts:155](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L155)
 
 Gets an item from the cache by ID.
 
@@ -257,7 +257,7 @@ The ID of the item.
 
 > **has**(`id`): `boolean`
 
-Defined in: [src/managers/baseManager.ts:147](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L147)
+Defined in: [src/managers/baseManager.ts:147](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L147)
 
 Checks if an item with the given ID exists in the cache.
 
@@ -283,7 +283,7 @@ The ID to check.
 
 > **resolve**(`channel`): [`Channel`](Channel.md) \| `null`
 
-Defined in: [src/managers/channelManager.ts:111](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/channelManager.ts#L111)
+Defined in: [src/managers/channelManager.ts:111](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/channelManager.ts#L111)
 
 resolves a channel from a string or a channel object
 
@@ -311,7 +311,7 @@ the resolved channel or null if not found
 
 > **resolveId**(`channel`): `string` \| `null`
 
-Defined in: [src/managers/channelManager.ts:121](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/channelManager.ts#L121)
+Defined in: [src/managers/channelManager.ts:121](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/channelManager.ts#L121)
 
 resolves a channel id from a string or a channel object
 
@@ -339,7 +339,7 @@ the resolved channel id or null if not found
 
 > **setMaxSize**(`size`): `void`
 
-Defined in: [src/managers/baseManager.ts:79](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L79)
+Defined in: [src/managers/baseManager.ts:79](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L79)
 
 Adjust the maximum size for this manager at runtime.
 
@@ -365,7 +365,7 @@ The new max size. -1 for unlimited, 0 to disable caching.
 
 > **valueOf**(): [`Collection`](Collection.md)\<`string`, [`Channel`](Channel.md)\>
 
-Defined in: [src/managers/baseManager.ts:166](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/baseManager.ts#L166)
+Defined in: [src/managers/baseManager.ts:166](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/baseManager.ts#L166)
 
 #### Returns
 

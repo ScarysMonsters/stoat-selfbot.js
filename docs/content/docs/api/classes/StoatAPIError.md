@@ -4,7 +4,7 @@ title: "Class: StoatAPIError"
 
 # Class: StoatAPIError
 
-Defined in: [src/rest/restClient.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/rest/restClient.ts#L11)
+Defined in: [src/rest/restClient.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/rest/restClient.ts#L11)
 
 Custom error class for Stoat API errors.
 
@@ -18,7 +18,7 @@ Custom error class for Stoat API errors.
 
 > **new StoatAPIError**(`message`, `status?`, `data?`): `StoatAPIError`
 
-Defined in: [src/rest/restClient.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/rest/restClient.ts#L17)
+Defined in: [src/rest/restClient.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/rest/restClient.ts#L17)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: [src/rest/restClient.ts:17](https://github.com/ScarysMonsters/stoat-
 
 > `optional` **data?**: `any`
 
-Defined in: [src/rest/restClient.ts:15](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/rest/restClient.ts#L15)
+Defined in: [src/rest/restClient.ts:15](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/rest/restClient.ts#L15)
 
 The error data returned by the API.
 
@@ -94,7 +94,7 @@ Defined in: node\_modules/.pnpm/typescript@5.9.3/node\_modules/typescript/lib/li
 
 > `optional` **status?**: `number`
 
-Defined in: [src/rest/restClient.ts:13](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/rest/restClient.ts#L13)
+Defined in: [src/rest/restClient.ts:13](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/rest/restClient.ts#L13)
 
 The HTTP status code of the error.
 

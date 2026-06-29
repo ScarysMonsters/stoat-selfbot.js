@@ -4,7 +4,7 @@ title: "Class: MessageCollector"
 
 # Class: MessageCollector
 
-Defined in: [src/struct/messageCollector.ts:44](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageCollector.ts#L44)
+Defined in: [src/struct/messageCollector.ts:44](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageCollector.ts#L44)
 
 Represents a collector that collects messages based on a filter.
 Inspired by discord.js-selfbot-v13's MessageCollector.
@@ -38,7 +38,7 @@ collector.on('end', (collected, reason) => {
 
 > **new MessageCollector**(`client`, `options?`): `MessageCollector`
 
-Defined in: [src/struct/messageCollector.ts:66](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageCollector.ts#L66)
+Defined in: [src/struct/messageCollector.ts:66](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageCollector.ts#L66)
 
 #### Parameters
 
@@ -64,7 +64,7 @@ Defined in: [src/struct/messageCollector.ts:66](https://github.com/ScarysMonster
 
 > `readonly` **client**: [`Client`](Client.md)
 
-Defined in: [src/struct/messageCollector.ts:46](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageCollector.ts#L46)
+Defined in: [src/struct/messageCollector.ts:46](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageCollector.ts#L46)
 
 The client instance.
 
@@ -74,7 +74,7 @@ The client instance.
 
 > `readonly` **collected**: [`Map`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map)\<`string`, [`MessageStruct`](MessageStruct.md)\>
 
-Defined in: [src/struct/messageCollector.ts:49](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageCollector.ts#L49)
+Defined in: [src/struct/messageCollector.ts:49](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageCollector.ts#L49)
 
 The collected messages.
 
@@ -84,7 +84,7 @@ The collected messages.
 
 > **ended**: `boolean` = `false`
 
-Defined in: [src/struct/messageCollector.ts:55](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageCollector.ts#L55)
+Defined in: [src/struct/messageCollector.ts:55](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageCollector.ts#L55)
 
 Whether the collector has ended.
 
@@ -94,7 +94,7 @@ Whether the collector has ended.
 
 > `readonly` **options**: [`MessageCollectorOptions`](../interfaces/MessageCollectorOptions.md)
 
-Defined in: [src/struct/messageCollector.ts:52](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageCollector.ts#L52)
+Defined in: [src/struct/messageCollector.ts:52](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageCollector.ts#L52)
 
 The options for the collector.
 
@@ -219,7 +219,7 @@ v13.6.0, v12.17.0
 
 > **get** **endReason**(): `string` \| `undefined`
 
-Defined in: [src/struct/messageCollector.ts:146](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageCollector.ts#L146)
+Defined in: [src/struct/messageCollector.ts:146](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageCollector.ts#L146)
 
 Gets the reason the collector ended.
 
@@ -1044,7 +1044,7 @@ v0.3.5
 
 > **stop**(`reason?`): `void`
 
-Defined in: [src/struct/messageCollector.ts:128](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/messageCollector.ts#L128)
+Defined in: [src/struct/messageCollector.ts:128](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/messageCollector.ts#L128)
 
 Stops the collector.
 

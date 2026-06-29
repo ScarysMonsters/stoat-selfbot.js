@@ -4,7 +4,7 @@ title: "Class: MessageStruct"
 
 # Class: MessageStruct
 
-Defined in: [src/struct/message.ts:28](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L28)
+Defined in: [src/struct/message.ts:28](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L28)
 
 Represents a message in a channel.
 
@@ -18,7 +18,7 @@ Represents a message in a channel.
 
 > **new MessageStruct**(`client`, `data`): `MessageStruct`
 
-Defined in: [src/struct/message.ts:71](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L71)
+Defined in: [src/struct/message.ts:71](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L71)
 
 Creates a new Message instance.
 
@@ -230,7 +230,7 @@ The webhook that sent this message
 
 > **attachments**: `object`[] = `[]`
 
-Defined in: [src/struct/message.ts:45](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L45)
+Defined in: [src/struct/message.ts:45](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L45)
 
 An array of file attachments included in the message.
 
@@ -388,7 +388,7 @@ Tag / bucket this file was uploaded to
 
 > **authorId**: `string` = `""`
 
-Defined in: [src/struct/message.ts:39](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L39)
+Defined in: [src/struct/message.ts:39](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L39)
 
 The ID of the user who authored the message.
 
@@ -398,7 +398,7 @@ The ID of the user who authored the message.
 
 > **channelId**: `string` = `""`
 
-Defined in: [src/struct/message.ts:36](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L36)
+Defined in: [src/struct/message.ts:36](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L36)
 
 The ID of the channel where the message was sent.
 
@@ -408,7 +408,7 @@ The ID of the channel where the message was sent.
 
 > `readonly` **client**: [`Client`](Client.md)
 
-Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L21)
+Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L21)
 
 The client instance.
 
@@ -422,7 +422,7 @@ The client instance.
 
 > **content**: `string` = `""`
 
-Defined in: [src/struct/message.ts:33](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L33)
+Defined in: [src/struct/message.ts:33](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L33)
 
 The content of the message.
 
@@ -432,7 +432,7 @@ The content of the message.
 
 > **editedTimestamp**: `number` \| `null` = `null`
 
-Defined in: [src/struct/message.ts:51](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L51)
+Defined in: [src/struct/message.ts:51](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L51)
 
 The timestamp of when the message was last edited, or `null` if not edited.
 
@@ -442,7 +442,7 @@ The timestamp of when the message was last edited, or `null` if not edited.
 
 > **embeds**: (\{ `colour?`: `string` \| `null`; `description?`: `string` \| `null`; `icon_url?`: `string` \| `null`; `image?`: \{ `height`: `number`; `size`: `"Large"` \| `"Preview"`; `url`: `string`; `width`: `number`; \} \| `null`; `original_url?`: `string` \| `null`; `site_name?`: `string` \| `null`; `special?`: \{ `type`: `"None"`; \} \| \{ `type`: `"GIF"`; \} \| \{ `id`: `string`; `timestamp?`: `string` \| `null`; `type`: `"YouTube"`; \} \| \{ `content_type`: `"Channel"`; `id`: `string`; `type`: `"Lightspeed"`; \} \| \{ `content_type`: `"Video"` \| `"Channel"` \| `"Clip"`; `id`: `string`; `type`: `"Twitch"`; \} \| \{ `content_type`: `string`; `id`: `string`; `type`: `"Spotify"`; \} \| \{ `type`: `"Soundcloud"`; \} \| \{ `content_type`: `"Album"` \| `"Track"`; `id`: `string`; `type`: `"Bandcamp"`; \} \| \{ `album_id`: `string`; `track_id?`: `string` \| `null`; `type`: `"AppleMusic"`; \} \| \{ `id`: `string`; `type`: `"Streamable"`; \} \| `null`; `title?`: `string` \| `null`; `type`: `"Website"`; `url?`: `string` \| `null`; `video?`: \{ `height`: `number`; `url`: `string`; `width`: `number`; \} \| `null`; \} \| \{ `height`: `number`; `size`: `"Large"` \| `"Preview"`; `type`: `"Image"`; `url`: `string`; `width`: `number`; \} \| \{ `height`: `number`; `type`: `"Video"`; `url`: `string`; `width`: `number`; \} \| \{ `colour?`: `string` \| `null`; `description?`: `string` \| `null`; `icon_url?`: `string` \| `null`; `media?`: \{ `_id`: `string`; `content_type`: `string`; `deleted?`: `boolean` \| `null`; `filename`: `string`; `message_id?`: `string` \| `null`; `metadata`: \{ `type`: `"File"`; \} \| \{ `type`: `"Text"`; \} \| \{ `height`: `number`; `type`: `"Image"`; `width`: `number`; \} \| \{ `height`: `number`; `type`: `"Video"`; `width`: `number`; \} \| \{ `type`: `"Audio"`; \}; `object_id?`: `string` \| `null`; `reported?`: `boolean` \| `null`; `server_id?`: `string` \| `null`; `size`: `number`; `tag`: `string`; `user_id?`: `string` \| `null`; \} \| `null`; `title?`: `string` \| `null`; `type`: `"Text"`; `url?`: `string` \| `null`; \} \| \{ `type`: `"None"`; \})[] = `[]`
 
-Defined in: [src/struct/message.ts:42](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L42)
+Defined in: [src/struct/message.ts:42](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L42)
 
 An array of embeds included in the message.
 
@@ -452,7 +452,7 @@ An array of embeds included in the message.
 
 > **id**: `string`
 
-Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L14)
+Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L14)
 
 The unique identifier for the object.
 
@@ -466,7 +466,7 @@ The unique identifier for the object.
 
 > `optional` **masquerade?**: `object`
 
-Defined in: [src/struct/message.ts:60](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L60)
+Defined in: [src/struct/message.ts:60](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L60)
 
 Masquerade information for the message, Name and / or avatar override information
 
@@ -502,7 +502,7 @@ Replace the display name shown on this message
 
 > **mentions**: [`Mentions`](Mentions.md)
 
-Defined in: [src/struct/message.ts:48](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L48)
+Defined in: [src/struct/message.ts:48](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L48)
 
 Mentions included in the message.
 
@@ -512,7 +512,7 @@ Mentions included in the message.
 
 > **pinned**: `boolean` = `false`
 
-Defined in: [src/struct/message.ts:57](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L57)
+Defined in: [src/struct/message.ts:57](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L57)
 
 Whether this message is pinned.
 
@@ -522,7 +522,7 @@ Whether this message is pinned.
 
 > **reactions**: [`Map`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map)\<`string`, `string`[]\>
 
-Defined in: [src/struct/message.ts:54](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L54)
+Defined in: [src/struct/message.ts:54](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L54)
 
 the reactions and count on a message
 
@@ -532,7 +532,7 @@ the reactions and count on a message
 
 > **type**: `"TEXT"` \| `"USER_ADDED"` \| `"USER_REMOVE"` \| `"USER_JOINED"` \| `"USER_LEFT"` \| `"USER_KICKED"` \| `"USER_BANNED"` \| `"CHANNEL_RENAMED"` \| `"CHANNEL_DESCRIPTION_CHANGED"` \| `"CHANNEL_ICON_CHANGED"` \| `"CHANNEL_OWNERSHIP_CHANGED"` \| `"MESSAGE_PINNED"` \| `"MESSAGE_UNPINNED"` = `"TEXT"`
 
-Defined in: [src/struct/message.ts:30](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L30)
+Defined in: [src/struct/message.ts:30](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L30)
 
 The type of the message (e.g., TEXT, SYSTEM).
 
@@ -542,7 +542,7 @@ The type of the message (e.g., TEXT, SYSTEM).
 
 > `optional` **webhook?**: `object`
 
-Defined in: [src/struct/message.ts:63](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L63)
+Defined in: [src/struct/message.ts:63](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L63)
 
 Webhook information for the message, Name and / or avatar override information
 
@@ -562,7 +562,7 @@ Webhook information for the message, Name and / or avatar override information
 
 > **get** **author**(): [`User`](User.md) \| [`ServerMember`](ServerMember.md) \| [`Partial`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)\<[`User`](User.md) & `object`\> \| `null`
 
-Defined in: [src/struct/message.ts:179](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L179)
+Defined in: [src/struct/message.ts:179](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L179)
 
 Retrieves the author of the message.
 
@@ -580,7 +580,7 @@ The user who authored the message, or `null` if not found.
 
 > **get** **channel**(): [`TextChannel`](TextChannel.md) \| [`GroupChannel`](GroupChannel.md) \| [`DMChannel`](DMChannel.md) \| [`VoiceChannel`](VoiceChannel.md)
 
-Defined in: [src/struct/message.ts:206](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L206)
+Defined in: [src/struct/message.ts:206](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L206)
 
 Retrieves the channel where the message was sent.
 
@@ -598,7 +598,7 @@ The channel instance.
 
 > **get** **createdAt**(): [`Date`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-Defined in: [src/struct/message.ts:143](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L143)
+Defined in: [src/struct/message.ts:143](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L143)
 
 Gets the creation date of the message.
 
@@ -616,7 +616,7 @@ The date when the message was created.
 
 > **get** **createdTimestamp**(): `number`
 
-Defined in: [src/struct/message.ts:152](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L152)
+Defined in: [src/struct/message.ts:152](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L152)
 
 Gets the creation timestamp of the message in milliseconds.
 
@@ -634,7 +634,7 @@ The timestamp of when the message was created.
 
 > **get** **editedAt**(): [`Date`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date) \| `null`
 
-Defined in: [src/struct/message.ts:161](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L161)
+Defined in: [src/struct/message.ts:161](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L161)
 
 Gets the date when the message was last edited.
 
@@ -652,7 +652,7 @@ The date of the last edit, or `null` if not edited.
 
 > **get** **member**(): [`ServerMember`](ServerMember.md) \| `null`
 
-Defined in: [src/struct/message.ts:247](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L247)
+Defined in: [src/struct/message.ts:247](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L247)
 
 Retrieves the server member who authored the message, if any.
 
@@ -670,7 +670,7 @@ The server member instance, or `null` if not found.
 
 > **get** **server**(): [`Server`](Server.md) \| `null`
 
-Defined in: [src/struct/message.ts:238](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L238)
+Defined in: [src/struct/message.ts:238](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L238)
 
 Retrieves the server associated with the message, if any.
 
@@ -688,7 +688,7 @@ The server instance, or `null` if not found.
 
 > **get** **serverId**(): `string` \| `null`
 
-Defined in: [src/struct/message.ts:228](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L228)
+Defined in: [src/struct/message.ts:228](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L228)
 
 Retrieves the server ID associated with the message, if any.
 
@@ -706,7 +706,7 @@ The server ID, or `null` if the message is not in a server.
 
 > **get** **system**(): `boolean`
 
-Defined in: [src/struct/message.ts:170](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L170)
+Defined in: [src/struct/message.ts:170](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L170)
 
 Checks if the message is a system message.
 
@@ -724,7 +724,7 @@ Checks if the message is a system message.
 
 > **get** **url**(): `string`
 
-Defined in: [src/struct/message.ts:256](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L256)
+Defined in: [src/struct/message.ts:256](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L256)
 
 Gets the URL of the message.
 
@@ -740,7 +740,7 @@ The URL of the message.
 
 > **\_clone**(): `this`
 
-Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L84)
+Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L84)
 
 Creates a deep clone of the object.
 
@@ -760,7 +760,7 @@ A clone of the object.
 
 > **\_update**(`data`, `clear?`): `this`
 
-Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L56)
+Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L56)
 
 Updates the object with new data and returns a clone of the object.
 
@@ -794,7 +794,7 @@ A clone of the updated object.
 
 > **ack**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/message.ts:267](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L267)
+Defined in: [src/struct/message.ts:267](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L267)
 
 Acknowledges the message.
 
@@ -810,7 +810,7 @@ A promise that resolves when the message is acknowledged.
 
 > **addReaction**(`emoji`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/message.ts:322](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L322)
+Defined in: [src/struct/message.ts:322](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L322)
 
 Adds a reaction to the message.
 
@@ -834,7 +834,7 @@ A promise that resolves when the reaction is added.
 
 > **delete**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/message.ts:276](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L276)
+Defined in: [src/struct/message.ts:276](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L276)
 
 Deletes the message.
 
@@ -850,7 +850,7 @@ A promise that resolves when the message is deleted.
 
 > **edit**(`options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/message.ts:303](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L303)
+Defined in: [src/struct/message.ts:303](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L303)
 
 Edits the message.
 
@@ -874,7 +874,7 @@ A promise that resolves when the message is edited.
 
 > **equals**(`obj?`): `boolean`
 
-Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L29)
+Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L29)
 
 Compares this object with another to determine if they are equal.
 
@@ -902,7 +902,7 @@ The object to compare with.
 
 > **fetch**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`MessageStruct`\>
 
-Defined in: [src/struct/message.ts:312](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L312)
+Defined in: [src/struct/message.ts:312](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L312)
 
 Fetches the latest data for the message.
 
@@ -918,7 +918,7 @@ A promise that resolves with the updated message instance.
 
 > **inServer**(): `this is MessageStruct & { channel: TextChannel; server: Server; serverId: string }`
 
-Defined in: [src/struct/message.ts:385](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L385)
+Defined in: [src/struct/message.ts:385](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L385)
 
 Checks if the message is in a server.
 
@@ -934,7 +934,7 @@ Checks if the message is in a server.
 
 > **pin**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/message.ts:361](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L361)
+Defined in: [src/struct/message.ts:361](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L361)
 
 Pins this message to the channel.
 
@@ -950,7 +950,7 @@ A promise that resolves when the message is pinned.
 
 > **removeAllReactions**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/message.ts:352](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L352)
+Defined in: [src/struct/message.ts:352](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L352)
 
 Removes all reactions from the message.
 
@@ -966,7 +966,7 @@ A promise that resolves when all reactions are removed.
 
 > **removeReaction**(`emoji`, `options?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/message.ts:335](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L335)
+Defined in: [src/struct/message.ts:335](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L335)
 
 Removes a reaction from the message.
 
@@ -1006,7 +1006,7 @@ A promise that resolves when the reaction is removed.
 
 > **reply**(`content`, `mention?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`MessageStruct`\>
 
-Defined in: [src/struct/message.ts:287](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L287)
+Defined in: [src/struct/message.ts:287](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L287)
 
 Replies to the message.
 
@@ -1036,7 +1036,7 @@ A promise that resolves with the sent reply message.
 
 > **toString**(): `string`
 
-Defined in: [src/struct/message.ts:398](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L398)
+Defined in: [src/struct/message.ts:398](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L398)
 
 Converts the message to a string representation.
 
@@ -1052,7 +1052,7 @@ The content of the message.
 
 > **unpin**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/message.ts:373](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/message.ts#L373)
+Defined in: [src/struct/message.ts:373](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/message.ts#L373)
 
 Unpins this message from the channel.
 

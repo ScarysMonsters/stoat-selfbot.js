@@ -4,7 +4,7 @@ title: "Interface: editWebhookOptions"
 
 # Interface: editWebhookOptions
 
-Defined in: [src/utils/types.ts:209](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L209)
+Defined in: [src/utils/types.ts:209](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L209)
 
 ## Properties
 
@@ -12,7 +12,7 @@ Defined in: [src/utils/types.ts:209](https://github.com/ScarysMonsters/stoat-sel
 
 > `optional` **avatar?**: `string` \| `Readable` \| [`File`](https://developer.mozilla.org/docs/Web/API/File)
 
-Defined in: [src/utils/types.ts:211](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L211)
+Defined in: [src/utils/types.ts:211](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L211)
 
 ***
 
@@ -20,7 +20,7 @@ Defined in: [src/utils/types.ts:211](https://github.com/ScarysMonsters/stoat-sel
 
 > **name**: `string`
 
-Defined in: [src/utils/types.ts:210](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L210)
+Defined in: [src/utils/types.ts:210](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L210)
 
 ***
 
@@ -28,4 +28,4 @@ Defined in: [src/utils/types.ts:210](https://github.com/ScarysMonsters/stoat-sel
 
 > `optional` **remove?**: `string`[]
 
-Defined in: [src/utils/types.ts:212](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L212)
+Defined in: [src/utils/types.ts:212](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L212)

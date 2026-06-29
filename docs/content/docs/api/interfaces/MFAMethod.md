@@ -4,7 +4,7 @@ title: "Interface: MFAMethod"
 
 # Interface: MFAMethod
 
-Defined in: [src/managers/mfaManager.ts:6](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/mfaManager.ts#L6)
+Defined in: [src/managers/mfaManager.ts:6](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/mfaManager.ts#L6)
 
 Represents an MFA method available to the user.
 
@@ -14,7 +14,7 @@ Represents an MFA method available to the user.
 
 > `optional` **secret?**: `string`
 
-Defined in: [src/managers/mfaManager.ts:8](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/mfaManager.ts#L8)
+Defined in: [src/managers/mfaManager.ts:8](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/mfaManager.ts#L8)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [src/managers/mfaManager.ts:8](https://github.com/ScarysMonsters/sto
 
 > **type**: `string`
 
-Defined in: [src/managers/mfaManager.ts:7](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/mfaManager.ts#L7)
+Defined in: [src/managers/mfaManager.ts:7](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/mfaManager.ts#L7)

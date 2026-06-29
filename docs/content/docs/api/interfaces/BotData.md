@@ -4,7 +4,7 @@ title: "Interface: BotData"
 
 # Interface: BotData
 
-Defined in: [src/managers/botManager.ts:7](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L7)
+Defined in: [src/managers/botManager.ts:7](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/botManager.ts#L7)
 
 Represents raw bot data from the API.
 
@@ -14,7 +14,7 @@ Represents raw bot data from the API.
 
 > `optional` **description?**: `string`
 
-Defined in: [src/managers/botManager.ts:13](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L13)
+Defined in: [src/managers/botManager.ts:13](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/botManager.ts#L13)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/managers/botManager.ts:13](https://github.com/ScarysMonsters/st
 
 > **id**: `string`
 
-Defined in: [src/managers/botManager.ts:8](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L8)
+Defined in: [src/managers/botManager.ts:8](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/botManager.ts#L8)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/managers/botManager.ts:8](https://github.com/ScarysMonsters/sto
 
 > `optional` **interactions\_url?**: `string`
 
-Defined in: [src/managers/botManager.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L14)
+Defined in: [src/managers/botManager.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/botManager.ts#L14)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/managers/botManager.ts:14](https://github.com/ScarysMonsters/st
 
 > `optional` **name?**: `string`
 
-Defined in: [src/managers/botManager.ts:12](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L12)
+Defined in: [src/managers/botManager.ts:12](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/botManager.ts#L12)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [src/managers/botManager.ts:12](https://github.com/ScarysMonsters/st
 
 > **owner**: `string`
 
-Defined in: [src/managers/botManager.ts:9](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L9)
+Defined in: [src/managers/botManager.ts:9](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/botManager.ts#L9)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [src/managers/botManager.ts:9](https://github.com/ScarysMonsters/sto
 
 > **public**: `boolean`
 
-Defined in: [src/managers/botManager.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L11)
+Defined in: [src/managers/botManager.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/botManager.ts#L11)
 
 ***
 
@@ -62,4 +62,4 @@ Defined in: [src/managers/botManager.ts:11](https://github.com/ScarysMonsters/st
 
 > **token**: `string`
 
-Defined in: [src/managers/botManager.ts:10](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/managers/botManager.ts#L10)
+Defined in: [src/managers/botManager.ts:10](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/managers/botManager.ts#L10)

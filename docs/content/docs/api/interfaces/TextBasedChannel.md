@@ -4,7 +4,7 @@ title: "Interface: TextBasedChannel"
 
 # Interface: TextBasedChannel
 
-Defined in: [src/struct/interfaces/baseChannel.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/interfaces/baseChannel.ts#L11)
+Defined in: [src/struct/interfaces/baseChannel.ts:11](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/interfaces/baseChannel.ts#L11)
 
 Interface representing a text-based channel, which supports sending and managing messages.
 
@@ -14,7 +14,7 @@ Interface representing a text-based channel, which supports sending and managing
 
 > **lastMessage**: [`MessageStruct`](../classes/MessageStruct.md) \| `null`
 
-Defined in: [src/struct/interfaces/baseChannel.ts:19](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/interfaces/baseChannel.ts#L19)
+Defined in: [src/struct/interfaces/baseChannel.ts:19](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/interfaces/baseChannel.ts#L19)
 
 The last message sent in the channel, or `null` if no message exists.
 
@@ -24,7 +24,7 @@ The last message sent in the channel, or `null` if no message exists.
 
 > **lastMessageId**: `string` \| `null`
 
-Defined in: [src/struct/interfaces/baseChannel.ts:16](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/interfaces/baseChannel.ts#L16)
+Defined in: [src/struct/interfaces/baseChannel.ts:16](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/interfaces/baseChannel.ts#L16)
 
 The ID of the last message sent in the channel, or `null` if no message exists.
 
@@ -34,7 +34,7 @@ The ID of the last message sent in the channel, or `null` if no message exists.
 
 > **messages**: [`MessageManager`](../classes/MessageManager.md)
 
-Defined in: [src/struct/interfaces/baseChannel.ts:13](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/interfaces/baseChannel.ts#L13)
+Defined in: [src/struct/interfaces/baseChannel.ts:13](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/interfaces/baseChannel.ts#L13)
 
 Manages the messages in the channel.
 
@@ -44,7 +44,7 @@ Manages the messages in the channel.
 
 > **bulkDelete**(`messages`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/interfaces/baseChannel.ts:45](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/interfaces/baseChannel.ts#L45)
+Defined in: [src/struct/interfaces/baseChannel.ts:45](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/interfaces/baseChannel.ts#L45)
 
 Deletes multiple messages from the channel.
 
@@ -74,7 +74,7 @@ await channel.bulkDelete(10); // Deletes the last 10 messages.
 
 > **send**(`options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`MessageStruct`](../classes/MessageStruct.md)\>
 
-Defined in: [src/struct/interfaces/baseChannel.ts:32](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/interfaces/baseChannel.ts#L32)
+Defined in: [src/struct/interfaces/baseChannel.ts:32](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/interfaces/baseChannel.ts#L32)
 
 Sends a message to the channel.
 

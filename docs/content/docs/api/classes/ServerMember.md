@@ -4,7 +4,7 @@ title: "Class: ServerMember"
 
 # Class: ServerMember
 
-Defined in: [src/struct/serverMember.ts:12](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L12)
+Defined in: [src/struct/serverMember.ts:12](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L12)
 
 Represents a member of a server.
 
@@ -18,7 +18,7 @@ Represents a member of a server.
 
 > **new ServerMember**(`client`, `data`): `ServerMember`
 
-Defined in: [src/struct/serverMember.ts:40](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L40)
+Defined in: [src/struct/serverMember.ts:40](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L40)
 
 Creates a new ServerMember instance.
 
@@ -112,7 +112,7 @@ Timestamp this member is timed out until
 
 > **avatar**: [`Attachment`](Attachment.md) \| `null` = `null`
 
-Defined in: [src/struct/serverMember.ts:20](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L20)
+Defined in: [src/struct/serverMember.ts:20](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L20)
 
 The avatar of the member, or `null` if none is set.
 
@@ -122,7 +122,7 @@ The avatar of the member, or `null` if none is set.
 
 > `readonly` **client**: [`Client`](Client.md)
 
-Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L21)
+Defined in: [src/struct/base.ts:21](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L21)
 
 The client instance.
 
@@ -136,7 +136,7 @@ The client instance.
 
 > **id**: `string`
 
-Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L14)
+Defined in: [src/struct/base.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L14)
 
 The unique identifier for the object.
 
@@ -150,7 +150,7 @@ The unique identifier for the object.
 
 > **nickname**: `string` \| `null` = `null`
 
-Defined in: [src/struct/serverMember.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L17)
+Defined in: [src/struct/serverMember.ts:17](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L17)
 
 The nickname of the member, or `null` if none is set.
 
@@ -160,7 +160,7 @@ The nickname of the member, or `null` if none is set.
 
 > **roleIds**: `string`[] = `[]`
 
-Defined in: [src/struct/serverMember.ts:23](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L23)
+Defined in: [src/struct/serverMember.ts:23](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L23)
 
 Role IDs assigned to the member
 
@@ -170,7 +170,7 @@ Role IDs assigned to the member
 
 > **serverId**: `string`
 
-Defined in: [src/struct/serverMember.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L14)
+Defined in: [src/struct/serverMember.ts:14](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L14)
 
 The ID of the server this member belongs to.
 
@@ -182,7 +182,7 @@ The ID of the server this member belongs to.
 
 > **get** **bot**(): `boolean`
 
-Defined in: [src/struct/serverMember.ts:271](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L271)
+Defined in: [src/struct/serverMember.ts:271](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L271)
 
 Gets whether the user is a bot.
 
@@ -200,7 +200,7 @@ Whether the user is a bot.
 
 > **get** **roles**(): [`Role`](Role.md)[]
 
-Defined in: [src/struct/serverMember.ts:26](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L26)
+Defined in: [src/struct/serverMember.ts:26](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L26)
 
 Resolved roles assigned to the member (resolved from roleIds + server cache)
 
@@ -216,7 +216,7 @@ Resolved roles assigned to the member (resolved from roleIds + server cache)
 
 > **get** **server**(): [`Server`](Server.md)
 
-Defined in: [src/struct/serverMember.ts:280](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L280)
+Defined in: [src/struct/serverMember.ts:280](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L280)
 
 Retrieves the server this member belongs to.
 
@@ -234,7 +234,7 @@ The server instance.
 
 > **get** **user**(): [`User`](User.md)
 
-Defined in: [src/struct/serverMember.ts:253](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L253)
+Defined in: [src/struct/serverMember.ts:253](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L253)
 
 Retrieves the user associated with this server member.
 
@@ -252,7 +252,7 @@ The user instance.
 
 > **get** **username**(): `string`
 
-Defined in: [src/struct/serverMember.ts:262](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L262)
+Defined in: [src/struct/serverMember.ts:262](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L262)
 
 Gets the username of the user.
 
@@ -268,7 +268,7 @@ The username of the user.
 
 > **\_clone**(): `this`
 
-Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L84)
+Defined in: [src/struct/base.ts:84](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L84)
 
 Creates a deep clone of the object.
 
@@ -288,7 +288,7 @@ A clone of the object.
 
 > **\_update**(`data`, `clear?`): `this`
 
-Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L56)
+Defined in: [src/struct/base.ts:56](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L56)
 
 Updates the object with new data and returns a clone of the object.
 
@@ -322,7 +322,7 @@ A clone of the updated object.
 
 > **addRole**(`roleId`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`ServerMember`\>
 
-Defined in: [src/struct/serverMember.ts:113](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L113)
+Defined in: [src/struct/serverMember.ts:113](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L113)
 
 adds a role to the server member.
 
@@ -344,7 +344,7 @@ The ID of the role to add to the member.
 
 > **ban**(`reason?`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/serverMember.ts:154](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L154)
+Defined in: [src/struct/serverMember.ts:154](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L154)
 
 Bans the server member.
 
@@ -374,7 +374,7 @@ await member.ban("Violation of rules");
 
 > **edit**(`options`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/serverMember.ts:87](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L87)
+Defined in: [src/struct/serverMember.ts:87](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L87)
 
 Edits this server member directly via the API.
 
@@ -440,7 +440,7 @@ Timestamp this member is timed out until
 
 > **equals**(`obj?`): `boolean`
 
-Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/base.ts#L29)
+Defined in: [src/struct/base.ts:29](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/base.ts#L29)
 
 Compares this object with another to determine if they are equal.
 
@@ -468,7 +468,7 @@ The object to compare with.
 
 > **hasPermission**(`permission`): `boolean`
 
-Defined in: [src/struct/serverMember.ts:238](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L238)
+Defined in: [src/struct/serverMember.ts:238](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L238)
 
 Checks if this server member has a specific permission.
 
@@ -502,7 +502,7 @@ note this works on the same basis as stoats permissions checking
 
 > **kick**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/serverMember.ts:168](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L168)
+Defined in: [src/struct/serverMember.ts:168](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L168)
 
 Kicks the server member.
 
@@ -524,7 +524,7 @@ await member.kick();
 
 > **leave**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/serverMember.ts:182](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L182)
+Defined in: [src/struct/serverMember.ts:182](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L182)
 
 Leaves the server.
 
@@ -546,7 +546,7 @@ await member.leave();
 
 > **permissions**(): [`FullPermissions`](FullPermissions.md)
 
-Defined in: [src/struct/serverMember.ts:202](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L202)
+Defined in: [src/struct/serverMember.ts:202](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L202)
 
 Gets the effective permissions for this server member based on their roles.
 
@@ -574,7 +574,7 @@ console.log(permissions.has('MANAGE_MESSAGES')); // true or false
 
 > **removeRole**(`roleId`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`ServerMember`\>
 
-Defined in: [src/struct/serverMember.ts:133](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L133)
+Defined in: [src/struct/serverMember.ts:133](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L133)
 
 Removes a role from the server member.
 
@@ -604,7 +604,7 @@ await member.removeRole("roleId");
 
 > **setNickname**(`nickname`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`ServerMember`\>
 
-Defined in: [src/struct/serverMember.ts:102](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L102)
+Defined in: [src/struct/serverMember.ts:102](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L102)
 
 Sets the nickname of the server member.
 
@@ -634,7 +634,7 @@ await member.setNickname("NewNickname");
 
 > **timeout**(`duration`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`void`\>
 
-Defined in: [src/struct/serverMember.ts:298](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L298)
+Defined in: [src/struct/serverMember.ts:298](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L298)
 
 Sets a timeout for the server member.
 
@@ -658,7 +658,7 @@ A promise that resolves when the timeout is set.
 
 > **toString**(): `string`
 
-Defined in: [src/struct/serverMember.ts:289](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/struct/serverMember.ts#L289)
+Defined in: [src/struct/serverMember.ts:289](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/struct/serverMember.ts#L289)
 
 Converts the server member to a string representation.
 

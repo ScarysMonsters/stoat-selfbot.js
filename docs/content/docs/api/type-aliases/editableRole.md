@@ -6,7 +6,7 @@ title: "Type Alias: editableRole"
 
 > **editableRole** = `object`
 
-Defined in: [src/utils/types.ts:88](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L88)
+Defined in: [src/utils/types.ts:88](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L88)
 
 Represents a role that can be edited in a server.
 
@@ -16,7 +16,7 @@ Represents a role that can be edited in a server.
 
 > `optional` **colour?**: `string` \| `null`
 
-Defined in: [src/utils/types.ts:96](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L96)
+Defined in: [src/utils/types.ts:96](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L96)
 
 Colour of the role, or `null` if no colour is set.
 
@@ -26,7 +26,7 @@ Colour of the role, or `null` if no colour is set.
 
 > `optional` **hoist?**: `boolean`
 
-Defined in: [src/utils/types.ts:100](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L100)
+Defined in: [src/utils/types.ts:100](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L100)
 
 Whether the role is displayed separately in the member list.
 
@@ -36,7 +36,7 @@ Whether the role is displayed separately in the member list.
 
 > `optional` **name?**: `string`
 
-Defined in: [src/utils/types.ts:92](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L92)
+Defined in: [src/utils/types.ts:92](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L92)
 
 Name of the role.
 
@@ -46,7 +46,7 @@ Name of the role.
 
 > `optional` **permissions?**: [`editablePermissions`](editablePermissions.md)
 
-Defined in: [src/utils/types.ts:109](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L109)
+Defined in: [src/utils/types.ts:109](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L109)
 
 Permissions to set for the role.
 Format: { a: allow, d: deny }
@@ -57,7 +57,7 @@ Format: { a: allow, d: deny }
 
 > `optional` **rank?**: `number`
 
-Defined in: [src/utils/types.ts:104](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L104)
+Defined in: [src/utils/types.ts:104](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L104)
 
 Rank of the role, used for ordering.
 
@@ -67,7 +67,7 @@ Rank of the role, used for ordering.
 
 > `optional` **remove?**: keyof [`Role`](../stoat-selfbot.js/namespaces/API/type-aliases/Role.md) & `object`[]
 
-Defined in: [src/utils/types.ts:114](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/2686c14076438dd3965dd61adb0b3b812660218e/src/utils/types.ts#L114)
+Defined in: [src/utils/types.ts:114](https://github.com/ScarysMonsters/stoat-selfbot.js/blob/232ee19abdb70d025ff74ac26e186d01e1635e82/src/utils/types.ts#L114)
 
 Fields to remove from the role.
 Each key corresponds to a field in the Role type.
