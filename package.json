@@ -1,6 +1,6 @@
 {
   "name": "stoat-selfbot.js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Stoat selfbot client for Node.js with discord.js-like API. Uses X-Session-Token for authentication. Written in TypeScript.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
